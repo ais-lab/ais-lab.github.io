@@ -5,7 +5,7 @@ description: An easy-to-use, flexible website template for labs, with automatic 
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
-baseurl: ""
+baseurl: /ais-lab
 
 # site social media and other links
 links:

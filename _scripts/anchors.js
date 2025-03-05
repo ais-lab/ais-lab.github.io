@@ -44,4 +44,12 @@
 
   // when hash nav happens
   window.addEventListener("hashchange", scrollToTarget);
+
+  // change header to sticky if scrolled past 0.25 of the page and not data-big-header
+  window.addEventListener("scroll", () => {
+    const header = document.querySelector("header");
+    if (!header) return;
+    if (header.hasAttribute("data-big")) return;
+    header.classList.toggle("sticky", window.scrollY > 100);
+  });
 }

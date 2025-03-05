@@ -11,6 +11,11 @@ header {
   z-index: 10 !important;
 }
 
+.sticky {
+  height: 1em;
+  top: 0 !important;
+}
+
 header a {
   color: var(--text);
   text-decoration: none;
@@ -125,7 +130,7 @@ header[data-big] {
   top: unset;
 }
 header[data-big] .home {
-  flex-direction: column;
+  flex-direction: row;
   flex-grow: 0;
 }
 header[data-big] .logo {

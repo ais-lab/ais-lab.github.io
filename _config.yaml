@@ -1,11 +1,10 @@
 # site properties and page defaults
-title: Lab Website Template
-subtitle: by the Greene Lab
+title: Advanced Intelligent Systems
+subtitle: Robotics and AI Lab
 description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
-header: images/background.jpg
+header: images/background_2.jpg
 footer: images/background.jpg
 proofer: false
-baseurl: /ais-lab
 
 # site social media and other links
 links:

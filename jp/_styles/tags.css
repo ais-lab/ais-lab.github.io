@@ -10,9 +10,10 @@
 
 .tag {
   max-width: 100%;
+  font-size: var(--small);
   margin: 0;
-  padding: 5px 10px;
-  border-radius: 999px;
+  padding: 2px 5px;
+  border-radius: 5px;
   background: var(--secondary);
   color: var(--text);
   text-decoration: none;

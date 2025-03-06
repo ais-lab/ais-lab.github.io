@@ -16,7 +16,7 @@ h1 {
   font-size: 1.6rem;
   font-weight: var(--regular);
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
 }
 
 h2 {

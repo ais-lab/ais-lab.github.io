@@ -50,6 +50,11 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-last-modified-at
+  - jekyll-multiple-languages-plugin
+
+languages: ["en", "jp"]
+exclude_from_localizations: ["javascript", "images", "css"]
+default_locale_in_subfolder: false
 
 # code block syntax highlighting
 highlighter: rouge

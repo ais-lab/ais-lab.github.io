@@ -48,12 +48,17 @@
     {% for page in pages %}
       {% if page.nav %}
         <a
-          href="{{ page.dir | relative_url | uri_escape }}"
-          data-tooltip="{{ page.nav.tooltip | xml_escape }}"
+          href="{{ page.dir | relative_url | uri_escape | prepend: site.baseurl }}"
+          data-tooltip="{% t page.nav.tooltip %}"
         >
-          {{ page.title }}
+          {% t page.title %}
         </a>
       {% endif %}
     {% endfor %}
+    {% if site.lang == "en" %}
+    <a class="nav-link" href="{{site.baseurl_root}}/jp">日本語</a>
+    {% else %}
+    <a class="nav-link" href="{{site.baseurl_root}}/en">English</a>
+    {% endif %}
   </nav>
 </header>

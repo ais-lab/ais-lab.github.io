@@ -1,0 +1,13 @@
+titles:
+  research: Research
+  projects: Projects
+  team: Team
+  blog: Blog
+  contact: Contact
+
+tooltips:
+  research: Published works
+  projects: Robots, softwares, datasets, and more.
+  team: About our team
+  blog: Events/awards news
+  contact: Email, address, and location

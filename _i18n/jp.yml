@@ -1,0 +1,13 @@
+titles:
+  research: テーム
+  projects: プロジェクト
+  team: チーム
+  blog: ブログ
+  contact: 連絡先
+
+tooltips:
+  research: 研究テームについて
+  projects: ロボット、ソフトウェア、データセットなど
+  team: 学生と学院性の紹介
+  blog: イベント/受賞ニュース
+  contact: メール、住所、場所

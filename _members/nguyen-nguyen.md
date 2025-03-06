@@ -1,8 +1,8 @@
 ---
-name: John Doe
+name: Nguyen T.T. Nguyen
 image: images/photo.jpg
 role: phd
-group: alum
+group: active
 links:
   github: john-doe
 ---

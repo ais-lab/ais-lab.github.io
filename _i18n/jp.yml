@@ -11,3 +11,11 @@ tooltips:
   team: 学生と学院性の紹介
   blog: イベント/受賞ニュース
   contact: メール、住所、場所
+
+roles:
+  PI: 指導教員
+  PhD: 博士研究員
+  M: 修士研究員
+  Visit: 客員学者
+  B: 学部生
+  PD: 博士研究員

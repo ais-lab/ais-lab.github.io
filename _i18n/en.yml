@@ -11,3 +11,12 @@ tooltips:
   team: About our team
   blog: Events/awards news
   contact: Email, address, and location
+
+roles:
+  PI: Principle Investigator
+  PhD: PhD Student
+  M: Master Student
+  Visit: Visiting Scholar
+  B: Undergrad
+  PD: Postdoc
+

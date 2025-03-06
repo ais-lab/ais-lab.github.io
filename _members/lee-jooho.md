@@ -1,8 +1,10 @@
 ---
-name: Jane Smith
-image: images/photo.jpg
-role: principal-investigator
-affiliation: University of Colorado
+name: Lee Joo-Ho
+image: https://en.ritsumei.ac.jp/image.jsp?id=294261&version=English
+role: pi
+role_title: roles.PI
+affiliation: Ritsumeikan University
+description: Professor
 aliases:
   - J. Smith
   - J Smith

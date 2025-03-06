@@ -1,23 +1,23 @@
 ---
 ---
 
-.tags {
-  display: flex;
+.badges {
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
   max-width: 100%;
-  margin: 20px 0;
 }
 
-.tag {
+.badge {
   max-width: 100%;
   font-size: var(--small);
+  font-weight: var(--semi-bold);
   margin: 0;
-  padding: 2px 5px;
+  padding: 2px 4px;
   border-radius: 5px;
-  background: var(--secondary);
+  background: var(--accent);
   color: var(--text);
   text-decoration: none;
   overflow: hidden;
@@ -26,10 +26,10 @@
   transition: background var(--transition), color var(--transition);
 }
 
-.tag:hover {
+.badge:hover {
   background: var(--light-gray);
 }
 
-.tag[data-active] {
+.badge[data-active] {
   background: var(--light-gray);
 }

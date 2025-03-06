@@ -2,25 +2,30 @@
 
 # team member roles
 
-principal-investigator:
+pi:
   icon: fa-solid fa-microscope
   description: Principal Investigator
+  description_jp: 主任研究員
 
 postdoc:
   icon: fa-solid fa-glasses
-  description: Postdoctoral Researcher
+  description: Postdoc
+  description_jp: 博士研究員
 
 phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
+  description_jp: 博士
 
-undergrad:
+b:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
+  description_jp: 学部
 
-programmer:
+m:
   icon: fa-solid fa-code
-  description: Programmer
+  description: Master Student
+  description_jp: 修士
 
 mascot:
   icon: fa-solid fa-dog

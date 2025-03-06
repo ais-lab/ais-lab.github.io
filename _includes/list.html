@@ -5,16 +5,23 @@
   | data_filter: include.filter
 %}
 
-{% assign years = data
-  | group_by_exp: "d", "d.date | date: '%Y'"
-  | sort: "name"
-  | reverse
-%}
+{% if include.year_asc %}
+  {% assign years = data
+    | group_by_exp: "d", "d.date | date: '%Y'"
+    | sort: "name"
+  %}
+{% else %}
+  {% assign years = data
+    | group_by_exp: "d", "d.date | date: '%Y'"
+    | sort: "name"
+    | reverse
+  %}
+{% endif %}
 
 {% for year in years %}
   {% assign data = year.items %}
 
-  {% if years.size > 1 %}
+  {% if include.group_by_year and years.size > 1 %}
     {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
     {% assign data = data | sort: "date" | reverse %}
   {% endif %}
@@ -41,6 +48,7 @@
       link=d.link
       lookup=d.lookup
       name=d.name
+      name_jp=d.name_jp
       publisher=d.publisher
       repo=d.repo
       role=d.role
@@ -54,6 +62,7 @@
       type=d.type
       url=d.url
       width=d.width
+      badges=d.badges
     %}
   {% endfor %}
 {% endfor %}

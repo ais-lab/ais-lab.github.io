@@ -1,0 +1,189 @@
+---
+---
+
+// /!\ IMPORTANT: this variable precises the number of slides contained in the slider.
+// if you add/remove images, make sure that this variable is up to date so the buttons,
+// the disposition of elements and the animations work correctly.
+$nb-slides: 4;
+
+.line {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  @extend .flex;
+  align-items: center; // horizontal
+  justify-content: center; // vertical
+}
+
+
+.carousel-wrapper {
+  @extend .flex;
+  position: relative;
+  max-width: 100%;
+
+  input {
+    display: none;
+  }
+}
+
+
+// CAROUSEL / SLIDER
+.carousel {
+  @extend .line;
+  overflow: hidden;
+  border-radius: 15px;
+
+  ul {
+    @extend .center;
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100% * $nb-slides;
+
+    transition: left .8s cubic-bezier(0.77, 0, 0.175, 1);
+  }
+
+  li {
+    @extend .line;
+    position: relative;
+
+    img {
+      @extend .line;
+      border-radius: 15px;
+    }
+
+    span.caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      margin: 10px 10px;
+    }
+  }
+}
+
+
+// NAVIGATION DOTS
+.nav-dot {
+  $dot-size: 20px;
+  position: absolute;
+  cursor: pointer;
+
+  margin-left: -$dot-size / 2;
+  bottom: -$dot-size * 1.5;
+  width: $dot-size;
+  height: $dot-size;
+
+  opacity: .5;
+  background-color: var(--text);
+  border-radius: 50%;
+  transition: .4s;
+
+  &:hover {
+    opacity: .8;
+    transform: scale(1.2);
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+}
+
+// goes from 1 to 5.
+@for $n from 1 through $nb-slides {
+  // arranges the navigation dots horizontally
+  .nav-dot[for=slide#{$n}] {
+    left: 50% + ((($n - 1) - (($nb-slides - 1)/ 2)) * 5%);
+  }
+
+  #slide#{$n}:checked {
+    // moves the carousel to the right slide
+    & ~ .carousel ul { left: -100% * ($n - 1) }
+
+    // highlights the selected navigation dot
+    & ~ .nav-dot[for=slide#{$n}] {
+      opacity: 1;
+    }
+  }
+}
+
+
+// ARROWS
+%arrow {
+  $arrow-size: 50px;
+  display: none;  // hidden by default
+  position: absolute;
+
+  cursor: pointer;
+  font-weight: bolder;
+  text-shadow: 0 0 7.5px rgba($color: black, $alpha: .7);
+  
+
+  top: 50%;
+  z-index: 1;
+  opacity: .7;
+  margin-top: -$arrow-size / 2;
+  height: $arrow-size;
+  font-size: $arrow-size;
+  transition: .2s;
+
+  &:hover {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+}
+
+.left-arrow {
+  @extend %arrow;
+  left: 15px;
+  color: var(--light-gray);
+}
+
+.right-arrow {
+  @extend %arrow;
+  right: 15px;
+  color: var(--light-gray);
+}
+
+@function custom-modulo($n) {
+  // this function returns '$n % $nb-slides', except that if the result is 0,
+  // '$nb-slides' is returned.
+  // for exemple, for $nb-slides = 4, possible values are {1, 2, 3, 4}
+  // (and not {0, 1, 2, 3}).
+  @return 1 + ($nb-slides + (($n - 1) % $nb-slides)) % $nb-slides;
+}
+
+@for $n from 1 through $nb-slides {
+  // when the nth slide is selected,
+  // displays the left-arrow that goes to the (n-1)th slide
+  // and the right arrow that goes to the (n+1)th slide.
+  // don't worry, it loops thanks to the 'custom-modulo' function !
+
+  #slide#{$n}:checked {
+    & ~ .left-arrow[for=slide#{custom-modulo($n - 1)}],
+    & ~ .right-arrow[for=slide#{custom-modulo($n + 1)}] {
+      display: block;
+    }
+  }
+}
+

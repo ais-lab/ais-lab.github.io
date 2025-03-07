@@ -1,14 +1,14 @@
 ---
 ---
 
-# Lab Website Template
+# Advanced Intelligent System
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+Our research focuses on information science and engineering varied from human engineering, psychology, electronics to robotics. In this lab we design solutions for Interaction between humans and artificial intelligent systems.
 
 {%
   include button.html
   type="docs"
+  text="Our Research"
   link="https://greene-lab.gitbook.io/lab-website-template-docs"
 %}
 {%
@@ -19,6 +19,9 @@ Spend less time worrying about managing a website and citations, and more time r
 %}
 
 {% include section.html %}
+
+{% include slider.html
+    data="slider_hp"%}
 
 ## Highlights
 

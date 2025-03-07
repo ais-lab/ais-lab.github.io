@@ -1,0 +1,38 @@
+{% assign emptyarray = "" | split: "," %}
+{% assign data = site.data[include.data]
+    | default: site[include.data]
+    | default: emptyarray
+    | data_filter: include.filter
+%}
+
+<div class="carousel-wrapper">
+        <!-- abstract radio buttons for slides -->
+        {% for image in data %}
+                <input id="slide{{ forloop.index }}" type="radio" name="controls" {% if forloop.first %}checked="checked"{% endif %} />
+        {% endfor %}
+
+        <!-- navigation dots -->
+        {% for image in data %}
+                <label for="slide{{ forloop.index }}" class="nav-dot"></label>
+        {% endfor %}
+
+        <!-- arrows -->
+        {% for image in data %}
+                <label for="slide{{ forloop.index }}" class="left-arrow"> < </label>
+        {% endfor %}
+
+        {% for image in data %}
+                <label for="slide{{ forloop.index }}" class="right-arrow"> > </label>
+        {% endfor %}
+
+        <div class="carousel">
+                <ul>
+                        {% for image in data %}
+                                <li>
+                                        <img src="{{ image.url }}" alt="{{ image.alt }}">
+                                        <span class="caption">{{ image.caption }}</span>
+                                </li>
+                        {% endfor %}
+                </ul>
+        </div>
+</div>

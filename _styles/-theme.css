@@ -23,13 +23,17 @@
   --overlay: #ffffff10;
 }
 
+* {
+  font-size: 1em;
+}
+
 :root {
   --title: "Barlow", sans-serif;
   --heading: "Barlow", sans-serif;
   --body: "Barlow", sans-serif;
   --code: "Roboto Mono", monospace;
   --small: 0.8em;
-  --large: 1.2rem;
+  --large: 1.5rem;
   --xl: 1.4rem;
   --xxl: 1.6rem;
   --thin: 200;

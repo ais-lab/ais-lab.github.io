@@ -18,6 +18,8 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 ## Featured
 
+{% include decorate.html %}
+
 {% include list.html component="card" data="projects" filter="group == 'featured'" %}
 
 {% include section.html %}

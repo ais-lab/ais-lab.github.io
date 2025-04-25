@@ -1,0 +1,101 @@
+---
+---
+
+/*
+---------------------------------------------
+promotion
+---------------------------------------------
+*/
+
+.section-left {
+  display: block;
+}
+
+.section-left .container {
+  width: 100%;
+  display: flex;
+}
+
+.section-left .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.left-image-decor {
+  // background-image: url(/images/decorator/left-bg-decor.png);
+  // background-repeat: no-repeat;
+  // background-color: #2f6ba2;
+  // clip-path: polygon(0 0, 20% 10%, 25% 20%, 15% 30%, 0 40%);
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  z-index: -1; // Make it an under layer of its parent
+}
+
+.right-image-decor {
+  // background-image: url(/images/decorator/right-bg-decor.png);
+  // background-repeat: no-repeat;
+  // background-color: #2f6ba2;
+  // clip-path: polygon(100% 0, 80% 10%, 75% 20%, 85% 30%, 100% 40%);
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  height: 100%;
+  right: 0;
+  z-index: -1; // Make it an under layer of its parent
+}
+
+.section-left {
+  padding: 100px 0px;
+  width: 100%;
+  display: flex;
+  position: relative; // Ensure the parent has a position context
+}
+
+.section-left .left-image {
+  align-self: center;
+  width: 40%;
+}
+
+.section-left .left-image img {
+  position: relative;
+  left: min(-40px, (1000px - 90vw) / 2);
+}
+
+.section-left .right-text {
+  align-self: center;
+  width: 60%;
+  padding: 0 50px;
+}
+
+.section-left .right-text ul {
+  padding: 0;
+  margin: 0;
+}
+
+.section-left .right-text ul li {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.section-left .right-text ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.section-left .right-text img {
+  display: inline-block;
+  float: left;
+  margin-right: 30px;
+}
+
+.section-left .right-text h4 {
+  font-size: 22px;
+  color: #1e1e1e;
+  margin-bottom: 15px;
+  margin-top: 3px;
+}
+
+

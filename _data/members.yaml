@@ -6,7 +6,7 @@
 - name: T.T. Nguyen NGUYEN
   name_jp: グエン グエン
   role: phd
-  image: images/nguyen_ava.jpeg
+  image: /images/nguyen_ava.jpeg
   hp: https://scholar.google.com/citations?user=7Z6Z9YQAAAAJ&hl=en
   badges: [3D Face, Generative]
   date: 2023-09-01

@@ -1,14 +1,14 @@
 {% assign image = page.header | default: site.header %}
 {% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
 
-{% assign svg = "images/logo.svg" | file_exists %}
-{% assign png = "images/logo.png" | file_exists %}
-{% assign jpg = "images/logo.jpg" | file_exists %}
+{% assign svg = "/images/logo.svg" | file_exists %}
+{% assign png = "/images/logo.png" | file_exists %}
+{% assign jpg = "/images/logo.jpg" | file_exists %}
 {% assign logo = svg | default: png | default: jpg | default: nil %}
 
 <header
   class="background"
-  style="--image: url('{{ image | relative_url | uri_escape }}')"
+  style="--image: url('{{ image | uri_escape }}')"
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}
@@ -48,7 +48,7 @@
     {% for page in pages %}
       {% if page.nav %}
         <a
-          href="{{ page.dir | relative_url | uri_escape | prepend: site.baseurl }}"
+          href="{{ page.dir | relative_url | uri_escape | prepend: site.baseurl_root }}"
           data-tooltip="{% t page.nav.tooltip %}"
         >
           {% t page.title %}
@@ -56,9 +56,9 @@
       {% endif %}
     {% endfor %}
     {% if site.lang == "en" %}
-    <a class="nav-link" href="{{site.baseurl_root}}/jp">日本語</a>
+    <a class="nav-link" href="{{site.baseurl_root}}/jp{{ page.dir | url_escape | remove_first:'/en' }}">日本語</a>
     {% else %}
-    <a class="nav-link" href="{{site.baseurl_root}}/en">English</a>
+    <a class="nav-link" href="{{site.baseurl_root}}/en{{ page.dir | url_escape | remove_first:'/jp' }}">English</a>
     {% endif %}
   </nav>
 </header>

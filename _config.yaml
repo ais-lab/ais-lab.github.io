@@ -2,8 +2,8 @@
 title: Advanced Intelligent Systems
 subtitle: Robotics and AI Lab
 description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
-header: images/background_2.jpg
-footer: images/background.jpg
+header: /images/background_2.jpg
+footer: /images/background.jpg
 proofer: false
 
 # site social media and other links
@@ -54,7 +54,7 @@ plugins:
 
 languages: ["en", "jp"]
 exclude_from_localizations: ["javascript", "images", "css"]
-default_locale_in_subfolder: false
+default_locale_in_subfolder: true
 
 # code block syntax highlighting
 highlighter: rouge

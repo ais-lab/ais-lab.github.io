@@ -7,15 +7,27 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{% case site.lang %}
+{% when 'en' %}
+  ### Advanced Intelligent System Lab.(AIS Lab.)
+  <br>Ritsumeikan University<br>
+  <br>College of Information Science and Engineering<br>
+  <br>Department of Information Science and Engineering, Physical Computing Course<br>
+  <br>Room H525, Building H,<br>
+  <br>2-150, Iwakura-cho, Ibaraki-shi, Osaka, 5678570, Japan.<br>
+{% when 'jp' %}
+  ### アドバンスド・インテリジェント・システム研究室(AIS Lab.)
+  <br>立命館大学<br>
+  <br>情報理工学部　情報理工学科　実世界コース<br>
+  <br>新住所(2024年4月より)：<br>
+  <br>〒567-8570 大阪府茨木市岩倉町2-150 H棟H525<br>
+{% endcase %}
 
 {%
   include button.html
   type="email"
-  text="lee.aislab@gmail.com"
-  link="lee.aislab@gmail.com"
+  text="leejooho@is.ritsumei.ac.jp"
+  link="leejooho@is.ritsumei.ac.jp"
 %}
 {%
   include button.html

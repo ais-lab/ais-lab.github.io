@@ -19,3 +19,8 @@ roles:
   Visit: 客員学者
   B: 学部生
   PD: 博士研究員
+
+contact:
+  address_title: 住所・連絡先
+  lab_title: アドバンスド・インテリジェント・システム研究室(AIS Lab.)
+  access_title: 大学へのアクセス

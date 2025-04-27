@@ -1,0 +1,417 @@
+@charset "UTF-8";
+/* Header */
+header img {
+  width: 80px;
+}
+
+/* Section 1 */
+.banner {
+  text-align: center;
+  padding: 50px 0 150px;
+}
+
+.banner img {
+  width: 100vw;
+  padding: 40px 20px 20px;
+}
+
+.banner h1 {
+  color: var(--darkBlue);
+  line-height: 35px;
+  padding: 18px 20px;
+  font-weight: 800;
+}
+
+.banner p {
+  color: var(--darkBlue);
+  padding: 20px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.banner .inputemail {
+  height: 43px;
+  border-radius: 3px;
+  border: 2px solid rgba(128, 128, 128, 0.651);
+  width: 90%;
+  margin: 20px 20px 8px;
+}
+
+input[type=email] {
+  padding: 0 10px;
+}
+
+.banner input::placeholder {
+  opacity: 40%;
+}
+
+/* I found this solution but I don`t know to make appear just when goes wrong */
+/* .form[data-error] .inputemail {
+  border-color: rgba(255, 0, 0, 0.288);
+}
+
+.form[data-error]::after {
+  content: attr(data-error);
+  font-size: 12px;
+  color: red;
+  display: block;
+  margin: 0 20px;
+  text-align: left;
+} */
+.inputbutton {
+  background-color: var(--brightBlue);
+  border: none;
+  color: white;
+  width: 90%;
+  box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.329);
+  padding: 12px;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.inputbutton:hover {
+  opacity: 65%;
+  cursor: pointer;
+}
+
+/* Section 2 */
+.two {
+  padding: 50px 0 0;
+  background-color: hsla(240, 80%, 98%, 0.795);
+}
+
+.right {
+  padding-bottom: 60px;
+}
+
+.two img {
+  width: 100vw;
+  padding: 10px 20px 60px;
+}
+
+.two h2 {
+  text-align: center;
+}
+
+.two p {
+  color: var(--desaturatedBlue);
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  opacity: 95%;
+}
+
+.two a {
+  color: var(--moderateCyan);
+  text-decoration: none;
+  font-size: 13px;
+  padding: 4px 0;
+  border-bottom: 1px solid var(--moderateCyan);
+}
+
+.linkcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.testimonial {
+  background-color: white;
+  box-shadow: 1px 1px 20px 1px rgba(128, 128, 128, 0.192);
+  padding: 10px 25px 20px;
+  margin: 40px;
+  border-radius: 5px;
+}
+
+.testimonial p {
+  color: black;
+  font-size: 11px;
+  word-spacing: 4px;
+  line-height: 18px;
+  padding: 15px 0;
+}
+
+.profile,
+.author {
+  display: flex;
+}
+
+.profile {
+  gap: 8px;
+}
+
+.profile img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.author {
+  flex-direction: column;
+}
+
+.author p {
+  padding: 0;
+  font-size: 8px;
+}
+
+.quote {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  padding: 0;
+  height: 5px;
+}
+
+.testimonial .quote::before {
+  font-family: "Raleway", sans-serif;
+  content: "❝";
+  font-size: 30px;
+  padding-bottom: 0;
+}
+
+.testimonial .text {
+  color: var(--darkBlue);
+  font-weight: 500;
+  padding: 0px 0 15px;
+}
+
+.profile h4 {
+  color: var(--darkBlue);
+  font-size: 12px;
+}
+
+.profile p {
+  color: var(--darkBlue);
+  font-size: 8px;
+  word-spacing: default;
+}
+
+/* Section 3 */
+.three {
+  text-align: center;
+  background-color: var(--desaturatedBlue);
+  color: white;
+  padding: 60px 40px 80px;
+}
+
+.three .inputemail {
+  height: 35px;
+  border-radius: 3px;
+  border: none;
+  width: 85%;
+  margin: 10px 0;
+}
+
+.three .inputbutton {
+  height: 35px;
+  font-size: 12px;
+  font-weight: 500;
+  width: 85%;
+  padding: 0;
+}
+
+.three .inputbutton:hover {
+  background-color: hsl(224, 100%, 74%);
+  opacity: 100%;
+}
+
+.three input::placeholder {
+  font-size: 11px;
+  opacity: 40%;
+}
+
+.three p {
+  font-size: 14px;
+  padding: 20px 0;
+}
+
+/* Footer */
+.logowhite {
+  width: 100%;
+  height: 95px;
+  padding: 45px 0 0 40px;
+}
+
+footer,
+.sections,
+.phone,
+.email,
+.links1,
+.links2,
+.socialMedia {
+  display: flex;
+}
+
+footer,
+.sections,
+.links1,
+.links2 {
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer {
+  background-color: var(--darkBlue);
+  color: white;
+}
+
+.sections {
+  padding: 30px 40px 60px;
+  gap: 50px;
+}
+
+.email,
+.phone {
+  gap: 15px;
+}
+
+.email p,
+.phone p {
+  margin: 8px;
+}
+
+.email img,
+.phone img {
+  margin: 10px 0;
+  width: 20px;
+  height: 100%;
+}
+
+.links1 a,
+.links2 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.socialMedia a {
+  text-decoration: none;
+}
+
+/* Responsive desktop */
+@media screen and (min-width: 745px) {
+  /* Section 1 */
+  .banner {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0 50px 170px;
+    text-align: left;
+    gap: 25px;
+  }
+  .banner img {
+    width: 100%;
+  }
+  .banner p {
+    font-size: 18px;
+  }
+  .banner .side {
+    width: 50%;
+  }
+  .banner .form {
+    display: flex;
+  }
+  .banner .inputemail {
+    width: 300px;
+    margin: 0 20px;
+  }
+  .banner .inputbutton {
+    width: 200px;
+    height: 42px;
+  }
+  /* Section 2 */
+  .two {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: auto;
+    padding: 0 50px 30px;
+    gap: 25px;
+    background-color: hsla(240, 80%, 98%, 0.795);
+  }
+  .two img {
+    width: 100%;
+    padding: 100px 20px 40px;
+  }
+  .two .right {
+    width: 100%;
+  }
+  .two h2 {
+    text-align: left;
+  }
+  .two p {
+    font-size: 16px;
+  }
+  .linkcenter {
+    justify-content: left;
+    align-items: left;
+    margin: 10px 0;
+    padding: 0 20px;
+  }
+  .linkcenter a {
+    font-size: 16px;
+  }
+  .linkcenter .icon {
+    height: 31px;
+    width: 30px;
+  }
+  .testimonial {
+    width: 345px;
+  }
+  .testimonial p {
+    font-size: 12px;
+  }
+  .profile img {
+    width: 25px;
+    padding: 0;
+  }
+  /* Section 3 */
+  .three {
+    display: flex;
+    gap: 230px;
+    text-align: left;
+    padding: 80px;
+  }
+  .three p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .three .side {
+    width: 50%;
+  }
+  .three .inputemail,
+  .three .inputbutton {
+    height: 45px;
+    font-size: 14px;
+  }
+  .three .inputemail {
+    width: 90%;
+    margin: 10px 0 25px;
+  }
+  .three .inputbutton {
+    width: 40%;
+  }
+  .sections {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 80px 70px;
+  }
+  footer {
+    gap: 0;
+  }
+  .logowhite {
+    width: 280px;
+    padding: 60px 0 0 80px;
+    height: 120px;
+  }
+}
+
+/*# sourceMappingURL=decorate.css.map */

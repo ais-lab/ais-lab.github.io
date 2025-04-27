@@ -8,12 +8,13 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@your-lab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: your-lab
-  twitter: YourLabHandle
-  youtube: YourLabChannel
+  email: leejooho@is.ritsumei.ac.jp
+  orcid: 0000-0003-1015-5615
+  google-scholar: 71HqkKkAAAAJ&hl
+  github: ais-lab
+  twitter: ais_lab
+  youtube: AISlabRitsumeikan
+  instagram: ais_lab_rits
 
 ### jekyll settings
 

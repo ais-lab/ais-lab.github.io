@@ -1,4 +1,4 @@
-# Advanced Intelligent System
+# Advanced Intelligent System Lab.
 
 Our research focuses on information science and engineering varied from human engineering, psychology, electronics to robotics. In this lab we design solutions for Interaction between humans and artificial intelligent systems.
 
@@ -12,7 +12,7 @@ Our research focuses on information science and engineering varied from human en
   include button.html
   type="github"
   text="On GitHub"
-  link="greenelab/lab-website-template"
+  link="ais-lab"
 %}
 
 {% include section.html %}
@@ -24,7 +24,7 @@ Our research focuses on information science and engineering varied from human en
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+View our academic papers, conference presentations, and other research outputs from the AIS Lab. .
 
 {%
   include button.html
@@ -41,13 +41,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="/images/feature/b3_thesis.jpg"
   link="research"
-  title="Our Research"
+  title="Our Publications"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Explore our research conducted under the theme of "Creating a colorful and human-centered living environment".
 
 {%
   include button.html
@@ -72,7 +72,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Meet the researchers, students, and staff who make up the AIS Lab. .
 
 {%
   include button.html

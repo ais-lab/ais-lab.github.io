@@ -1,7 +1,10 @@
-- title: Simulated Patient Robot for Elderly Care Training
+- title: CaTARo - Simulated Patient Robot
+  title_jp: 高齢者介護トレーニング用模擬患者ロボット
   group: active
-  image: https://i1.wp.com/www.aislab.org/wp-content/uploads/2020/07/Picture8.png?w=604
-  description: Generative modeling for hyper-realistic VR/AR and physical patient simulation
+  detail_url: projects/2025-04-27-cataro
+  image: /images/cataro/exp_shiga.jpg
+  description: We introduce a simulated patient robot that replicates human behaviors in medical training. It features motorized arms and embedded sensors to record trainee performance, while a facial projection system generates patient-like expressions based on real behavioral data, creating a realistic and interactive training environment.
+  description_jp: 本研究では、さまざまな医療活動における患者の行動を模倣できるよう設計された模擬患者ロボットを提案します。本ロボットは、患者特有の動作を再現可能なモーター駆動式アームと、訓練生の操作およびパフォーマンスを詳細に記録するセンサー群を搭載しています。ヘッドユニットには、実際の患者行動から得られたトレーニングデータに基づき、患者らしい表情を合成できるダイナミックな顔面投影システムを備えています。身体的な実体性と表情豊かな顔面表現を組み合わせることで、より現実的かつ応答性の高い医療教育環境の提供を目指しています。
   tags:
     - generative modeling
     - simulated patient
@@ -10,6 +13,7 @@
 
 - title: Visual SLAM
   group: active
+  detail_url: 2025-04-27-cataro
   image: https://thpjp.github.io/d2s/images/BKC_results.svg
   description: Generative modeling for hyper-realistic VR/AR and physical patient simulation
   tags:

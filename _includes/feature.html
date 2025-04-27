@@ -6,13 +6,13 @@
 >
   <a
     {% if include.link %}
-      href="{{ include.link | relative_url | uri_escape }}"
+      href="{{ include.link | prepend: site.baseurl_root | uri_escape }}"
     {% endif %}
     class="feature-image"
     aria-label="{{ include.title | default: "feature link" | regex_strip }}"
   >
     <img
-      src="{{ include.image | relative_url | uri_escape }}"
+      src="{{ include.image | prepend: site.baseurl_root | uri_escape }}"
       loading="lazy"
       alt="{{ include.title | default: "feature image" | regex_strip }}"
       {% include fallback.html %}

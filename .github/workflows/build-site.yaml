@@ -48,6 +48,14 @@ jobs:
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
 
+      - name: Copy _site/jp/index.html to _site/index.html
+        run: |
+          if [ -f "_site/jp/index.html" ]; then
+            cp _site/en/index.html _site/index.html
+          else
+            echo "No _site/en/index.html found!"
+          fi
+
       - name: Commit live site to Pages branch
         uses: JamesIves/github-pages-deploy-action@v4.5.0
         with:

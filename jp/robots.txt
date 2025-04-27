@@ -1,1 +1,1 @@
-Sitemap: https://ais-lab.github.io/en/sitemap.xml
+Sitemap: https://ais-lab.github.io/jp/sitemap.xml

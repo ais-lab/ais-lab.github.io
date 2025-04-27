@@ -8,10 +8,6 @@ header img {
 .banner {
   text-align: center;
   padding: 50px 0 150px;
-  background-image: url(/images/decorator/bg-curve-mobile.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center bottom;
 }
 
 .banner img {
@@ -300,23 +296,6 @@ footer {
   text-decoration: none;
 }
 
-.fa-twitter,
-.fa-facebook,
-.fa-instagram {
-  color: white;
-  border: 1px solid white;
-  text-align: center;
-  border-radius: 50%;
-  padding: 7px;
-  width: 30px;
-  height: 30px;
-}
-
-.fa-twitter,
-.fa-instagram {
-  padding: 6px;
-}
-
 /* Responsive desktop */
 @media screen and (min-width: 745px) {
   /* Section 1 */
@@ -327,7 +306,6 @@ footer {
     padding: 0 50px 170px;
     text-align: left;
     gap: 25px;
-    background-image: url(/images/decorator/bg-curve-desktop.svg);
   }
   .banner img {
     width: 100%;
@@ -433,9 +411,6 @@ footer {
     width: 280px;
     padding: 60px 0 0 80px;
     height: 120px;
-  }
-  .socialMedia {
-    padding-right: 200px;
   }
 }
 

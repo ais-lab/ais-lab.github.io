@@ -7,15 +7,7 @@ tags:
   - medicine
   - big data
 ---
-
-{% case site.lang %}
-{% when 'en' %}
-# English Title
-This is the English content.
-
-{% when 'jp' %}
 # Japanese Title
 
 This is the Japanese content
 
-{% endcase %}

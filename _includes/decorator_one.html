@@ -1,0 +1,27 @@
+{{ " " }}
+{% assign mod = include.id | modulo: 2 %}
+
+<section class="banner">
+    <!-- check if id is odd -->
+    {% if mod == 1 %}
+    <div class="side">
+        <h3>{{ include.title }}</h3>
+
+        <p>Test {{ include.id }}</p>
+    </div>
+    <div class="side">
+        <img src="{{include.image}}" alt="Ilustration 1">
+    </div>
+    {% else %}
+    <div class="side">
+        <img src="{{include.image}}" alt="Ilustration 2">
+    </div>
+    <div class="side">
+        <h3>{{ include.title }}</h3>
+
+        <p>Fylo stores your most important files in one secure location.
+            Access them wherever you need, share and collaborate with friends,
+            family, and co-workers.</p>
+    </div>
+    {% endif %}
+</section>

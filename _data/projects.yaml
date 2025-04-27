@@ -1,3 +1,23 @@
+- title: Simulated Patient Robot for Elderly Care Training
+  group: active
+  image: https://i1.wp.com/www.aislab.org/wp-content/uploads/2020/07/Picture8.png?w=604
+  description: Generative modeling for hyper-realistic VR/AR and physical patient simulation
+  tags:
+    - generative modeling
+    - simulated patient
+    - virtual reality
+    - augmented reality
+
+- title: Visual SLAM
+  group: active
+  image: https://thpjp.github.io/d2s/images/BKC_results.svg
+  description: Generative modeling for hyper-realistic VR/AR and physical patient simulation
+  tags:
+    - generative modeling
+    - simulated patient
+    - virtual reality
+    - augmented reality
+
 - title: Cool Dataset
   subtitle: a subtitle
   group: featured

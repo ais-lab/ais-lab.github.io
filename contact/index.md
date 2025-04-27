@@ -46,6 +46,8 @@ nav:
 
 {% case site.lang %}
 {% when 'en' %}
+<br>For more details, please refer to the "[Access Guide](https://www.ritsumei.ac.jp/ise/access/)".<br>
+
 <div class="map-container">
   <iframe 
      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.831375021552!2d135.5610037!3d34.810183999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e3280cce6417%3A0xbb3d925acbf40ab5!2z56uL5ZG96aSo5aSn5a2mIC0g5aSn6Ziq44GE44Gw44KJ44GN44Kt44Oj44Oz44OR44K5!5e0!3m2!1sen!2sjp!4v1745632808994!5m2!1sen!2sjp" 
@@ -58,6 +60,8 @@ nav:
   </iframe>
 </div>
 {% when 'jp' %}
+<br>詳しくは，「[アクセスガイド](https://www.ritsumei.ac.jp/ise/access/)」をご参照下さい。<br>
+
 <div class="map-container">
   <iframe 
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.831375021552!2d135.5610037!3d34.810183999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e3280cce6417%3A0xbb3d925acbf40ab5!2z56uL5ZG96aSo5aSn5a2mIC0g5aSn6Ziq44GE44Gw44KJ44GN44Kt44Oj44Oz44OR44K5!5e0!3m2!1sja!2sjp!4v1745632808994!5m2!1sja!2sjp" 

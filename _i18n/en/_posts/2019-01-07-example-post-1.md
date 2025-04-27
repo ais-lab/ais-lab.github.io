@@ -12,9 +12,7 @@ tags:
 {% when 'en' %}
 # English Title
 This is the Japanese content.
-
 {% when 'jp' %}
 # Japanese Title
-
 This is the English content
 {% endcase %}

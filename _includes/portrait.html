@@ -19,7 +19,7 @@
     aria-label="{{ member.name | default: "member link" | regex_strip }}"
   >
     <img
-      src="{{ member.image | relative_url | uri_escape }}"
+      src="{{ member.image | prepend: site.baseurl_root }}"
       class="portrait-image"
       alt="member portrait"
       loading="lazy"

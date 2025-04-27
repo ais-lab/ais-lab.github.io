@@ -7,26 +7,10 @@ header img {
 /* Section 1 */
 .banner {
   text-align: center;
-  padding: 50px 0 150px;
 }
 
 .banner img {
   width: 100vw;
-  padding: 40px 20px 20px;
-}
-
-.banner h1 {
-  color: var(--darkBlue);
-  line-height: 35px;
-  padding: 18px 20px;
-  font-weight: 800;
-}
-
-.banner p {
-  color: var(--darkBlue);
-  padding: 20px;
-  font-weight: 500;
-  font-size: 15px;
 }
 
 .banner .inputemail {
@@ -303,15 +287,11 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    padding: 0 50px 170px;
     text-align: left;
     gap: 25px;
   }
   .banner img {
     width: 100%;
-  }
-  .banner p {
-    font-size: 18px;
   }
   .banner .side {
     width: 50%;

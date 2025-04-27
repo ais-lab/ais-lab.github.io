@@ -42,7 +42,7 @@ nav:
   link="https://maps.app.goo.gl/YEAj9aWiAnydeHkj8"
 %}
 
-## {t contact.access_title %}
+## {%t contact.access_title %}
 
 {% case site.lang %}
 {% when 'en' %}

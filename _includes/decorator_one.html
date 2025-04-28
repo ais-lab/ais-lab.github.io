@@ -6,7 +6,7 @@
     {% if mod == 1 %}
     <div class="side">
         <h3>{{ include.title }}</h3>
-        {% include tags.html tags="publication, resource, website" %}
+        {% include tags.html tags=include.tags %}
         <p>{{ include.description }}</p>
         {% include button.html type="docs" text="Read More" link=include.detail_url %}
     </div>

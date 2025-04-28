@@ -1,3 +1,4 @@
+
 {{ " " }}
 {% assign mod = include.id | modulo: 2 %}
 
@@ -19,12 +20,13 @@
     </div>
     <div class="side">
         <h3>{{ include.title }}</h3>
+        {% include tags.html tags=include.tags %}
         <p>{{ include.description }}</p>
         {%
             include button.html
             type="article"
             text="Read More"
-            link="#"
+            link=include.detail_url
         %}
     </div>
     {% endif %}

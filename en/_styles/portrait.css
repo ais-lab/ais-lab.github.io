@@ -55,7 +55,7 @@
   margin-bottom: 20px;
   aspect-ratio: 1/1;
   border-radius: 999px;
-  object-fit: cover;
+  object-fit: contain;
   box-shadow: var(--shadow);
 }
 

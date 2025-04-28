@@ -3,7 +3,7 @@
     {% if include.link %}
       href="{{ include.link | prepend: site.baseurl_root | uri_escape }}"
     {% endif %}
-    class="figure-image"
+    class={% if include.no_shadow %} "figure-image-noshadow" {% else %} "figure-image" {% endif %}
     aria-label="{{ include.caption | default: "figure link" | regex_strip }}"
   >
     <img

@@ -1,7 +1,7 @@
 ---
 ---
 
-.figure {
+.figure{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +10,7 @@
   margin: 40px 0;
 }
 
-.figure-image {
+.figure-image, .figure-image-noshadow {
   display: contents;
 }
 
@@ -18,6 +18,11 @@
   border-radius: var(--rounded);
   overflow: hidden;
   box-shadow: var(--shadow);
+}
+
+.figure-image-noshadow img {
+  border-radius: var(--rounded);
+  overflow: hidden;
 }
 
 .figure-caption {

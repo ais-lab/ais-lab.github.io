@@ -7,7 +7,7 @@ tags:
   - generative
 ---
 
-# Care-giving Training Assistant Robot (CaTARo)
+# Visual SLAM
 
 {% case site.lang %}
 {% when 'en' %}

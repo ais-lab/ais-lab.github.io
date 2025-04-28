@@ -1,7 +1,7 @@
 - title: CaTARo - Simulated Patient Robot
   title_jp: 高齢者介護トレーニング用模擬患者ロボット
   group: active
-  detail_url: projects/2025-04-27-cataro
+  detail_url: 2025-04-27-cataro
   image: /images/cataro/exp_shiga.jpg
   description: We introduce a simulated patient robot that replicates human behaviors in medical training. It features motorized arms and embedded sensors to record trainee performance, while a facial projection system generates patient-like expressions based on real behavioral data, creating a realistic and interactive training environment.
   description_jp: 本研究では、さまざまな医療活動における患者の行動を模倣できるよう設計された模擬患者ロボットを提案します。本ロボットは、患者特有の動作を再現可能なモーター駆動式アームと、訓練生の操作およびパフォーマンスを詳細に記録するセンサー群を搭載しています。ヘッドユニットには、実際の患者行動から得られたトレーニングデータに基づき、患者らしい表情を合成できるダイナミックな顔面投影システムを備えています。身体的な実体性と表情豊かな顔面表現を組み合わせることで、より現実的かつ応答性の高い医療教育環境の提供を目指しています。
@@ -12,15 +12,16 @@
     - augmented reality
 
 - title: Visual SLAM
+  title_jp: Visual SLAM
   group: active
-  detail_url: 2025-04-27-cataro
+  detail_url: 2025-04-27-visual-slam
   image: https://thpjp.github.io/d2s/images/BKC_results.svg
-  description: Generative modeling for hyper-realistic VR/AR and physical patient simulation
+  description: Precise localization using the camera is plays an essential role in many aplications, such as robotics, augmented reality（AR）, and autonomous systems. We introduce innovative solutions that combine a camera with deep learning for camera relocalization.
+  description_jp: カメラを使用した正確な位置推定は、ロボット工学、AR、自律システムなどの多くのアプリケーションにおいて、重要な役割を果たしています。そこで、本研究では、カメラの再位置推定のためにカメラと深層学習を組み合わせた革新的なソリューションを研究しています。
   tags:
-    - generative modeling
-    - simulated patient
-    - virtual reality
-    - augmented reality
+  - CV
+  - Visual SLAM
+  - Visual Localization
 
 - title: Cool Dataset
   subtitle: a subtitle

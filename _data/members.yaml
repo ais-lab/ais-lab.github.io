@@ -3,6 +3,12 @@
   role: pi
   image: https://en.ritsumei.ac.jp/image.jsp?id=294261&version=English
   hp: https://scholar.google.com/citations?user=71HqkKkAAAAJ&hl=en&oi=ao
+- name: Yuya Hosoda
+  name_jp: 細田　侑也
+  role: ap
+  image: images/photo.jpg
+  hp: https://yuya-hosoda.github.io/
+  badges: [Speech Processing, Image Processing, Natural Language Processing]
 - name: T.T. Nguyen NGUYEN
   name_jp: グエン グエン
   role: phd
@@ -32,19 +38,30 @@
   badges: [Medical Robotics]
   date: 2024-09-01
 - name: Matsushita Yuki
-  name_jp: 松下 由紀
+  name_jp: 松下　優希
   role: phd
   image: images/photo.jpg
   hp: https://scholar.google.com/citations?user=7Z6Z9YQAAAAJ&hl=en
   badges: [Field Robotics]
   date: 2025-04-01
 - name: Yoshida Shu
-  name_jp: 吉田 周
+  name_jp: 吉田　集
   role: phd
   image: images/photo.jpg
-  hp: https://scholar.google.com/citations?user=7Z6Z9YQAAAAJ&hl=en
+  hp: https://sites.google.com/view/yosshu
   badges: [Computer Vision]
   date: 2025-04-01
+- name: Tran Vinh
+  name_jp: チャン・ビン
+  role: m
+  image: images/photo.jpg
+  hp: https://scholar.google.com/citations?user=7Z6Z9YQAAAAJ&hl=en
+  badges: [Compute Vision]
+- name: Dam Tien
+  name_jp: ダム・ティエン
+  role: m
+  image: images/photo.jpg
+  
 - name: Endo Yuki
   name_jp: 遠藤　優貴
   role: m
@@ -52,4 +69,3 @@
   hp: https://scholar.google.com/citations?user=7Z6Z9YQAAAAJ&hl=en
   badges: [Virtual Reality]
   date: 2022-04-01
-

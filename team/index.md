@@ -7,13 +7,25 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %} AIS Lab
 
-
-
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
 {% include section.html %}
+# Administration
+
+{% include list.html data="members" component="portrait" filter="role == 'pi' or role =='ap'" %}
+
+{% include section.html %}
+# Graduate Student
+
+
 {% include list.html data="members" component="portrait" filter="role == 'phd'" year_asc="True" %}
 ---
-{% include list.html data="members" component="portrait" filter="role == 'm' or role =='b'" year_asc="True" %}
+{% include list.html data="members" component="portrait" filter="role == 'm'" year_asc="True" %}
+
+# Undergraduate Student
+
+{% include section.html %}
+
+{% include list.html data="members" component="portrait" filter="role == 'b'" year_asc="True" %}
+
 {% include section.html background="images/background.jpg" dark=true %}
 
 # Alumni
@@ -22,10 +34,8 @@ nav:
 
 {% capture content %}
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+{% include figure.html image="/images/yearbook/wc_party25.jpg" %}
 
 {% endcapture %}
 
-{% include grid.html style="square" content=content %}
+{% include grid.html content=content %}

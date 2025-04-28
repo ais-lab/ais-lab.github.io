@@ -1,8 +1,17 @@
-- name: Lee Joo-Ho
+- name: Joo-Ho LEE
   name_jp: 李 周浩
   role: pi
   image: https://en.ritsumei.ac.jp/image.jsp?id=294261&version=English
   hp: https://scholar.google.com/citations?user=71HqkKkAAAAJ&hl=en&oi=ao
+  badges: [AI, Intelligent Space]
+
+- name: Yuya HOSODA
+  name_jp: 細田　侑也
+  role: ap
+  image: images/photo.jpg
+  hp: https://yuya-hosoda.github.io/
+  badges: [Speech, CV, NLP]
+
 - name: T.T. Nguyen NGUYEN
   name_jp: グエン グエン
   role: phd
@@ -10,6 +19,7 @@
   hp: https://scholar.google.com/citations?user=7Z6Z9YQAAAAJ&hl=en
   badges: [3D Face, Generative]
   date: 2023-09-01
+
 - name: Thuan BUI
   name_jp: ブイ トゥアン
   role: phd
@@ -17,6 +27,7 @@
   hp: https://scholar.google.com/citations?user=7Z6Z9YQAAAAJ&hl=en
   badges: [Visual SLAM]
   date: 2022-09-01
+
 - name: Ardiansyah Al Farouq
   name_jp: アルディアンシャ ファルク
   role: phd
@@ -24,6 +35,7 @@
   hp: https://scholar.google.com/citations?user=7Z6Z9YQAAAAJ&hl=en
   badges: [RL, Planning]
   date: 2023-09-01
+
 - name: Annga Rahagiyant
   name_jp: アンガ ラハギヤント
   role: phd
@@ -31,25 +43,277 @@
   hp: https://scholar.google.com/citations?user=7Z6Z9YQAAAAJ&hl=en
   badges: [Medical Robotics]
   date: 2024-09-01
+
 - name: Matsushita Yuki
-  name_jp: 松下 由紀
+  name_jp: 松下　優希
   role: phd
   image: images/photo.jpg
   hp: https://scholar.google.com/citations?user=7Z6Z9YQAAAAJ&hl=en
   badges: [Field Robotics]
   date: 2025-04-01
+
 - name: Yoshida Shu
-  name_jp: 吉田 周
+  name_jp: 吉田　集
   role: phd
   image: images/photo.jpg
-  hp: https://scholar.google.com/citations?user=7Z6Z9YQAAAAJ&hl=en
+  hp: https://sites.google.com/view/yosshu
   badges: [Computer Vision]
   date: 2025-04-01
+
+# Master students (m)
+- name: Tran Quang Vinh
+  name_jp: Tran Quang Vinh
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2025-04-01
+
+- name: Dam Quang Tien
+  name_jp: Dam Quang Tien
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2025-04-01
+
+- name: Bui Huy Hoang
+  name_jp: Bui Huy Hoang
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2023-09-01
+
 - name: Endo Yuki
   name_jp: 遠藤　優貴
   role: m
   image: images/photo.jpg
-  hp: https://scholar.google.com/citations?user=7Z6Z9YQAAAAJ&hl=en
-  badges: [Virtual Reality]
+  hp: 
+  badges: []
+  date: 2024-04-01
+
+- name: Suzuki Yusuke
+  name_jp: 鈴木　優介
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2024-04-01
+
+- name: Nishikori Yuhi
+  name_jp: 錦織　勇飛
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2024-04-01
+
+- name: Minesaki Shoryu
+  name_jp: 峯崎　翔琉
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2024-04-01
+
+- name: Bui Hai Minh Hieu
+  name_jp: Bui Hai Minh Hieu
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2024-09-01
+
+- name: LUO Jie
+  name_jp: LUO Jie
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2024-04-01
+
+- name: Duong Binh Trong
+  name_jp: Duong Binh Trong
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2025-09-01
+
+- name: SUI Qifeng
+  name_jp: SUI Qifeng
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2025-04-01
+
+- name: PARK Junwoo
+  name_jp: PARK Junwoo
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2025-04-01
+
+- name: Kawai Kaito
+  name_jp: 河合　海翔
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2025-04-01
+
+- name: Kawahara Ichiki
+  name_jp: 河原　壱樹
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2025-04-01
+
+- name: Shimizu Ikuhiro
+  name_jp: 清水　郁博
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2025-04-01
+
+- name: CHEN Jiashuai
+  name_jp: CHEN Jiashuai
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2025-04-01
+
+- name: LIU Muen
+  name_jp: LIU Muen
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2025-04-01
+
+- name: CHEN Hangxiu
+  name_jp: CHEN Hangxiu
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2025-04-01
+
+- name: JIN Huiling
+  name_jp: JIN Huiling
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2025-04-01
+
+- name: ZHANG Jun
+  name_jp: ZHANG Jun
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2025-04-01
+
+# Bachelor students (b)
+- name: Araki Sogo
+  name_jp: 荒木　颯吾
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2026-04-01
+
+- name: Ippitsu Ichiru
+  name_jp: 一筆　一留
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2026-04-01
+
+- name: Okada Takashi
+  name_jp: 岡田　隆志
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2026-04-01
+
+- name: Kato Yoichi
+  name_jp: 加藤　耀壱
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2026-04-01
+
+- name: Takai Hibiki
+  name_jp: 高井　日美暉
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2026-04-01
+
+- name: Tsuka Haruki
+  name_jp: 塚　春輝
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2026-04-01
+
+- name: Hirosawa Koji
+  name_jp: 廣澤　考冶
+  role: b
+  image: images/photo.jpg
+  hp: 
+  badges: []
   date: 2022-04-01
 
+- name: Fujii Aina
+  name_jp: 藤井　愛奈
+  role: b
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2022-04-01
+
+- name: Fumimoto Asahi
+  name_jp: 文元　朝陽
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2026-04-01
+
+- name: Mitsushima Ai
+  name_jp: 光島　愛
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2026-04-01
+
+- name: Morita Katsuyuki
+  name_jp: 森田　勝之
+  role: m
+  image: images/photo.jpg
+  hp: 
+  badges: []
+  date: 2026-04-01
+
+- name: LIU Boheng
+  name_jp: LIU Boheng
+  role: b
+  image: /images/yearbook/2024/ryuu.png
+  hp: 
+  badges: []
+  date: 2022-04-01

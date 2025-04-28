@@ -12,10 +12,25 @@ ap:
   description: Assistant Professor
   description_jp: 助教
 
-postdoc:
+s:
+  icon: fa-solid fa-microscope
+  description: Secretary
+  description_jp: 秘書
+
+vr:
   icon: fa-solid fa-glasses
-  description: Postdoc
+  description: Visiting Researcher
+  description_jp: 客員研究員
+
+pd:
+  icon: fa-solid fa-glasses
+  description: Postdoctoral Researcher
   description_jp: 博士研究員
+
+is:
+  icon: fa-solid fa-glasses
+  description: International Student
+  description_jp: 短期留学生
 
 phd:
   icon: fa-solid fa-graduation-cap

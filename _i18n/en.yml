@@ -15,11 +15,14 @@ tooltips:
 roles:
   PI: Principle Investigator
   AP: Assistant Professor
+  VR: Visiting Researcher
+  S: Secretary
   PhD: D
   M: M
   Visit: Visiting Scholar
   B: B
-  PD: Postdoc
+  PD: Postdoctoral Researcher	
+  IS: International Student
 
 contact:
   address_title: Address & Contact Information

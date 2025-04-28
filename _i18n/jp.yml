@@ -15,11 +15,14 @@ tooltips:
 roles:
   PI: 指導教員
   AP: 助教
+  VR: 客員研究員
+  S: 秘書
   PhD: D
   M: M
   Visit: 客員学者
   B: B
   PD: 博士研究員
+  IS: 短期留学生
 
 contact:
   address_title: 住所・連絡先

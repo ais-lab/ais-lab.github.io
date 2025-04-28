@@ -7,6 +7,17 @@
   {% assign member = include %}
 {% endif %}
 
+{% assign join_year = member.date | date: "%Y" | plus: 0 %}
+{% assign join_month = member.date | date: "%m" | plus: 0 %}
+
+{% assign now_year = site.time | date: "%Y" | plus: 0 %}
+{% assign now_month = site.time | date: "%m" | plus: 0 %}
+
+{% assign diff_year = now_year | minus: join_year %}
+{% assign diff_month = now_month | minus: join_month %}
+{% assign diff_month_total = diff_year | times: 12 | plus: diff_month %}
+{% assign seniority = diff_month_total | divided_by: 12 | plus: 1 %}
+
 {% assign type = site.data.types[member.role] %}
 
 <div class="portrait-wrapper">
@@ -38,7 +49,7 @@
 
     {% if member.description or type %}
       <span class="portrait-description">
-        {{ member.description | default: type.description }}
+        {{ member.description | default: type.description }}{% if member.role != "pi" and member.role != "ap" %}{{seniority}}{% endif %}
       </span>
       <span class="badges">
         {% for badge in member.badges %}

@@ -14,10 +14,11 @@ tooltips:
 
 roles:
   PI: Principle Investigator
-  PhD: PhD Student
-  M: Master Student
+  AP: Assistant Professor
+  PhD: D
+  M: M
   Visit: Visiting Scholar
-  B: Undergrad
+  B: B
   PD: Postdoc
 
 contact:

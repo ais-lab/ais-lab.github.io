@@ -15,10 +15,10 @@ tooltips:
 roles:
   PI: 指導教員
   AP: 助教
-  PhD: 博士研究員
-  M: 修士研究員
+  PhD: D
+  M: M
   Visit: 客員学者
-  B: 学部生
+  B: B
   PD: 博士研究員
 
 contact:

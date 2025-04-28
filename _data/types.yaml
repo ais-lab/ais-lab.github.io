@@ -7,6 +7,11 @@ pi:
   description: Principal Investigator
   description_jp: 主任研究員
 
+ap:
+  icon: fa-solid fa-microscope
+  description: Assistant Professor
+  description_jp: 助教
+
 postdoc:
   icon: fa-solid fa-glasses
   description: Postdoc
@@ -14,18 +19,18 @@ postdoc:
 
 phd:
   icon: fa-solid fa-graduation-cap
-  description: PhD Student
-  description_jp: 博士
+  description: D
+  description_jp: D
 
 b:
   icon: fa-solid fa-user-graduate
-  description: Undergraduate Student
-  description_jp: 学部
+  description: B
+  description_jp: B
 
 m:
   icon: fa-solid fa-code
-  description: Master Student
-  description_jp: 修士
+  description: M
+  description_jp: M
 
 mascot:
   icon: fa-solid fa-dog

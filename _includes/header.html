@@ -48,7 +48,7 @@
     {% for page in pages %}
       {% if page.nav %}
         <a
-          href="{{ page.dir | relative_url | uri_escape | prepend: site.baseurl_root }}"
+          href="{{site.baseurl_root}}/{{site.lang}}{{ page.dir | uri_escape }}"
           data-tooltip="{% t page.nav.tooltip %}"
         >
           {% t page.title %}

@@ -66,10 +66,10 @@
 
   <meta name="author" content="webstaff">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2025-04-28T14:34:56+00:00">
+  <meta property="og:updated_time" content="2025-04-28T14:52:14+00:00">
   <meta property="article:published_time" content="">
-  <meta property="article:modified_time" content="2025-04-28T14:34:56+00:00">
-  <meta name="revised" content="2025-04-28T14:34:56+00:00">
+  <meta property="article:modified_time" content="2025-04-28T14:52:14+00:00">
+  <meta name="revised" content="2025-04-28T14:52:14+00:00">
 
 
 <script type="application/ld+json">
@@ -79,7 +79,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "2024年度卒論発表，修論発表を終えました" },
       "datePublished": "",
-      "dateModified": "2025-04-28T14:34:56+00:00",
+      "dateModified": "2025-04-28T14:52:14+00:00",
     
     "name": "2024年度卒論発表，修論発表を終えました",
     "description": "Robotics and AI Lab. An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.",
@@ -350,7 +350,7 @@
 
 
 <header class="background" style="--image: url('/images/background_2.jpg')" data-dark="true">
-  <a href="/jp/" class="home">
+  <a href="/jp" class="home">
     
       <span class="logo">
         
@@ -660,9 +660,269 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="care-giving-training-assistant-robot-cataro">Care-giving Training Assistant Robot (CaTARo)</h1>
+    <h1 id="介護トレーニング支援ロボットcataro">介護トレーニング支援ロボット（CaTARo）</h1>
 
-<p>只今準備中…</p>
+<h2 id="背景">背景</h2>
+
+<p>日本は世界でも最も急速な高齢化を迎えており、65歳以上の人口が全体の約30％を占めています。<br>
+この人口動態の変化により、医療サービスに対する需要がかつてないほど高まる一方で、医療従事者や介護者の不足が深刻化しています。<br>
+従来のトレーニング方法だけでは、複雑な医療・介護ニーズに対応できる十分な人材を育成することが困難になっています。<br>
+このような状況において、模擬患者ロボットは、現実的かつ繰り返し可能で安全なトレーニング環境を提供する重要なソリューションとなります。</p>
+
+<p>人間の俳優やマネキンとは異なり、これらのロボットは幅広い身体的・行動的症状を一貫して再現できるため、医療従事者の訓練生は、実際の患者にリスクを与えることなく技能を磨き、洗練することが可能です。<br>
+さらに、センサーやデータ駆動型フィードバックを組み込むことで、訓練生のパフォーマンスを客観的に評価でき、教育の質の標準化と臨床能力の向上を加速させることができます。</p>
+
+<h2 id="リハビリ訓練用物理ロボット">リハビリ訓練用物理ロボット</h2>
+
+<p>CaTARoは、人間のような動きを再現できるモーター駆動アームを搭載しており、訓練生は関節可動域訓練やその他の身体的インタラクションを実践できます。<br>
+ヘッドユニットには、痛みのレベルを表現できる3Dフェイシャルアバターが搭載されており、顔マスクに投影して視覚的フィードバックを提供します。</p>
+
+<figure class="figure">
+  <a href="team" class="figure-image" aria-label="CaTARo V1 2021 : 肩複合関節 肘 腕モジュール">
+    <img src="/images/cataro/system_overview2.jpg" style="
+        width: 800px;
+        max-height: unset;
+      " alt="CaTARo V1 2021 : 肩複合関節 肘 腕モジュール" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      CaTARo V1 (2021): 肩複合関節、肘、腕モジュール
+
+    </figcaption>
+  
+</figure>
+
+<div class="cols" style="--cols: 2">
+  
+    
+    <div>
+<figure class="figure">
+  <a href="team" class="figure-image" aria-label="FlexiForce A201">
+    <img src="https://www.tekscan.com/sites/default/files/a201-main.jpg" style="
+        width: 300px;
+        max-height: unset;
+      " alt="FlexiForce A201" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      FlexiForce A201
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a href="team" class="figure-image" aria-label="MX-28, Robotis">
+    <img src="https://i.ebayimg.com/00/s/MTYwMFgxMjA0/z/C08AAOSwK~lnLAe-/$_57.JPG?set_id=880000500F" style="
+        width: 300px;
+        max-height: unset;
+      " alt="MX-28, Robotis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      MX-28, Robotis
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+    
+    <div>
+<p>CaTARoの肩複合部は、多自由度設計により人間の肩の複雑な動きを再現できるよう設計されています。<br>
+肩甲上腕関節（glenohumeral joint）や胸鎖関節（sternoclavicular joint）を含み、介護訓練に必要な多様な腕の動作をリアルにシミュレーション可能です。</p>
+
+<p>ロボットの関節駆動には、Robotics Inc.製のMX-28のような高精度サーボモーターを採用しています。<br>
+これらのアクチュエータは、人間らしい動きを正確に再現するために必要なトルクと制御性を提供します。</p>
+
+<h3 id="ハードウェア構成">ハードウェア構成</h3>
+
+<ul>
+  <li>サーボモーター: MX-28</li>
+  <li>センサー
+    <ul>
+      <li>角度センサー: SV01L103AEA11T00</li>
+      <li>力覚センサー: CFS018CA201</li>
+      <li>フレキシフォースセンサー A201 ×4個</li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+  
+</div>
+
+<h2 id="模擬患者アバター">模擬患者アバター</h2>
+
+<p>データ駆動型モデルとリアルタイムフィードバック機構を活用することで、アバターは痛み、不快感、その他の感情状態を模倣し、訓練生により没入感のあるリアルな学習体験を提供します。<br>
+このようなリアリティのあるシミュレーションは、共感力の育成、診断スキルの向上、実際の患者対応能力の強化に不可欠です。</p>
+
+<p>本研究では、仮想環境と物理環境の両方に対応した実験的ソリューションを提供しています。</p>
+
+<h3 id="a-複合現実mixed-reality">A. 複合現実（Mixed Reality）</h3>
+
+<div class="cols" style="--cols: 2">
+  
+    
+    <div>
+<p>VR（バーチャルリアリティ）とロボットアームの統合により、没入型医療訓練のための強力なプラットフォームが構築されます。<br>
+本システムでは、ロボットの物理的な動きが事前設計されたインタラクティブな仮想シナリオと同期され、訓練生は高度に制御された環境下で手技を実践できます。</p>
+
+<p>ロボットが動くたびに関節データがリアルタイムでアバターに反映され、仮想環境における動作の正確な再現が可能です。<br>
+物理的実体とVRベースの文脈的訓練を組み合わせることで、スキル習得、手技精度、訓練生の自信向上が促進され、安全かつ再現可能で測定可能な環境が提供されます。</p>
+
+</div>
+  
+    
+    <div>
+<figure class="figure">
+  <a href="/images/cataro/cataro_vr.webp" class="figure-image" aria-label="CaTARo VR Unityベース">
+    <img src="/images/cataro/cataro_vr.webp" style="
+        width: 400px;
+        max-height: unset;
+      " alt="CaTARo VR Unityベース" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      CaTARo VR (Unityベース)
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+</div>
+
+<h3 id="b-物理的実体化physical-embodiment">B. 物理的実体化（Physical Embodiment）</h3>
+
+<figure class="figure">
+  <a href="/images/cataro/interface_compare.svg" class="figure-image-noshadow" aria-label="模擬患者の顔表現における実験媒体の比較">
+    <img src="/images/cataro/interface_compare.png" style="
+        width: 600px;
+        max-height: unset;
+      " alt="模擬患者の顔表現における実験媒体の比較" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      模擬患者の顔表現における実験媒体の比較
+
+    </figcaption>
+  
+</figure>
+
+<h4 id="1-背面投影ディスプレイback-projection-display">1. 背面投影ディスプレイ（Back-projection Display）</h4>
+
+<p>CaTARoには、顔マスクに表情を投影する3Dフェイシャルアバターシステムが搭載されています。<br>
+このシステムは、UNBC-McMaster Pain Archiveのデータとファジィ論理に基づく評価手法を用い、リアルタイムで痛みの表情を再現し、トレーニングシナリオのリアリズムを向上させます。</p>
+
+<figure class="figure">
+  <a href="team" class="figure-image" aria-label="背面投影機構による痛み表現">
+    <img src="/images/cataro/system_overview.jpg" style="
+        width: 600px;
+        max-height: unset;
+      " alt="背面投影機構による痛み表現" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      背面投影機構による痛み表現
+
+    </figcaption>
+  
+</figure>
+
+<h4 id="2-超リアルな3dガウシアンアバターhyper-realistic-3d-gaussian-avatar">2. 超リアルな3Dガウシアンアバター（Hyper-realistic 3D Gaussian Avatar）</h4>
+
+<p>事前メッシュ（priori mesh）を用いて、リアルタイムで顔アニメーションを生成できる3D Gaussian Splattingベースのアバターを学習させました。<br>
+表情はFLAMEパラメータを通じて制御・転送されます。<br>
+ただし、被験者ごとに表情空間が異なるため、より人間らしい表情再現のため、共通表現空間と個別表現空間の分離に関する研究も進めています。</p>
+
+<figure class="figure">
+  <a href="/images/cataro/combined.gif" class="figure-image-noshadow" aria-label="Nersembleデータセット 左 - 単眼トラッキング 中央 - 3Dメッシュトラッキング 右 - 合成アニメーション">
+    <img src="/images/cataro/combined.gif" style="
+        width: 600px;
+        max-height: unset;
+      " alt="Nersembleデータセット 左 - 単眼トラッキング 中央 - 3Dメッシュトラッキング 右 - 合成アニメーション" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Nersembleデータセット：左 - 単眼トラッキング、中央 - 3Dメッシュトラッキング、右 - 合成アニメーション
+
+    </figcaption>
+  
+</figure>
+
+<h4 id="3-ホログラフィックアバターholographic-avatar">3. ホログラフィックアバター（Holographic Avatar）</h4>
+
+<div class="cols" style="--cols: 2">
+  
+    
+    <div>
+<p>VRヘッドセットは没入型体験を提供しますが、同時に一人しか利用できないという制約があります。<br>
+ホログラフィックディスプレイは、3Dボリューム映像を複数の人に同時に投影することで、この問題を解決します。</p>
+
+<p>CUDAカーネルと最適化されたOpenGLパイプラインを活用し、ユーザーの視点角度に応じて3D Gaussianアバターアニメーションをリアルタイムで3Dディスプレイにストリーミングしています。</p>
+
+<figure class="figure">
+  <a href="/images/cataro/combined.gif" class="figure-image-noshadow" aria-label="3D Gaussian Splattingに基づくホログラフィックレンダリングパイプライン">
+    <img src="/images/cataro/hologram.png" style="
+        width: 600px;
+        max-height: unset;
+      " alt="3D Gaussian Splattingに基づくホログラフィックレンダリングパイプライン" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      3D Gaussian Splattingに基づくホログラフィックレンダリングパイプライン
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+    
+    <div>
+<figure class="figure">
+  <a href="/images/cataro/holo3d.webp" class="figure-image-noshadow" aria-label="異なる角度に異なる映像を投影する3Dディスプレイ">
+    <img src="/images/cataro/holo3d.webp" style="
+        width: 400px;
+        max-height: unset;
+      " alt="異なる角度に異なる映像を投影する3Dディスプレイ" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      異なる角度に異なる映像を投影する3Dディスプレイ
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+</div>
+
+<h2 id="ヒューマノイド顔面動作モデリング">ヒューマノイド顔面動作モデリング</h2>
+
+<p>リアルなデータ駆動型行動模倣技術は、模擬患者ロボットが本来の目的を達成するために重要です。<br>
+本研究では、人間の非言語的顔面行動に着目し、リスナーとしての顔面反応パターンを学習し、ロボットの表情制御に応用しています。</p>
+
+<h3 id="a-一般化された非言語顔面行動">A. 一般化された非言語顔面行動</h3>
+
+<p>ヒューマノイドの顔動作を3Dモーフィングモデル（3DMM）パラメータの時間変化として表現し、<br>
+スパース性、連続性、また他者の音声・視覚信号との相関など、このモダリティ特有の特性を分析しました。</p>
+
+<video poster="" id="tree" autoplay="" muted="" loop="" width="800px"> <source src="/images/cataro/thumbnail_video.mp4" type="video/mp4"></source> </video>
+
+<p>モデルは、会話中に人間がどのタイミングで、なぜ、どのように反応するかを学習し、<br>
+適切なリスナー反応生成を実現します。</p>
+
+<h3 id="b-痛み表現行動painful-expression-behavior">B. 痛み表現行動（Painful Expression Behavior）</h3>
+
+<p>痛み表現と痛み強度の関係性を学習するため、<br>
+痛み強度、感情状態、耐性といった制御信号に応じて痛み表現を予測する生成モデルを開発しました。</p>
+
+<video poster="" id="tree" autoplay="" muted="" loop="" width="800px"> <source src="/images/cataro/pain_diff.webm" type="video/webm"></source> </video>
   </section>
 
 

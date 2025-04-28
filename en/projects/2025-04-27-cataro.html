@@ -66,10 +66,10 @@
 
   <meta name="author" content="webstaff">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2025-04-28T14:34:56+00:00">
+  <meta property="og:updated_time" content="2025-04-28T14:52:14+00:00">
   <meta property="article:published_time" content="">
-  <meta property="article:modified_time" content="2025-04-28T14:34:56+00:00">
-  <meta name="revised" content="2025-04-28T14:34:56+00:00">
+  <meta property="article:modified_time" content="2025-04-28T14:52:14+00:00">
+  <meta name="revised" content="2025-04-28T14:52:14+00:00">
 
 
 <script type="application/ld+json">
@@ -79,7 +79,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "2024年度卒論発表，修論発表を終えました" },
       "datePublished": "",
-      "dateModified": "2025-04-28T14:34:56+00:00",
+      "dateModified": "2025-04-28T14:52:14+00:00",
     
     "name": "2024年度卒論発表，修論発表を終えました",
     "description": "Robotics and AI Lab. An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.",
@@ -350,7 +350,7 @@
 
 
 <header class="background" style="--image: url('/images/background_2.jpg')" data-dark="true">
-  <a href="/jp/" class="home">
+  <a href="/en" class="home">
     
       <span class="logo">
         
@@ -662,7 +662,249 @@
   <section class="background" data-size="page">
     <h1 id="care-giving-training-assistant-robot-cataro">Care-giving Training Assistant Robot (CaTARo)</h1>
 
-<p>Currently in preparation…</p>
+<h2 id="background">Background</h2>
+
+<p>Japan is facing one of the most rapid aging trends in the world, with nearly 30% of its population aged 65 or older. This demographic shift is creating unprecedented demand for healthcare services, while simultaneously exacerbating shortages of medical professionals and caregivers. Traditional training methods alone are no longer sufficient to prepare enough skilled personnel to meet the complex medical and caregiving needs of an aging society. In this context, simulated patient robots offer a critical solution by providing realistic, repeatable, and safe training environments.</p>
+
+<p>Unlike human actors or mannequins, these robots can consistently reproduce a wide range of physical and behavioral symptoms, enabling healthcare trainees to practice and refine their skills without risk to real patients. Moreover, by incorporating sensors and data-driven feedback, simulated robots can objectively assess trainee performance, helping to standardize education quality and accelerate the development of clinical competence.</p>
+
+<h2 id="physical-robot-for-rehabilitation-exercise">Physical Robot for Rehabilitation Exercise</h2>
+
+<p>CaTARo features motorized arms that can replicate human-like movements, allowing trainees to practice range-of-motion exercises and other physical interactions. The robot’s head unit includes a 3D facial avatar capable of expressing pain levels, which is projected onto a facial mask to provide visual feedback.</p>
+
+<figure class="figure">
+  <a href="team" class="figure-image" aria-label="CaTARo V1 2021 : shoulder complex, elbow, and arm modules.">
+    <img src="/images/cataro/system_overview2.jpg" style="
+        width: 800px;
+        max-height: unset;
+      " alt="CaTARo V1 2021 : shoulder complex, elbow, and arm modules." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      CaTARo V1 (2021): shoulder complex, elbow, and arm modules.
+
+    </figcaption>
+  
+</figure>
+
+<div class="cols" style="--cols: 2">
+  
+    
+    <div>
+<figure class="figure">
+  <a href="team" class="figure-image" aria-label="FlexiForce A201">
+    <img src="https://www.tekscan.com/sites/default/files/a201-main.jpg" style="
+        width: 300px;
+        max-height: unset;
+      " alt="FlexiForce A201" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      FlexiForce A201
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a href="team" class="figure-image" aria-label="MX-28, Robotis">
+    <img src="https://i.ebayimg.com/00/s/MTYwMFgxMjA0/z/C08AAOSwK~lnLAe-/$_57.JPG?set_id=880000500F" style="
+        width: 300px;
+        max-height: unset;
+      " alt="MX-28, Robotis" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      MX-28, Robotis
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+    
+    <div>
+<p>CaTARo’s shoulder complex is designed with multiple degrees of freedom to replicate the intricate movements of the human shoulder. This includes the glenohumeral and sternoclavicular joints, enabling realistic simulations of various arm motions essential for caregiver training.</p>
+
+<p>The robot employs high-precision servo motors, such as the MX-28 from Robotics Inc., to drive its joints. These actuators provide the necessary torque and control to mimic human-like movements accurately. ​</p>
+
+<h3 id="hardwares">Hardwares</h3>
+
+<ul>
+  <li>Servo motors: MX-28</li>
+  <li>Sensors
+    <ul>
+      <li>Angle sensor: SV01L103AEA11T00</li>
+      <li>Force sensor: CFS018CA201</li>
+      <li>4 x FlexiForce A201</li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+  
+</div>
+
+<h2 id="simulated-patient-avatar">Simulated Patient Avatar</h2>
+
+<p>By utilizing data-driven models and real-time feedback mechanisms, the avatar can mimic expressions associated with pain, discomfort, or other emotional states, providing trainees with a more immersive and authentic learning experience. Such realistic simulations are crucial for developing empathy, improving diagnostic skills, and preparing healthcare providers for real-world patient interactions.</p>
+
+<p>Our research provides experimental solutions for both virtual and physical environments.</p>
+
+<h3 id="a-mixed-reality">A. Mixed Reality</h3>
+
+<div class="cols" style="--cols: 2">
+  
+    
+    <div>
+<p>The integration of Virtual Reality (VR) with robotic limbs offers a powerful platform for immersive medical training. In this system, the robot’s physical limbs are synchronized with a virtual avatar in a pre-designed interactive scenario, allowing trainees to practice procedures in a highly controlled and responsive environment.</p>
+
+<p>As the robot moves, its joint data is streamed to update the avatar in real time, ensuring that physical performance is accurately mirrored in the virtual environment. By combining physical embodiment with VR-based contextual training, this approach enhances skill acquisition, procedural accuracy, and trainee confidence, while providing a safe, repeatable, and measurable environment critical for preparing healthcare providers.</p>
+
+</div>
+  
+    
+    <div>
+<figure class="figure">
+  <a href="/images/cataro/cataro_vr.webp" class="figure-image" aria-label="CaTARo VR powered by Unity">
+    <img src="/images/cataro/cataro_vr.webp" style="
+        width: 400px;
+        max-height: unset;
+      " alt="CaTARo VR powered by Unity" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      CaTARo VR powered by Unity
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+</div>
+
+<h3 id="b-physical-embodiement">B. Physical Embodiement</h3>
+
+<figure class="figure">
+  <a href="/images/cataro/interface_compare.svg" class="figure-image-noshadow" aria-label="Comparison between experimental mediums for simulated patient facial communication">
+    <img src="/images/cataro/interface_compare.png" style="
+        width: 600px;
+        max-height: unset;
+      " alt="Comparison between experimental mediums for simulated patient facial communication" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Comparison between experimental mediums for simulated patient facial communication
+
+    </figcaption>
+  
+</figure>
+
+<h4 id="1-back-projection-display">1. Back-projection Display</h4>
+
+<p>CaTARo features a 3D facial avatar system that projects expressions onto a facial mask. This system utilizes data from the UNBC-McMaster Pain Archive and a fuzzy logic–based evaluation method to display real-time pain expressions, enhancing the realism of training scenarios.</p>
+
+<figure class="figure">
+  <a href="team" class="figure-image" aria-label="Pained expression with back-projection mechanism">
+    <img src="/images/cataro/system_overview.jpg" style="
+        width: 600px;
+        max-height: unset;
+      " alt="Pained expression with back-projection mechanism" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Pained expression with back-projection mechanism
+
+    </figcaption>
+  
+</figure>
+
+<h4 id="2-hyper-realistic-3d-gaussian-avatar">2. Hyper-realistic 3D Gaussian Avatar</h4>
+
+<p>By employing a mesh priori, we trained a 3D Gaussian Splatting-based avatar that synthesizes facial animation in real-time. The facial expression can be transferred and control through FLAME parameters that constructs the prior mesh. However, as the expression spaces differ across subjects, we are also researching how to disentangle the universal and unique expression space to better capture human facial expression.</p>
+
+<figure class="figure">
+  <a href="/images/cataro/combined.gif" class="figure-image-noshadow" aria-label="Nersemble dataset: Left - Monocular tracked animation; Middle - 3D mesh tracking; Right - Synthesized animation">
+    <img src="/images/cataro/combined.gif" style="
+        width: 600px;
+        max-height: unset;
+      " alt="Nersemble dataset: Left - Monocular tracked animation; Middle - 3D mesh tracking; Right - Synthesized animation" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Nersemble dataset: Left - Monocular tracked animation; Middle - 3D mesh tracking; Right - Synthesized animation
+
+    </figcaption>
+  
+</figure>
+
+<h4 id="3-holographic-avatar">3. Holographic Avatar</h4>
+
+<div class="cols" style="--cols: 2">
+  
+    
+    <div>
+<p>VR headset allows immersive experience to simulated training session with limitation to one user at a time. Holographic display elevates this issue by projecting 3D volumetric visual to multiple subjects at the same time.</p>
+
+<p>With customized CUDA’s kernel and optimized OpenGL-based pipeline, we stream 3D Gaussian Avatar animation to 3D display in real-time according to user’s viewing angles.</p>
+
+<figure class="figure">
+  <a href="/images/cataro/combined.gif" class="figure-image-noshadow" aria-label="Holographic rendering pipeline based on 3D Gaussian Splatting">
+    <img src="/images/cataro/hologram.png" style="
+        width: 600px;
+        max-height: unset;
+      " alt="Holographic rendering pipeline based on 3D Gaussian Splatting" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Holographic rendering pipeline based on 3D Gaussian Splatting
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+    
+    <div>
+<figure class="figure">
+  <a href="/images/cataro/holo3d.webp" class="figure-image-noshadow" aria-label="3D display projects different views on various angles">
+    <img src="/images/cataro/holo3d.webp" style="
+        width: 400px;
+        max-height: unset;
+      " alt="3D display projects different views on various angles" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      3D display projects different views on various angles
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+</div>
+
+<h2 id="humanoid-facial-motion-modeling">Humanoid Facial Motion Modeling</h2>
+
+<p>Realistic data-driven behavior imitation skill is critical for simulated patients to achieve its goal. In our study, we analyzed human’s facial behaviors, especially non-verbal facial behavior to learn stochastic facial reaction that powers our humanoid robot’s facial behavior.</p>
+
+<h3 id="a-generalized-non-verbal-facial-behavior">A. Generalized Non-verbal Facial Behavior</h3>
+
+<p>We represented humanoid face behavior as temporal change of 3D Morphable Model (3DMM) parameters while exploring this modality’s unique characteristics such as sparsity, continuity, and its correlation with other modality such as speech and visual signal of another human partner.</p>
+
+<video poster="" id="tree" autoplay="" muted="" loop="" width="800px"> <source src="/images/cataro/thumbnail_video.mp4" type="video/mp4"></source> </video>
+
+<p>The model extracts controlling time steps from transitioning steps to learn when, why, and how human reacts to stimulation in dyadic conversation as a listener.</p>
+
+<h3 id="b-painful-expression-behavior">B. Painful Expression Behavior</h3>
+
+<p>To learn the relationship between pained expressions and pain intensity, we devised a generative learning model that predicts pained expression according to control signals such as pain intensity, emotional state, and tolerance.</p>
+
+<video poster="" id="tree" autoplay="" muted="" loop="" width="800px"> <source src="/images/cataro/pain_diff.webm" type="video/mp4"></source> </video>
   </section>
 
 

@@ -16,6 +16,35 @@
   width: 175px;
   max-width: calc(100% - 20px - 20px);
   text-decoration: none;
+  
+  /* Styles that apply only to portraits with links */
+  &[href] {
+    cursor: pointer;
+    
+    /* Image transition effects*/
+    .portrait-image {
+      transition: opacity 0.3s ease;
+    }
+    
+    &:hover .portrait-image {
+      opacity: 0.7; /* Make image translucent on hover */
+    }
+    
+    &:focus {
+      outline: 2px solid var(--focus-color, #4d90fe);
+      outline-offset: 2px;
+    }
+  }
+  
+  /* Apply normal style to unlinked portraits */
+  &:not([href]) {
+    cursor: default;
+    
+    /* If there are no links, do not change opacity */
+    &:hover .portrait-image {
+      opacity: 1;
+    }
+  }
 }
 
 .portrait[data-style="small"] {

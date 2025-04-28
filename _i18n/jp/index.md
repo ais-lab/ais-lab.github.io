@@ -1,4 +1,4 @@
-# 高度知能システム
+# アドバンスド・インテリジェント・システム研究室
 
 私たちの研究室では、人間工学、心理学、電子工学、ロボティクスに至るまで、情報科学と工学を幅広く研究しています。  
 この研究室では、人間と人工知能システムの相互作用のためのソリューションを設計しています。
@@ -13,7 +13,7 @@
   include button.html
   type="github"
   text="GitHubで見る"
-  link="greenelab/lab-website-template"
+  link="ais-lab"
 %}
 
 {% include section.html %}
@@ -25,12 +25,12 @@
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+AIS Lab.の学術論文、学会発表などの研究成果をご覧ください。
 
 {%
   include button.html
   link="research"
-  text="研究業績を見る"
+  text="論文・成果を見る"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -42,18 +42,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="/images/feature/b3_thesis.jpg"
   link="research"
-  title="研究内容"
+  title="論文・成果"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+研究テーマである「人間を空間の中心とする、潤沢で安全な生活環境を実現する」のもとで行われている研究をご覧ください。
 
 {%
   include button.html
   link="projects"
-  text="プロジェクト一覧を見る"
+  text="研究内容一覧を見る"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -65,7 +65,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="/images/feature/team_building.jpg"
   link="projects"
-  title="プロジェクト"
+  title="研究内容"
   flip=true
   style="bare"
   text=text
@@ -73,7 +73,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+AIS Lab.のメンバーをご紹介します。
 
 {%
   include button.html

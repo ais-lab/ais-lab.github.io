@@ -13,6 +13,29 @@
   width: 175px;
   max-width: calc(100% - 20px - 20px);
   text-decoration: none;
+  /* Styles that apply only to portraits with links */
+  /* Apply normal style to unlinked portraits */
+}
+.portrait[href] {
+  cursor: pointer;
+  /* Image transition effects*/
+}
+.portrait[href] .portrait-image {
+  transition: opacity 0.3s ease;
+}
+.portrait[href]:hover .portrait-image {
+  opacity: 0.7; /* Make image translucent on hover */
+}
+.portrait[href]:focus {
+  outline: 2px solid var(--focus-color, #4d90fe);
+  outline-offset: 2px;
+}
+.portrait:not([href]) {
+  cursor: default;
+  /* If there are no links, do not change opacity */
+}
+.portrait:not([href]):hover .portrait-image {
+  opacity: 1;
 }
 
 .portrait[data-style=small] {

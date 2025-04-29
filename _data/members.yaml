@@ -22,12 +22,12 @@
 - name: Hiroko KURODA
   name_jp: 黒田　博子
   role: s
-  image: images/photo.jpg
+  image: /images/team/dummy.png
  
 - name: Charlene VERANT
   name_jp: Charlene Verant
   role: is
-  image: images/photo.jpg
+  image: /images/team/dummy.png
   url:
   badges: [Robotics]
  
@@ -57,7 +57,7 @@
 - name: Ardiansyah Al FAROUQ
   name_jp: Ardiansyah Al Farouq
   role: phd
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url:
   badges: [RL, Planning]
   date: 2023-09-01
@@ -65,7 +65,7 @@
 - name: Angga RAHAGIYANTO
   name_jp: Angga Rahagiyanto
   role: phd
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url:
   badges: [Medical Robotics]
   date: 2024-09-01
@@ -73,7 +73,7 @@
 - name: Yuki MATSUSHITA
   name_jp: 松下　優希
   role: phd
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url:
   badges: [Field Robotics]
   date: 2025-04-01
@@ -90,7 +90,7 @@
 - name: Quang Vinh TRAN
   name_jp: Quang Vinh Tran
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2023-09-01
@@ -98,7 +98,7 @@
 - name: Quang Tien DAM
   name_jp: Quang Tien Dam
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2023-09-01
@@ -106,7 +106,7 @@
 - name: Huy Hoang BUI
   name_jp: Huy Hoang Bui
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2023-09-01
@@ -114,7 +114,7 @@
 - name: Yuki ENDO
   name_jp: 遠藤　優貴
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2024-04-01
@@ -122,7 +122,7 @@
 - name: Yusuke SUZUKI
   name_jp: 鈴木　優介
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2024-04-01
@@ -130,7 +130,7 @@
 - name: Yuhi NISHIKORI
   name_jp: 錦織　勇飛
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2024-04-01
@@ -138,7 +138,7 @@
 - name: Kakeru MINESAKI
   name_jp: 峯崎　翔琉
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2024-04-01
@@ -146,7 +146,7 @@
 - name: Hai Minh Hieu BUI
   name_jp: Hai Minh Hieu Bui
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2024-04-01
@@ -154,7 +154,7 @@
 - name: Jie LUO
   name_jp: Luo Jie
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2024-09-01
@@ -162,7 +162,7 @@
 - name: Binh Trong DUONG
   name_jp: Binh Trong Duong
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2024-09-01
@@ -170,7 +170,7 @@
 - name: Qifeng SUI
   name_jp: Sui Qifeng
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2024-09-01
@@ -178,7 +178,7 @@
 - name: Junwoo PARK
   name_jp: 朴　峻佑
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2025-04-01
@@ -186,7 +186,7 @@
 - name: Kaito KAWAI
   name_jp: 河合　海翔
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2025-04-01
@@ -194,7 +194,7 @@
 - name: Itsuki KAWAHARA
   name_jp: 河原　壱樹
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2025-04-01
@@ -202,7 +202,7 @@
 - name: Fumihiro SHIMIZU
   name_jp: 清水　郁博
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2025-04-01
@@ -210,7 +210,7 @@
 - name: Jiashuai CHEN
   name_jp: 陳　家帥
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2025-04-01
@@ -218,7 +218,7 @@
 - name: Muen LIU
   name_jp: 劉　沐恩
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2025-04-01
@@ -226,7 +226,7 @@
 - name: Hangxiu CHEN
   name_jp: CHEN Hangxiu
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2025-04-01
@@ -234,7 +234,7 @@
 - name: Huiling JIN
   name_jp: JIN Huiling
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2025-04-01
@@ -242,7 +242,7 @@
 - name: Jun ZHANG
   name_jp: ZHANG Jun
   role: m
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2025-04-01
@@ -251,7 +251,7 @@
 - name: Sogo ARAKI
   name_jp: 荒木　颯吾
   role: b
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2022-04-01
@@ -259,7 +259,7 @@
 - name: Izuru IPPITSU
   name_jp: 一筆　一留
   role: b
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2022-04-01
@@ -267,7 +267,7 @@
 - name: Takashi OKADA
   name_jp: 岡田　隆志
   role: b
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2022-04-01
@@ -275,7 +275,7 @@
 - name: Yoichi KATO
   name_jp: 加藤　耀壱
   role: b
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2022-04-01
@@ -283,7 +283,7 @@
 - name: Hibiki TAKAI
   name_jp: 高井　日美暉
   role: b
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2022-04-01
@@ -291,7 +291,7 @@
 - name: Haruki TSUKA
   name_jp: 塚　春輝
   role: b
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2022-04-01
@@ -299,7 +299,7 @@
 - name: Koji HIROSAWA
   name_jp: 廣澤　考冶
   role: b
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2022-04-01
@@ -307,7 +307,7 @@
 - name: Aina FUJII
   name_jp: 藤井　愛奈
   role: b
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2022-04-01
@@ -315,7 +315,7 @@
 - name: Asahi FUMIMOTO
   name_jp: 文元　朝陽
   role: b
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2022-04-01
@@ -323,7 +323,7 @@
 - name: Ai MITSUSHIMA
   name_jp: 光島　愛
   role: b
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2022-04-01
@@ -331,7 +331,7 @@
 - name: Katsuyuki MORITA
   name_jp: 森田　勝之
   role: b
-  image: /images/photo.jpg
+  image: /images/team/dummy.png
   url: 
   badges: []
   date: 2022-04-01

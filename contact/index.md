@@ -18,7 +18,7 @@ nav:
 
 {% when 'jp' %}
   <br>立命館大学<br>
-  <br>情報理工学部　情報理工学科　[実世界コース](https://www.phy.ise.ritsumei.ac.jp/)<br>
+  <br>情報理工学部　情報理工学科　[実世界情報コース](https://www.phy.ise.ritsumei.ac.jp/)<br>
   <br><span style="color:red;">新住所(2024年4月より)：</span><br>
   <br>〒567-8570 大阪府茨木市岩倉町2-150 H棟H525<br>
 {% endcase %}

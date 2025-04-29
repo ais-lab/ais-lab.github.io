@@ -1,10 +1,11 @@
 ---
-title: 2024年度卒論発表，修論発表を終えました
+title: Visual SLAM
 author: webstaff
 lang: jp
 tags:
-  - medical
-  - generative
+  - CV
+  - Visual SLAM
+  - Visual Localization
 ---
 
 # Visual SLAM

@@ -18,23 +18,47 @@
   %}
 {% endif %}
 
-{% for year in years %}
-  {% assign data = year.items %}
+{% if site.lang == "jp" %}
+  {% for year in years %}
+    {% assign data = year.items %}
 
-  {% if include.group_by_year and years.size > 1 %}
-    {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
-    {% assign data = data | sort: "date" | reverse %}
-  {% endif %}
+    {% if include.group_by_year and years.size > 1 %}
+      {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
+      {% assign data = data | sort: "date" | reverse %}
+    {% endif %}
+
+    {% for d in data %}
+    {%
+      include decorator_one.html
+      title=d.title_jp
+      id=forloop.index
+      image=d.image
+      description=d.description_jp
+      detail_url=d.detail_url
+      tags=d.tags
+    %}
+    {% endfor %}
+  {% endfor %}
+
+{% else %}
+  {% for year in years %}
+    {% assign data = year.items %}
+
+    {% if include.group_by_year and years.size > 1 %}
+      {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
+      {% assign data = data | sort: "date" | reverse %}
+    {% endif %}
 
   {% for d in data %}
-  {%
-    include decorator_one.html
-    title=d.title
-    id=forloop.index
-    image=d.image
-    description=d.description
-    detail_url=d.detail_url
-    tags=d.tags
-  %}
+    {%
+      include decorator_one.html
+      title=d.title
+      id=forloop.index
+      image=d.image
+      description=d.description
+      detail_url=d.detail_url
+      tags=d.tags
+    %}
+    {% endfor %}
   {% endfor %}
-{% endfor %}
+{% endif %}

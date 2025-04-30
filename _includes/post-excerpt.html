@@ -8,11 +8,13 @@
   {% assign post = include %}
 {% endif %}
 
+{% assign parent_url = site.baseurl_root | append: '/' | append: site.lang %}
+
 <div class="post-excerpt-container">
   <div class="post-excerpt">
-    {% assign url = post.url | relative_url | uri_escape %}
+    {% assign url = post.url | prepend: parent_url %}
     {% assign title = post.title %}
-    {% assign image = post.image | relative_url | uri_escape %}
+    {% assign image = post.image | prepend: site.baseurl_root | uri_escape %}
 
     {% if image %}
       <a

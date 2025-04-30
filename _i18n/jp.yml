@@ -4,6 +4,7 @@ titles:
   team: チーム
   blog: ニュース
   contact: 連絡先
+  assignment: 研究室配属
   
 tooltips:
   research: 研究テームについて
@@ -11,6 +12,7 @@ tooltips:
   team: 学生と学院性の紹介
   blog: イベント/受賞ニュース
   contact: メール、住所、場所
+  assignment: 研究室配属について
 
 roles:
   PI: 指導教員
@@ -28,3 +30,9 @@ contact:
   address_title: 住所・連絡先
   lab_title: アドバンスド・インテリジェント・システム研究室(AIS Lab.)
   access_title: 大学へのアクセス
+
+assignment:
+  assignment_title: 研究室配属
+  openlab_title: 研究室公開（オープンラボ）
+  assignment_contents: コンテンツ
+  about_assignment: 研究室配属に関して

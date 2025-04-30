@@ -4,6 +4,7 @@ titles:
   team: Team
   blog: News
   contact: Contact
+  assignment: Recruit
 
 tooltips:
   research: Published works
@@ -11,6 +12,7 @@ tooltips:
   team: About our team
   blog: Events/awards news
   contact: Email, address, and location
+  assignment: About Laboratory Assignment
 
 roles:
   PI: Principle Investigator
@@ -28,3 +30,9 @@ contact:
   address_title: Address & Contact Information
   lab_title: Advanced Intelligent System Lab.(AIS Lab.)
   access_title: Access to university
+
+assignment:
+  assignment_title: Laboratory Assignment
+  openlab_title: Laboratory Open(Open Lab.)
+  assignment_contents: Contents
+  about_assignment: About Laboratory Assignment

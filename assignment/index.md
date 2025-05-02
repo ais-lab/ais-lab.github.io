@@ -26,5 +26,4 @@ During the laboratory open period (<span style="color:red;">June 2 (Monday) to J
 {% include assignment-list.html component="assignment-card" data="recruit" filter="group == 'contents'" style="small" %}
 
 {% include section.html %}
-## {% include icon.html icon="fa-solid fa-circle-check" %}{%t assignment.about_assignment %}
-{% include list.html component="card" data="recruit" filter="group == 'about'" style="small" %}
+

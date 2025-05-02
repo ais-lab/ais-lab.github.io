@@ -7,7 +7,7 @@
   include button.html
   type="docs"
   text="研究内容"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
+  link="projects"
 %}
 {%
   include button.html

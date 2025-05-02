@@ -6,7 +6,7 @@ Our research focuses on information science and engineering varied from human en
   include button.html
   type="docs"
   text="Our Research"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
+  link=projects
 %}
 {%
   include button.html

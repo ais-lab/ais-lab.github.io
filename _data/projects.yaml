@@ -23,50 +23,24 @@
   - Visual SLAM
   - Visual Localization
 
-- title: Cool Dataset
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Mobile Module
+  title_jp: Mobile Module
+  group: active
+  detail_url: 2025-04-29-momo
+  image: /images/momo/momo_top.jpg
+  description: MoMo is a robot designed to move devices that provide services within an intelligent space. By moving along the ceiling, it can travel without getting in the way of users. To achieve more efficient movement, we are conducting research on mechanical improvements and control algorithms. 
+  description_jp: MoMoは，知能化空間内において，サービスを提供するためのデバイスを移動させることを目的としたロボットです．天井を移動することで，ユーザの邪魔にならないように天井面を移動することができます．より効率的な移動を実現するために，機構の改良や制御アルゴリズムの研究を行っています．
   tags:
-    - resource
+    - iSpace
+    - R+iSpace
+    - Robotics
 
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Robotics Mosaic Art System
+  title_jp: ロボティクスモザイクアートシステム
+  group: active
+  detail_url: 2025-05-02-mosaicart
+  image: /images/mosaicart/mosaicart.png
+  description: The Robotic Mosaic Art System is a system that subdivides an image into multiple parts and generates mosaic art by having a robotic arm appropriately place these parts. This research aims to realize participatory art through human-robot collaboration by introducing interactive elements that allow users to participate in the mosaic art generation process.
+  description_jp: ロボティクスモザイクアートシステムは、ある画像を複数のパーツに細分化し、ロボットアームがそれらのパーツを適切に配置することでモザイクアートを生成するシステムです。本研究では、ユーザがモザイクアートの生成過程に参加できるインタラクティブな要素を導入し、人間とロボットの協働による参加型アートの実現を目的とします。
   tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+    - Robotics Art

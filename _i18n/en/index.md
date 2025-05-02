@@ -6,7 +6,7 @@ Our research focuses on information science and engineering varied from human en
   include button.html
   type="docs"
   text="Our Research"
-  link=projects
+  link="projects"
 %}
 {%
   include button.html

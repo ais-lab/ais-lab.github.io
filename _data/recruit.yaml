@@ -1,15 +1,10 @@
 - title: One-on-one Meeting with rinciple Investigator
   title_jp: 指導教員との二者面談
   group: contents
-  link: one-on-one-meeting
+  link: contents/one-on-one-meeting
   description: You will have a one-on-one meeting with the principal investigator. You can directly discuss the atmosphere and research content of the laboratory.
   description_jp: 研究室の指導教員と二者面談を行います。研究室の雰囲気や研究内容について直接お話しすることができます。
   image: /images/assignment/Lee.jpg
-
-
-- title:  Laboratory Open/Introduction Hours
-  title_jp: 研究室公開・紹介時間
-  group: contents
 
 - title: Research Introduction Booklet
   title_jp: 研究紹介冊子
@@ -27,52 +22,17 @@
   title_jp: 昨年度の3回生の李研究室を選んだ決め手
   group: contents
 
-- title: Survey about the Li Laboratory
+- title: Survey contents the Li Laboratory
   title_jp: 李研究室のアンケート
   group: contents
 
-- title: Research Themes
-  title_jp: 研究テーマ
-  group: about
-- title: Research Life
-  title_jp: 研究生活
-  group: about
-- title: Academic Advisors
-  title_jp: 指導教員
-  group: about
-- title: Research Concepts
-  title_jp: 研究概念
-  group: about
 - title: Research Structure
   title_jp: 研究体制
-  group: about
+  group: contents
 - title: Laboratory
   title_jp: 実験室
-  group: about
-- title: Graduate Studies
-  title_jp: 進学
-  group: about
-- title: Employment
-  title_jp: 就職
-  group: about
-- title: Research Equipment
-  title_jp: 研究設備
-  group: about
-- title: Projects
-  title_jp: プロジェクト
-  group: about
-- title: Academic Conference Activities
-  title_jp: 学会活動
-  group: about
-- title: Events
-  title_jp: 行事
-  group: about
-- title: Study Abroad
-  title_jp: 海外留学
-  group: about
+  group: contents
+
 - title: FAQ
   title_jp: FAQ
-  group: about
-- title: L+R
-  title_jp: L+R
-  group: about
+  group: contents

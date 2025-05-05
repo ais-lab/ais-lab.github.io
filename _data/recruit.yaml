@@ -9,6 +9,10 @@
 - title: Interviews with Current Students
   title_jp: 在学生のインタビュー
   group: contents
+  link: contents/interview
+  description: Watch an interview video with current students talking about AIS Lab.
+  description_jp: AIS Labの在学生が語るインタビュー動画を視聴できます。
+
 
 - title: Daily Research Life of Senior Students
   title_jp: 先輩の一日の研究生活
@@ -32,7 +36,7 @@
 - title: Survey contents the Li Laboratory
   title_jp: 李研究室のアンケート
   group: contents
-  
+
 - title: FAQ
   title_jp: FAQ
   group: contents

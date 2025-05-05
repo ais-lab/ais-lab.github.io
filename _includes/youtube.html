@@ -1,5 +1,6 @@
 <!-- _includes/youtube.html -->
-<div class="youtube-container">
+<figure class="responsive-file-figure" style="max-width: {{ include.width | default: '100%' }}; margin-left: auto; margin-right: auto;">
+  <div class="youtube-container">
     <iframe 
       src="https://www.youtube.com/embed/{{ include.id }}" 
       frameborder="0"
@@ -7,3 +8,7 @@
       allowfullscreen>
     </iframe>
   </div>
+  {% if include.caption %}
+    <figcaption class="responsive-file-caption">{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>

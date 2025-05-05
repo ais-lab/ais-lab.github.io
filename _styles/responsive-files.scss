@@ -1,5 +1,27 @@
 ---
 ---
+.responsive-file-figure {
+  width: 100%;
+  margin: 2rem 0;
+  display: block;
+}
+
+// caption style
+.responsive-file-caption {
+  margin-top: 0.75rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+  padding: 0 1rem;
+}
+
+// dark mode
+@media (prefers-color-scheme: dark) {
+  .responsive-file-caption {
+    color: #aaa;
+  }
+}
 
 .responsive-file-container {
     position: relative;

@@ -1,4 +1,5 @@
-<div class="responsive-file-container">
+<figure class="responsive-file-figure" style="max-width: {{ include.width | default: '100%' }}; margin-left: auto; margin-right: auto;">
+  <div class="responsive-file-container">
     {% if include.type == "video" %}
       <video controls width="100%" preload="metadata">
         <source src="{{ include.url }}" type="{{ include.format | default: 'video/mp4' }}">
@@ -19,3 +20,7 @@
       </div>
     {% endif %}
   </div>
+  {% if include.caption %}
+    <figcaption class="responsive-file-caption">{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>

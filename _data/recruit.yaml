@@ -6,10 +6,6 @@
   description_jp: 研究室の指導教員と二者面談を行います。研究室の雰囲気や研究内容について直接お話しすることができます。
   image: /images/assignment/Lee.jpg
 
-- title: Research Introduction Booklet
-  title_jp: 研究紹介冊子
-  group: contents
-
 - title: Interviews with Current Students
   title_jp: 在学生のインタビュー
   group: contents
@@ -22,10 +18,6 @@
   title_jp: 昨年度の3回生の李研究室を選んだ決め手
   group: contents
 
-- title: Survey contents the Li Laboratory
-  title_jp: 李研究室のアンケート
-  group: contents
-
 - title: Research Structure
   title_jp: 研究体制
   group: contents
@@ -33,6 +25,14 @@
   title_jp: 実験室
   group: contents
 
+- title: Research Introduction Booklet
+  title_jp: 研究紹介冊子
+  group: contents
+
+- title: Survey contents the Li Laboratory
+  title_jp: 李研究室のアンケート
+  group: contents
+  
 - title: FAQ
   title_jp: FAQ
   group: contents

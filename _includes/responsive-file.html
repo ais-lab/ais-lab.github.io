@@ -1,0 +1,21 @@
+<div class="responsive-file-container">
+    {% if include.type == "video" %}
+      <video controls width="100%" preload="metadata">
+        <source src="{{ include.url }}" type="{{ include.format | default: 'video/mp4' }}">
+        Your browser does not support video.
+      </video>
+    {% elsif include.type == "audio" %}
+      <audio controls>
+        <source src="{{ include.url }}" type="{{ include.format | default: 'audio/mpeg' }}">
+        Your browser does not support audio.
+      </audio>
+    {% elsif include.type == "pdf" %}
+      <iframe src="{{ include.url }}" class="responsive-pdf"></iframe>
+    {% elsif include.type == "image" %}
+      <img src="{{ include.url }}" alt="{{ include.alt | default: 'Uploaded Images' }}" class="responsive-image">
+    {% else %}
+      <div class="file-download">
+        <a href="{{ include.url }}" download>{{ include.filename | default: "Download File" }}</a>
+      </div>
+    {% endif %}
+  </div>

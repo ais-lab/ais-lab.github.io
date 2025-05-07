@@ -1,3 +1,25 @@
+- title: 空間知能化（Intelligent Space）
+  title_jp: Intellgent Space
+  group: active
+  detail_url: 2025-04-25-ispace
+  image: /images/ispace/01_ispace.png
+  description: Intelligent Space is a research initiative aimed at creating an intelligent environment that actively provides appropriate services through robots and applications, based on the status and past behavior of people living in the space. The research integrates a wide range of technologies, including machine learning, robotics, and image processing.
+  description_jp: 空間知能化とは、空間内で生活している人の状況や、これまでの行動を基に、ロボットやアプリケーションを通して適切なサービスを能動的に提供する賢い空間「知能化空間」を作る研究です。機械学習、ロボティクス、画像処理等の幅広い要素技術を組み合わせて研究を行っています。
+  tags:
+    - iSpace
+    
+- title: Mobile Module
+  title_jp: Mobile Module
+  group: active
+  detail_url: 2025-04-26-momo
+  image: /images/momo/momo_top.jpg
+  description: MoMo is a robot designed to move devices that provide services within an intelligent space. By moving along the ceiling, it can travel without getting in the way of users. To achieve more efficient movement, we are conducting research on mechanical improvements and control algorithms. 
+  description_jp: MoMoは，知能化空間内において，サービスを提供するためのデバイスを移動させることを目的としたロボットです．天井を移動することで，ユーザの邪魔にならないように天井面を移動することができます．より効率的な移動を実現するために，機構の改良や制御アルゴリズムの研究を行っています．
+  tags:
+    - iSpace
+    - R+iSpace
+    - Robotics
+
 - title: CaTARo - Simulated Patient Robot
   title_jp: 高齢者介護トレーニング用模擬患者ロボット
   group: active
@@ -23,18 +45,6 @@
   - Visual Localization
   - Mapping
 
-- title: Mobile Module
-  title_jp: Mobile Module
-  group: active
-  detail_url: 2025-04-29-momo
-  image: /images/momo/momo_top.jpg
-  description: MoMo is a robot designed to move devices that provide services within an intelligent space. By moving along the ceiling, it can travel without getting in the way of users. To achieve more efficient movement, we are conducting research on mechanical improvements and control algorithms. 
-  description_jp: MoMoは，知能化空間内において，サービスを提供するためのデバイスを移動させることを目的としたロボットです．天井を移動することで，ユーザの邪魔にならないように天井面を移動することができます．より効率的な移動を実現するために，機構の改良や制御アルゴリズムの研究を行っています．
-  tags:
-    - iSpace
-    - R+iSpace
-    - Robotics
-
 - title: Robotics Mosaic Art System
   title_jp: ロボティクスモザイクアートシステム
   group: active
@@ -44,14 +54,3 @@
   description_jp: ロボティクスモザイクアートシステムは、ある画像を複数のパーツに細分化し、ロボットアームがそれらのパーツを適切に配置することでモザイクアートを生成するシステムです。本研究では、ユーザがモザイクアートの生成過程に参加できるインタラクティブな要素を導入し、人間とロボットの協働による参加型アートの実現を目的とします。
   tags:
     - Robotics Art
-
-- title: 空間知能化（Intelligent Space）
-  title_jp: Intellgent Space
-  group: active
-  detail_url: 2025-05-05-ispace
-  image: /images/ispace/01_ispace.png
-  description: Intelligent Space is a research initiative aimed at creating an intelligent environment that actively provides appropriate services through robots and applications, based on the status and past behavior of people living in the space. The research integrates a wide range of technologies, including machine learning, robotics, and image processing.
-  description_jp: 空間知能化とは、空間内で生活している人の状況や、これまでの行動を基に、ロボットやアプリケーションを通して適切なサービスを能動的に提供する賢い空間「知能化空間」を作る研究です。機械学習、ロボティクス、画像処理等の幅広い要素技術を組み合わせて研究を行っています。
-  tags:
-    - Intelligent Space
-    

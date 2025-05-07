@@ -2,7 +2,7 @@
 <div class="card" data-style="{{ include.style }}">
   <a
     {% if include.link %}
-      href="{{include.link | relative_url}}"
+      href="{{include.link}}"
     {% endif %}
     aria-label="{{ include.title | default: "card link" | regex_strip }}"
     class="card-image"

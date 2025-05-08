@@ -1,0 +1,120 @@
+<div style="display:none;">
+  Debug info:
+  include.data: {{ include.data }}
+  site.data[include.data] exists: {% if site.data[include.data] %}yes{% else %}no{% endif %}
+  site.data[include.data] count: {{ site.data[include.data] | size }}
+  site.data keys: {{ site.data | map: 'first' | join: ', ' }}
+</div>
+
+{% assign emptyarray = "" | split: "," %}
+{% if site.data[include.data] %}
+  {% assign events = site.data[include.data] %}
+{% else %}
+  {% assign events = emptyarray %}
+{% endif %}
+
+{% if include.sort_asc %}
+  {% assign sorted_events = events | sort: "date" %}
+{% else %}
+  {% assign sorted_events = events | sort: "date" %}
+{% endif %}
+
+<div class="timeline-container">
+  <div class="center-line"></div>
+  
+  {% for event in sorted_events %}
+    <div class="timeline-item">
+      <div class="timeline-date">
+        {% assign year = event.date | date: "%Y" | plus: 0 %}
+        {% assign month = event.date | date: "%-m" | plus: 0 %}
+        {% comment %}学年の計算{% endcomment %}
+          {% assign academic_year = 4 %}
+          {% if year == 2026 and month <= 3 %}
+            {% assign academic_year = 3 %}
+          {% elsif year == 2026 and month >= 4 %}
+            {% assign academic_year = 4 %}
+          {% elsif year == 2025 %}
+            {% assign academic_year = 3 %}
+          {% else %}
+            {% assign academic_year = 4 %}
+          {% endif %}
+        {% if site.lang == "jp" %}
+          {{ academic_year }}回生 {{ month }}月
+        {% else %}
+          {% assign month_names = "January,February,March,April,May,June,July,August,September,October,November,December" | split: "," %}
+          {% assign month_index = event.date | date: "%-m" | minus: 1 %}
+          {{ academic_year }} years old {{ month_names[month_index] }}
+        {% endif %}
+      </div>
+      <div class="timeline-dot"></div>
+      <div class="timeline-content {% if include.alternate != false %}{% cycle 'left', 'right' %}{% else %}{{ include.position | default: 'left' }}{% endif %}">
+        <h3>
+          {% if site.lang == "jp" %}
+            {{ event.title_jp }}
+          {% else %}
+            {{ event.title }}
+          {% endif %}
+        </h3>
+        <p>
+          {% if site.lang == "jp" %}
+            {{ event.description_jp }}
+          {% else %}
+            {{ event.description }}
+          {% endif %}
+        </p>
+        <span class="btn-more">
+          {% if site.lang == "jp" %}
+            詳細を見る
+          {% else %}
+            More details
+          {% endif %}
+        </span>
+        <div class="timeline-detail">
+          {% if event.image %}
+            <img 
+              src="{{ event.image }}" 
+              alt="{% if site.lang == 'jp' %}{{ event.title_jp }}の様子{% else %}{{ event.title }} image{% endif %}"
+              loading="lazy"
+            >
+          {% endif %}
+          <div>
+            {% if site.lang == "jp" %}
+              {{ event.detail_jp | markdownify }}
+            {% else %}
+              {{ event.detail | markdownify }}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+{% if sorted_events.size == 0 %}
+  <div class="timeline-item">
+    <div class="timeline-date">
+      {% if site.lang == "jp" %}
+        現在準備中
+      {% else %}
+        Coming Soon
+      {% endif %}
+    </div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-content left">
+      <h3>
+        {% if site.lang == "jp" %}
+          データ準備中
+        {% else %}
+          Data in preparation
+        {% endif %}
+      </h3>
+      <p>
+        {% if site.lang == "jp" %}
+          研究室生活のデータを準備中です。もうしばらくお待ちください。
+        {% else %}
+          We are preparing data about laboratory life. Please wait a little longer.
+        {% endif %}
+      </p>
+    </div>
+  </div>
+{% endif %}

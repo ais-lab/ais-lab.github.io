@@ -29,13 +29,12 @@
     data-style="{{ include.style }}"
     aria-label="{{ member.name | default: "member link" | regex_strip }}"
   >
-    <img
-      src="{{ member.image | prepend: site.baseurl_root }}"
-      class="portrait-image"
-      alt="member portrait"
-      loading="lazy"
-      {% include fallback.html %}
-    >
+    <div style="background-image: url('{{ member.image | prepend: site.baseurl_root }}')"
+        class="portrait-image"
+        alt="member portrait"
+        loading="lazy"
+        {% include fallback.html %}
+    ></div>
 
     {% if member.name %}
       <span class="portrait-name">

@@ -1,13 +1,14 @@
-- title: One-on-one Meeting with rinciple Investigator
-  title_jp: 指導教員との二者面談
-  group: contents
-  link: contents/one-on-one-meeting
-  description: You will have a one-on-one meeting with the principal investigator. You can directly discuss the atmosphere and research content of the laboratory.
-  description_jp: 研究室の指導教員と二者面談を行います。研究室の雰囲気や研究内容について直接お話しすることができます。
-  image: /images/assignment/Lee.jpg
+# - title: One-on-one Meeting with rinciple Investigator
+#   title_jp: 指導教員との二者面談
+#   group: contents
+#   link: contents/one-on-one-meeting
+#   description: You will have a one-on-one meeting with the principal investigator. You can directly discuss the atmosphere and research content of the laboratory.
+#   description_jp: 研究室の指導教員と二者面談を行います。研究室の雰囲気や研究内容について直接お話しすることができます。
+#   image: /images/assignment/Lee.jpg
 
-- title: Daily Research Life of Senior Students
-  title_jp: 先輩の一日の研究生活
+- title: Research Life After Assignment
+  title_jp: 研究室配属後の生活
+  link: contents/lablife
   group: contents
 
 - title: What Made Last Year's 3rd Year Students Choose the AIS Lab.

@@ -57,7 +57,7 @@
 - name: Ardiansyah Al FAROUQ
   name_jp: Ardiansyah Al Farouq
   role: phd
-  image: /images/team/dummy.png
+  image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=spb82eUAAAAJ&citpid=8
   url:
   badges: [RL, Planning]
   date: 2023-09-01
@@ -65,7 +65,7 @@
 - name: Angga RAHAGIYANTO
   name_jp: Angga Rahagiyanto
   role: phd
-  image: /images/team/dummy.png
+  image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=n94mmocAAAAJ&citpid=1
   url:
   badges: [Medical Robotics]
   date: 2024-09-01
@@ -114,7 +114,7 @@
 - name: Yuki ENDO
   name_jp: 遠藤　優貴
   role: m
-  image: /images/team/2023/endo.png
+  image: /images/team/master/endo.jpg
   url:
   badges: []
   date: 2024-04-01
@@ -130,7 +130,7 @@
 - name: Yuhi NISHIKORI
   name_jp: 錦織　勇飛
   role: m
-  image: /images/team/2023/nishikori.png
+  image: /images/team/master/nishikori.png
   url:
   badges: []
   date: 2024-04-01
@@ -194,7 +194,7 @@
 - name: Itsuki KAWAHARA
   name_jp: 河原　壱樹
   role: m
-  image: /images/team/2023/kawahara.jpg
+  image: /images/team/member/kawahara.jpg
   url:
   badges: []
   date: 2025-04-01

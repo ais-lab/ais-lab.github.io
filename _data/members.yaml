@@ -73,7 +73,7 @@
 - name: Yuki MATSUSHITA
   name_jp: 松下　優希
   role: phd
-  image: /images/team/dummy.png
+  image: /images/team/phd/matsushita.jpg
   url:
   badges: [Field Robotics]
   date: 2025-04-01
@@ -138,7 +138,7 @@
 - name: Kakeru MINESAKI
   name_jp: 峯崎　翔琉
   role: m
-  image: /images/team/2023/minesaki.png
+  image: /images/team/master/minesaki.jpg
   url:
   badges: []
   date: 2024-04-01
@@ -178,7 +178,7 @@
 - name: Junwoo PARK
   name_jp: 朴　峻佑
   role: m
-  image: /images/team/2023/park.jpg
+  image: /images/team/master/park.jpeg
   url:
   badges: []
   date: 2025-04-01
@@ -226,7 +226,7 @@
 - name: Hangxiu CHEN
   name_jp: 陳　杭秀
   role: m
-  image: /images/team/dummy.png
+  image: /images/team/master/chenh.jpg
   url:
   badges: []
   date: 2025-04-01
@@ -323,7 +323,7 @@
 - name: Ai MITSUSHIMA
   name_jp: 光島　愛
   role: b
-  image: /images/team/2024/mitsushima.jpg
+  image: /images/team/bachelor/mitsushima.jpg
   url:
   badges: []
   date: 2022-04-01

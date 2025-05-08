@@ -49,7 +49,7 @@
 - name: Bach Thuan BUI
   name_jp: Bach Thuan Bui
   role: phd
-  image: https://thuanbb.github.io/assets/img/thuan.jpg
+  image: /images/team/thuan.png
   url: https://thuanbb.github.io/
   badges: [Visual SLAM]
   date: 2022-09-01
@@ -90,7 +90,7 @@
 - name: Quang Vinh TRAN
   name_jp: Quang Vinh Tran
   role: m
-  image: /images/team/dummy.png
+  image: /images/team/vinh.png
   url:
   badges: []
   date: 2023-09-01
@@ -98,7 +98,7 @@
 - name: Quang Tien DAM
   name_jp: Quang Tien Dam
   role: m
-  image: /images/team/dummy.png
+  image: /images/team/tien.png
   url:
   badges: []
   date: 2023-09-01
@@ -106,7 +106,7 @@
 - name: Huy Hoang BUI
   name_jp: Huy Hoang Bui
   role: m
-  image: /images/team/dummy.png
+  image: /images/team/hoang.png
   url:
   badges: []
   date: 2023-09-01
@@ -114,7 +114,7 @@
 - name: Yuki ENDO
   name_jp: 遠藤　優貴
   role: m
-  image: /images/team/dummy.png
+  image: /images/team/2023/endo.png
   url:
   badges: []
   date: 2024-04-01
@@ -122,7 +122,7 @@
 - name: Yusuke SUZUKI
   name_jp: 鈴木　優介
   role: m
-  image: /images/team/dummy.png
+  image: /images/team/2023/suzuki.png
   url:
   badges: []
   date: 2024-04-01
@@ -130,7 +130,7 @@
 - name: Yuhi NISHIKORI
   name_jp: 錦織　勇飛
   role: m
-  image: /images/team/dummy.png
+  image: /images/team/2023/nishikori.png
   url:
   badges: []
   date: 2024-04-01
@@ -138,7 +138,7 @@
 - name: Kakeru MINESAKI
   name_jp: 峯崎　翔琉
   role: m
-  image: /images/team/dummy.png
+  image: /images/team/2023/minesaki.png
   url:
   badges: []
   date: 2024-04-01
@@ -146,7 +146,7 @@
 - name: Hai Minh Hieu BUI
   name_jp: Hai Minh Hieu Bui
   role: m
-  image: /images/team/dummy.png
+  image: /images/team/2023/hieu.png
   url:
   badges: []
   date: 2024-04-01

@@ -82,13 +82,31 @@
   display: none;
 }
 
-.portrait-image {
+.portrait-image, .portrait-background {
+  position: relative;
   width: 100%;
   margin-bottom: 20px;
   aspect-ratio: 1 / 1;
   border-radius: 999px;
   object-fit: contain;
   box-shadow: var(--shadow);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.portrait-background {
+  content: "";
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  scale: 1.3;
+  filter: blur(10px);
+  background-color: #d0c9b7;
 }
 
 .portrait[data-style="tiny"] .portrait-image {

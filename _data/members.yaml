@@ -18,19 +18,19 @@
   image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=8ZQLIZ4AAAAJ&citpid=6
   url: https://sites.google.com/view/tuantd
   badges: [ML, CV]
- 
+
 - name: Hiroko KURODA
   name_jp: 黒田　博子
   role: s
   image: /images/team/dummy.png
- 
+
 - name: Charlene VERANT
   name_jp: Charlene Verant
   role: is
   image: /images/team/dummy.png
   url:
   badges: [Robotics]
- 
+
 - name: Ziyan GAO
   name_jp: 高　子焱
   role: pd
@@ -91,7 +91,7 @@
   name_jp: Quang Vinh Tran
   role: m
   image: /images/team/dummy.png
-  url: 
+  url:
   badges: []
   date: 2023-09-01
 
@@ -99,7 +99,7 @@
   name_jp: Quang Tien Dam
   role: m
   image: /images/team/dummy.png
-  url: 
+  url:
   badges: []
   date: 2023-09-01
 
@@ -107,7 +107,7 @@
   name_jp: Huy Hoang Bui
   role: m
   image: /images/team/dummy.png
-  url: 
+  url:
   badges: []
   date: 2023-09-01
 
@@ -115,7 +115,7 @@
   name_jp: 遠藤　優貴
   role: m
   image: /images/team/dummy.png
-  url: 
+  url:
   badges: []
   date: 2024-04-01
 
@@ -123,7 +123,7 @@
   name_jp: 鈴木　優介
   role: m
   image: /images/team/dummy.png
-  url: 
+  url:
   badges: []
   date: 2024-04-01
 
@@ -131,7 +131,7 @@
   name_jp: 錦織　勇飛
   role: m
   image: /images/team/dummy.png
-  url: 
+  url:
   badges: []
   date: 2024-04-01
 
@@ -139,7 +139,7 @@
   name_jp: 峯崎　翔琉
   role: m
   image: /images/team/dummy.png
-  url: 
+  url:
   badges: []
   date: 2024-04-01
 
@@ -147,7 +147,7 @@
   name_jp: Hai Minh Hieu Bui
   role: m
   image: /images/team/dummy.png
-  url: 
+  url:
   badges: []
   date: 2024-04-01
 
@@ -155,7 +155,7 @@
   name_jp: 罗　杰
   role: m
   image: /images/team/dummy.png
-  url: 
+  url:
   badges: []
   date: 2024-09-01
 
@@ -163,7 +163,7 @@
   name_jp: Binh Trong Duong
   role: m
   image: /images/team/dummy.png
-  url: 
+  url:
   badges: []
   date: 2024-09-01
 
@@ -171,55 +171,55 @@
   name_jp: 隋　齐峰
   role: m
   image: /images/team/dummy.png
-  url: 
+  url:
   badges: []
   date: 2024-09-01
 
 - name: Junwoo PARK
   name_jp: 朴　峻佑
   role: m
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2023/park.jpg
+  url:
   badges: []
   date: 2025-04-01
 
 - name: Kaito KAWAI
   name_jp: 河合　海翔
   role: m
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2023/kawai.jpg
+  url:
   badges: []
   date: 2025-04-01
 
 - name: Itsuki KAWAHARA
   name_jp: 河原　壱樹
   role: m
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2023/kawahara.jpg
+  url:
   badges: []
   date: 2025-04-01
 
 - name: Fumihiro SHIMIZU
   name_jp: 清水　郁博
   role: m
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2023/shimizu.jpg
+  url:
   badges: []
   date: 2025-04-01
 
 - name: Jiashuai CHEN
   name_jp: 陳　家帥
   role: m
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2023/chen.jpg
+  url:
   badges: []
   date: 2025-04-01
 
 - name: Muen LIU
   name_jp: 劉　沐恩
   role: m
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2023/liu.jpg
+  url:
   badges: []
   date: 2025-04-01
 
@@ -227,7 +227,7 @@
   name_jp: 陳　杭秀
   role: m
   image: /images/team/dummy.png
-  url: 
+  url:
   badges: []
   date: 2025-04-01
 
@@ -235,7 +235,7 @@
   name_jp: 金　慧伶
   role: m
   image: /images/team/dummy.png
-  url: 
+  url:
   badges: []
   date: 2025-04-01
 
@@ -243,7 +243,7 @@
   name_jp: 張　俊
   role: m
   image: /images/team/dummy.png
-  url: 
+  url:
   badges: []
   date: 2025-04-01
 
@@ -251,96 +251,96 @@
 - name: Sogo ARAKI
   name_jp: 荒木　颯吾
   role: b
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2024/araki.jpg
+  url:
   badges: []
   date: 2022-04-01
 
 - name: Izuru IPPITSU
   name_jp: 一筆　一留
   role: b
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2024/ippitsu.jpg
+  url:
   badges: []
   date: 2022-04-01
 
 - name: Takashi OKADA
   name_jp: 岡田　隆志
   role: b
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2024/okada.jpg
+  url:
   badges: []
   date: 2022-04-01
 
 - name: Yoichi KATO
   name_jp: 加藤　耀壱
   role: b
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2024/katou.jpg
+  url:
   badges: []
   date: 2022-04-01
 
 - name: Hibiki TAKAI
   name_jp: 高井　日美暉
   role: b
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2024/takai.jpg
+  url:
   badges: []
   date: 2022-04-01
 
 - name: Haruki TSUKA
   name_jp: 塚　春輝
   role: b
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2024/tsuka.jpg
+  url:
   badges: []
   date: 2022-04-01
 
 - name: Koji HIROSAWA
   name_jp: 廣澤　考冶
   role: b
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2024/hirosawa.jpg
+  url:
   badges: []
   date: 2022-04-01
 
 - name: Aina FUJII
   name_jp: 藤井　愛奈
   role: b
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2024/fujii.jpg
+  url:
   badges: []
   date: 2022-04-01
 
 - name: Asahi FUMIMOTO
   name_jp: 文元　朝陽
   role: b
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2024/fumimoto.jpg
+  url:
   badges: []
   date: 2022-04-01
 
 - name: Ai MITSUSHIMA
   name_jp: 光島　愛
   role: b
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2024/mitsushima.jpg
+  url:
   badges: []
   date: 2022-04-01
 
 - name: Katsuyuki MORITA
   name_jp: 森田　勝之
   role: b
-  image: /images/team/dummy.png
-  url: 
+  image: /images/team/2024/morita.png
+  url:
   badges: []
   date: 2022-04-01
 
 - name: Syusuke HOSOKAWA
   name_jp: 細川　隼輔
   role: b
-  iamge: /images/team/dummy.png
-  url: 
+  image: /images/team/dummy.png
+  url:
   badges: []
   date: 2022-04-01
 
@@ -348,7 +348,6 @@
   name_jp: 劉　博恒
   role: b
   image: /images/team/2024/ryuu.png
-  url: 
+  url:
   badges: []
   date: 2022-09-01
-

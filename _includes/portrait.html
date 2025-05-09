@@ -21,10 +21,7 @@
 {% assign type = site.data.types[member.role] %}
 
 <div class="portrait-wrapper">
-  <a
-    {% if member.url != nil %}
-      href="{{ member.url | relative_url | uri_escape }}"
-    {% endif %}
+  <div
     class="portrait"
     data-style="{{ include.style }}"
     aria-label="{{ member.name | default: "member link" | regex_strip }}"
@@ -36,16 +33,6 @@
         {% include fallback.html %}
     ></div>
 
-    {% if member.name %}
-      <span class="portrait-name">
-        {% if site.lang == "jp" %}
-          {{ member.name_jp }}
-        {% else %}
-          {{ member.name }}
-        {% endif %}
-      </span>
-    {% endif %}
-
     {% if member.description or type %}
       <span class="portrait-description">
         {% if site.lang == "jp" %}
@@ -54,11 +41,25 @@
           {{ member.description | default: type.description }}{% if member.role != "pi" and member.role != "ap" and member.role != "pd" and member.role != "vr" and member.role != "s" and member.role != "is" %}{{seniority}}{% endif %}
         {% endif %}      
       </span>
+      
       <span class="badges">
         {% for badge in member.badges %}
           <span class="badge">{{ badge }}</span>
         {% endfor %}
       </span>
+      {% if member.name %}
+        <a {% if member.url != nil %}
+          href="{{ member.url | relative_url | uri_escape }}"
+        {% endif %}>
+          <span class="portrait-name">
+            {% if site.lang == "jp" %}
+              {{ member.name_jp }}
+            {% else %}
+              {{ member.name }}
+            {% endif %}
+          </span>
+        </a>
+      {% endif %}
     {% endif %}
 
     {% if member.affiliation %}
@@ -66,5 +67,5 @@
         {{ member.affiliation }}
       </span>
     {% endif %}
-  </a>
+    </div>
 </div>

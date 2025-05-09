@@ -46,10 +46,35 @@
   window.addEventListener("hashchange", scrollToTarget);
 
   // change header to sticky if scrolled past 0.25 of the page and not data-big-header
+  let dataBigTimeout;
   window.addEventListener("scroll", () => {
     const header = document.querySelector("header");
     if (!header) return;
-    if (header.hasAttribute("data-big")) return;
-    header.classList.toggle("sticky", window.scrollY > 100);
+    
+    const scrollY = window.scrollY;
+    // if at root
+    clearTimeout(dataBigTimeout);
+    dataBigTimeout = setTimeout(() => {
+      if (window.location.pathname.replaceAll(/\/(en|jp)/g, "") === "/") {
+        const is_big = header.hasAttribute("data-big");
+        
+        if (scrollY > 200 && !is_big) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+  
+        if (scrollY > 240) {
+          header.removeAttribute("data-big");
+          return;
+        }
+        if (!is_big && (scrollY < 100)) {
+          header.setAttribute("data-big", "");
+          return;
+        }
+      }
+    }, 100);
+
+    // header.classList.toggle("sticky", window.scrollY > 100);
   });
 }

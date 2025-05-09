@@ -47,4 +47,10 @@
   --transition: 0.2s ease;
 }
 
+:lang(jp) {
+  --title: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  --heading: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  --body: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
 /*# sourceMappingURL=-theme.css.map */

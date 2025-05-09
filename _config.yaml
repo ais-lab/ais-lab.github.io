@@ -53,7 +53,7 @@ plugins:
   - jekyll-multiple-languages-plugin
 
 languages: ["jp", "en"]
-exclude_from_localizations: ["_scripts", "images", "_styles"]
+exclude_from_localizations: ["_scripts", "images", "_styles", "files"]
 default_locale_in_subfolder: true
 
 # code block syntax highlighting

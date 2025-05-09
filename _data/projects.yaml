@@ -20,6 +20,18 @@
     - R+iSpace
     - Robotics
 
+- title: Road Weeding Robot (R4)
+  title_jp: 道路除草ロボット（R4）
+  group: active
+  detail_url: 2025-05-08-r4
+  image: /images/r4/r4_contents.jpg
+  description: In this research, we are developing the autonomous mobile weeding robot R4 (Ritsumeikan Road-weed Removal Robot) , that performs weeding operations while autonomously moving along roadsides. By combining robotics and image processing technology, we aim to achieve efficient and safe weeding operations.
+  description_jp: 本研究では道路脇を自律移動しながら，除草作業を行う自律移動除草ロボットR4 (Ritsumeikan Road-weed Removal Robot)を開発しています。ロボティクスと画像処理技術を組み合わせることで、効率的で安全な除草作業の実現を目指しています。
+  tags:
+    - Robotics
+    - R4
+    - weeding robot
+  
 - title: CaTARo - Simulated Patient Robot
   title_jp: 高齢者介護トレーニング用模擬患者ロボット
   group: active

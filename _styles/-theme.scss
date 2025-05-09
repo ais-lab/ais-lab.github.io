@@ -58,3 +58,11 @@
   --shadow: 0 0 10px 0 var(--overlay);
   --transition: 0.2s ease;
 }
+
+
+// Japanese override
+:lang(jp) {
+  --title: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  --heading: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  --body: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}

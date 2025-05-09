@@ -38,12 +38,12 @@
   url: https://scholar.google.co.jp/citations?hl=ja&user=c_62MhUAAAAJ
   badges: []
 
-- name: T.T. Nguyen NGUYEN
-  name_jp: T.T. Nguyen Nguyen
+- name: Nguyen NGUYEN
+  name_jp: Nguyen Nguyen
   role: phd
   image: /images/nguyen_ava.jpeg
   url: https://nguyenntt97.github.io/
-  badges: [3D Face, Generative]
+  badges: [Generative]
   date: 2023-09-01
 
 - name: Bach Thuan BUI
@@ -51,7 +51,7 @@
   role: phd
   image: /images/team/thuan.png
   url: https://thuanbb.github.io/
-  badges: [Visual SLAM]
+  badges: [Vision]
   date: 2022-09-01
 
 - name: Ardiansyah Al FAROUQ
@@ -67,7 +67,7 @@
   role: phd
   image: /images/team/dummy.png
   url:
-  badges: [Medical Robotics]
+  badges: [Medical]
   date: 2024-09-01
 
 - name: Yuki MATSUSHITA
@@ -75,7 +75,7 @@
   role: phd
   image: /images/team/dummy.png
   url:
-  badges: [Field Robotics]
+  badges: [Field]
   date: 2025-04-01
 
 - name: Shu YOSHIDA
@@ -83,7 +83,7 @@
   role: phd
   image: /images/team/phd/yoshida.jpg
   url: https://sites.google.com/view/yosshu
-  badges: [Computer Vision]
+  badges: [Vision]
   date: 2025-04-01
 
 # Master students (m)

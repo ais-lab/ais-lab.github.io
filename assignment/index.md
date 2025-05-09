@@ -17,8 +17,26 @@ Thank you very much for your interest in the Advanced Intelligent Systems Labora
 {% case site.lang %}
 {% when 'jp' %}
 研究室公開期間中（<span style="color:red;">6月2日（月）〜6月11日（水）</span>）は研究室の教員と先輩たちが皆さんの要望に応じて研究室に関することなら何でも紹介します。気軽にアクセスしてみてください。
+
+以下から、研究室紹介用の冊子を見ることができます。
+{% include button.html 
+     type="external" 
+     icon="fa-solid fa-eye" 
+     text="研究室紹介冊子プレビュー" 
+     link="/files/Lab_introduce_booklet.pdf" 
+     tooltip="研究室紹介冊子を見る" 
+%}
 {% when 'en' %}
 During the laboratory open period (<span style="color:red;">June 2 (Monday) to June 11 (Wednesday), 2025</span>), the faculty and senior students of the laboratory will introduce anything related to the laboratory according to your requests. Please feel free to visit.
+
+The laboratory introduction booklet is available below.
+{% include button.html 
+     type="external" 
+     icon="fa-solid fa-eye" 
+     text="Laboratory Introduction Booklet Preview" 
+     link="/files/Lab_introduce_booklet.pdf" 
+     tooltip="View the Laboratory Introduction Booklet" 
+%}
 {% endcase %}
 
 {% include section.html %}

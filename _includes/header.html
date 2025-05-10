@@ -8,12 +8,13 @@
 
 <header
   class="background header"
+  {% if page.url == "/" %}
+  bg_trans="true"
+  {% endif %}
+  sticky
   style="--image: url('{{ image | uri_escape }}')"
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
-  {% endif %}
-  {% if page.url == "/" %}
-    data-big
   {% endif %}
 >
   <a href="{{ site.baseurl_root }}/{{ site.lang }}" class="home">

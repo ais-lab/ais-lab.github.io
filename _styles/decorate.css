@@ -4,6 +4,10 @@ header img {
   width: 80px;
 }
 
+header[bg_trans=true]::before {
+  background: none;
+}
+
 /* Section 1 */
 .banner {
   text-align: center;

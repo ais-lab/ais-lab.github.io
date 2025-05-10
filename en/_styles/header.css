@@ -11,6 +11,10 @@ header {
   z-index: 10 !important;
 }
 
+.background[bg_trans=true] {
+  background: none;
+}
+
 .sticky {
   top: 0 !important;
 }

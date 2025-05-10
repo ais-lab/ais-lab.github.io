@@ -42,6 +42,10 @@ header img {
   width: 80px;
 }
 
+header[bg_trans="true"]::before {
+  background: none;
+}
+
 // nav a {
 //   text-decoration: none;
 //   color: var(--desaturatedBlue);

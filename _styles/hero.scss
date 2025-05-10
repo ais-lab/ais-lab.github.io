@@ -71,7 +71,9 @@ $black: #000000;
 .lang-picker {
   display: flex;
   z-index: 50;
+  margin: 25px 0;
   justify-content: space-between;
+  align-items: center;
   color: white;
   height: 7em;
 
@@ -79,7 +81,7 @@ $black: #000000;
     text-decoration: none;
     color: white;
     padding: 25px;
-    font-size: 2rem;
+    font-size: 2em;
   }
 
   a:hover {
@@ -99,6 +101,13 @@ $black: #000000;
   // first div hide
   .hero > div:first-child {
     display: none;
+  }
+  .lang-picker {
+    height: 5em;
+  }
+
+  a {
+    font-size: 1em;
   }
 }
 

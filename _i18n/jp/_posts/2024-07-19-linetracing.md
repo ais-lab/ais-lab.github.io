@@ -1,0 +1,27 @@
+---
+title: 新3回生歓迎会を行いました
+author: aislab_webstaff
+lang: ja
+image: http://www.aislab.org/wp-content/uploads/2024/07/20240710_191723-300x225.jpg
+tags:
+  - event
+---
+2024年度後期から本研究室に迎え入れる新3回生11名の歓迎会を実施しました． 当日は9名の新3回生とおよそ30名の現メンバー＋教員でピザやオードブルを食べたり，ゲームをして遊んだりして，大いに盛り上がりました． 3回生の皆さん，これからの研究室生活楽しんでいきましょう！
+
+{% capture col1 %}
+{%
+  include figure.html
+  image="http://www.aislab.org/wp-content/uploads/2024/07/20240710_191723-300x225.jpg"
+  width="800px"
+%}
+{% endcapture %}
+
+{% capture col2 %}
+{%
+  include figure.html
+  image="http://www.aislab.org/wp-content/uploads/2024/07/20240710_091554613_iOS-300x225.jpg"
+  width="500px"
+%}
+{% endcapture %}
+
+{% include cols.html col1=col1 col2=col2 %}

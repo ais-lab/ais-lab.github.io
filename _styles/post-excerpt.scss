@@ -54,7 +54,12 @@ $wrap: 800px;
 }
 
 .post-excerpt-text > p {
+  display: -webkit-box;
   width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  -line-clamp: 3;
+  overflow: hidden;
 }
 
 @container (max-width: #{$wrap}) {

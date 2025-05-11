@@ -14,7 +14,7 @@
   <div class="post-excerpt">
     {% assign url = post.url | prepend: parent_url %}
     {% assign title = post.title %}
-    {% assign image = post.image | prepend: site.baseurl_root | uri_escape %}
+    {% assign image = post.image %}
 
     {% if image %}
       <a

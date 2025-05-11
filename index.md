@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: landing
 title: Home
 namespace: root
 permalink: /

@@ -19,12 +19,12 @@ AIS Lab. consists of four rooms, each specializing in different aspects of resea
 AIS Lab. は、研究の様々な側面に特化した4つの部屋で構成されています。それぞれの部屋には、部屋に適した設備が整っており、その部屋で快適に研究ができます。
 {% endcase %}
 
-
 <style>
 /* Room carousel styling */
 .room-carousel {
   position: relative;
   width: 100%;
+  max-width: 1400px; /* カラセルの最大幅を広げる */
   margin: 40px auto;
   overflow: hidden;
   touch-action: pan-x;
@@ -39,10 +39,8 @@ AIS Lab. は、研究の様々な側面に特化した4つの部屋で構成さ�
 .room-slide {
   width: 25%;
   flex-shrink: 0;
-  padding: 0 15px;
+  padding: 0 20px; /* パディングを少し増やす */
   box-sizing: border-box;
-  max-width: 400px;
-  margin: 0 auto;
 }
 
 .room-card {
@@ -55,7 +53,8 @@ AIS Lab. は、研究の様々な側面に特化した4つの部屋で構成さ�
   height: 100%;
   display: flex;
   flex-direction: column;
-  min-height: 550px;
+  max-width: 320px; /* カードの最大幅を大きく */
+  margin: 0 auto;
 }
 
 .room-card:hover {
@@ -63,75 +62,91 @@ AIS Lab. は、研究の様々な側面に特化した4つの部屋で構成さ�
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
-.room-image-container {
+.room-image {
   width: 100%;
-  padding-top: 75%; /* 4:3のアスペクト比を維持 */
+  padding-top: 75%;
   position: relative;
-  overflow: hidden;
 }
 
-.room-image {
+.room-image img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+}
+
+/* Ensure better display on mobile */
+@media (max-width: 480px) {
+  .room-image {
+    height: 150px;
+  }
+  
+  .room-title {
+    font-size: 1.2rem;
+  }
+  
+  .room-description {
+    font-size: 0.9rem;
+  }
+  
+  .room-button {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
 }
 
 .room-content {
-  padding: 30px;
+  padding: 20px; /* パディングを少し増やす */
   flex-grow: 1;
   display: flex;
   flex-direction: column;
 }
 
 .room-title {
-  font-size: 1.6rem;
-  margin-bottom: 15px;
+  font-size: 1.3rem; /* タイトルのフォントサイズを少し大きく */
+  margin-bottom: 10px;
+  color: var(--primary);
+}
+
+.room-location {
+  font-size: 1rem; /* 場所のフォントサイズを少し大きく */
+  color: var(--text);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.room-location i {
   color: var(--primary);
 }
 
 .room-description {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   flex-grow: 1;
   color: var(--text);
-  line-height: 1.6;
-  font-size: 1.05rem;
-}
-
-.room-location {
-  margin-bottom: 20px;
-  color: var(--text);
-  font-size: 1rem;
-  line-height: 1.4;
+  font-size: 1rem; /* 説明文のフォントサイズを少し大きく */
+  line-height: 1.5; /* 行間を追加 */
 }
 
 .room-button {
   align-self: flex-start;
-  padding: 10px 20px;
+  padding: 8px 16px; /* ボタンのパディングを少し大きく */
   background: var(--primary);
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: background 0.3s ease;
   text-decoration: none;
   margin-top: auto;
-  font-size: 1rem;
+  font-size: 1rem; /* ボタンのフォントサイズを少し大きく */
 }
 
 .room-button:hover {
-  background: var(--primary);
-  opacity: 0.8;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.room-button:active {
-  transform: translateY(0);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: var(--text);
 }
 
 .carousel-nav {
@@ -186,6 +201,7 @@ AIS Lab. は、研究の様々な側面に特化した4つの部屋で構成さ�
   color: white;
 }
 
+/* For tablet and smaller screens */
 @media (max-width: 768px) {
   .room-slider {
     width: 100%;
@@ -195,23 +211,6 @@ AIS Lab. は、研究の様々な側面に特化した4つの部屋で構成さ�
   .room-slide {
     width: 100%;
     margin-bottom: 20px;
-    max-width: 100%;
-  }
-  
-  .room-card {
-    min-height: 500px;
-  }
-  
-  .room-content {
-    padding: 25px;
-  }
-  
-  .room-title {
-    font-size: 1.4rem;
-  }
-  
-  .room-description {
-    font-size: 1rem;
   }
   
   .carousel-arrows, .carousel-nav {
@@ -234,13 +233,18 @@ AIS Lab. は、研究の様々な側面に特化した4つの部屋で構成さ�
     {% for room in site.data.rooms.rooms %}
     <div class="room-slide">
       <div class="room-card" onclick="window.location.href='{{ site.baseurl_root }}/{{ site.lang }}/{{ room.link }}'">
-        <div class="room-image-container">
-          <img src="{{ site.baseurl_root }}/images/{{ room.image }}" alt="{{ room.title[site.lang] }}" class="room-image">
+        <div class="room-image">
+          <img src="{{ site.baseurl_root }}/images/{{ room.image }}" alt="{{ room.title[site.lang] }}">
         </div>
         <div class="room-content">
           <h3 class="room-title">{{ room.title[site.lang] }}</h3>
-          <p class="room-description">{{ room.description[site.lang] }}</p>
-          <p class="room-location"><strong>{% if site.lang == 'jp' %}場所：{% else %}Location:{% endif %}</strong> {{ room.location[site.lang] }}</p>
+          <div class="room-location">
+            <i class="fas fa-map-marker-alt"></i>
+            {{ room.location[site.lang] }}
+          </div>
+          <p class="room-description">
+            {{ room.description[site.lang] }}
+          </p>
           <a href="{{ site.baseurl_root }}/{{ site.lang }}/{{ room.link }}" class="room-button">
             {% if site.lang == 'jp' %}詳細を見る{% else %}Learn More{% endif %}
           </a>
@@ -251,9 +255,10 @@ AIS Lab. は、研究の様々な側面に特化した4つの部屋で構成さ�
   </div>
   
   <div class="carousel-nav">
-    {% for room in site.data.rooms.rooms %}
-    <div class="carousel-dot {% if forloop.first %}active{% endif %}" data-slide="{{ forloop.index0 }}"></div>
-    {% endfor %}
+    <div class="carousel-dot active" data-slide="0"></div>
+    <div class="carousel-dot" data-slide="1"></div>
+    <div class="carousel-dot" data-slide="2"></div>
+    <div class="carousel-dot" data-slide="3"></div>
   </div>
 </div>
 
@@ -262,6 +267,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Force repaint on page load to ensure carousel is displayed correctly
   setTimeout(function() {
     document.querySelector('.room-slider').style.display = 'none';
+    // Force reflow
     void document.querySelector('.room-slider').offsetHeight;
     document.querySelector('.room-slider').style.display = 'flex';
   }, 100);
@@ -274,16 +280,23 @@ document.addEventListener('DOMContentLoaded', function() {
   let currentSlide = 0;
   const slideCount = slides.length;
   
+  // Function to update slider
   function goToSlide(n) {
     currentSlide = (n + slideCount) % slideCount;
+    
+    // Always apply transform
     slider.style.transform = `translateX(-${currentSlide * 25}%)`;
+    
+    // Update active dot
     dots.forEach((dot, i) => {
       dot.classList.toggle('active', i === currentSlide);
     });
   }
   
+  // Initialize slider
   goToSlide(0);
   
+  // Event listeners
   prevBtn.addEventListener('click', () => goToSlide(currentSlide - 1));
   nextBtn.addEventListener('click', () => goToSlide(currentSlide + 1));
   
@@ -291,48 +304,33 @@ document.addEventListener('DOMContentLoaded', function() {
     dot.addEventListener('click', () => goToSlide(i));
   });
   
-  let isSwiping = false;
-  let startX = 0;
-  let currentX = 0;
-
+  // Add touch swiping functionality for mobile
+  let touchStartX = 0;
+  let touchEndX = 0;
+  
   slider.addEventListener('touchstart', (e) => {
-    isSwiping = true;
-    startX = e.touches[0].clientX;
-    currentX = startX;
+    touchStartX = e.changedTouches[0].screenX;
   }, { passive: true });
-
-  slider.addEventListener('touchmove', (e) => {
-    if (!isSwiping) return;
-    currentX = e.touches[0].clientX;
-    const diff = currentX - startX;
-    const maxDiff = slider.offsetWidth * 0.3;
-    const limitedDiff = Math.max(Math.min(diff, maxDiff), -maxDiff);
-    slider.style.transform = `translateX(calc(-${currentSlide * 25}% + ${limitedDiff}px))`;
+  
+  slider.addEventListener('touchend', (e) => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
   }, { passive: true });
-
-  slider.addEventListener('touchend', () => {
-    if (!isSwiping) return;
-    isSwiping = false;
-    const diff = currentX - startX;
-    const threshold = slider.offsetWidth * 0.1;
-    if (Math.abs(diff) > threshold) {
-      if (diff > 0) {
-        goToSlide(currentSlide - 1);
-      } else {
-        goToSlide(currentSlide + 1);
-      }
-    } else {
-      goToSlide(currentSlide);
+  
+  function handleSwipe() {
+    const swipeThreshold = 50; // Minimum swipe distance
+    if (touchEndX < touchStartX - swipeThreshold) {
+      // Swipe left - next slide
+      goToSlide(currentSlide + 1);
+    } else if (touchEndX > touchStartX + swipeThreshold) {
+      // Swipe right - previous slide
+      goToSlide(currentSlide - 1);
     }
-  }, { passive: true });
-
-  let resizeTimeout;
+  }
+  
+  // Always maintain slide position on resize
   window.addEventListener('resize', () => {
-    clearTimeout(resizeTimeout);
-    resizeTimeout = setTimeout(() => {
-      goToSlide(currentSlide);
-    }, 250);
+    goToSlide(currentSlide);
   });
 });
 </script>
-

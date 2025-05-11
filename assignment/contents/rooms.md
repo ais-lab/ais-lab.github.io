@@ -19,227 +19,36 @@ AIS Lab. consists of four rooms, each specializing in different aspects of resea
 AIS Lab. は、研究の様々な側面に特化した4つの部屋で構成されています。それぞれの部屋には、部屋に適した設備が整っており、その部屋で快適に研究ができます。
 {% endcase %}
 
-<style>
-/* Room carousel styling */
-.room-carousel {
-  position: relative;
-  width: 100%;
-  max-width: 1400px; /* カラセルの最大幅を広げる */
-  margin: 40px auto;
-  overflow: hidden;
-  touch-action: pan-x;
-}
-
-.room-slider {
-  display: flex;
-  transition: transform 0.5s ease;
-  width: 400%;
-}
-
-.room-slide {
-  width: 25%;
-  flex-shrink: 0;
-  padding: 0 20px; /* パディングを少し増やす */
-  box-sizing: border-box;
-}
-
-.room-card {
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  max-width: 320px; /* カードの最大幅を大きく */
-  margin: 0 auto;
-}
-
-.room-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-}
-
-.room-image {
-  width: 100%;
-  padding-top: 75%;
-  position: relative;
-}
-
-.room-image img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* Ensure better display on mobile */
-@media (max-width: 480px) {
-  .room-image {
-    height: 150px;
-  }
-  
-  .room-title {
-    font-size: 1.2rem;
-  }
-  
-  .room-description {
-    font-size: 0.9rem;
-  }
-  
-  .room-button {
-    font-size: 0.9rem;
-    padding: 6px 12px;
-  }
-}
-
-.room-content {
-  padding: 20px; /* パディングを少し増やす */
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.room-title {
-  font-size: 1.3rem; /* タイトルのフォントサイズを少し大きく */
-  margin-bottom: 10px;
-  color: var(--primary);
-}
-
-.room-location {
-  font-size: 1rem; /* 場所のフォントサイズを少し大きく */
-  color: var(--text);
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.room-location i {
-  color: var(--primary);
-}
-
-.room-description {
-  margin-bottom: 20px;
-  flex-grow: 1;
-  color: var(--text);
-  font-size: 1rem; /* 説明文のフォントサイズを少し大きく */
-  line-height: 1.5; /* 行間を追加 */
-}
-
-.room-button {
-  align-self: flex-start;
-  padding: 8px 16px; /* ボタンのパディングを少し大きく */
-  background: var(--primary);
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-  text-decoration: none;
-  margin-top: auto;
-  font-size: 1rem; /* ボタンのフォントサイズを少し大きく */
-}
-
-.room-button:hover {
-  background: var(--text);
-}
-
-.carousel-nav {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.carousel-dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: var(--light-gray);
-  margin: 0 5px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.carousel-dot.active {
-  background: var(--primary);
-}
-
-.carousel-arrows {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%);
-  z-index: 1;
-}
-
-.carousel-arrow {
-  background: rgba(255,255,255,0.8);
-  color: var(--primary);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-size: 1.2rem;
-  margin: 0 10px;
-  border: none;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.carousel-arrow:hover {
-  background: var(--primary);
-  color: white;
-}
-
-/* For tablet and smaller screens */
-@media (max-width: 768px) {
-  .room-slider {
-    width: 100%;
-    flex-wrap: wrap;
-  }
-  
-  .room-slide {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
-  .carousel-arrows, .carousel-nav {
-    display: none;
-  }
-}
-</style>
-
-<div class="room-carousel">
-  <div class="carousel-arrows">
-    <button class="carousel-arrow prev">
-      <i class="fa-solid fa-chevron-left"></i>
+<div class="rooms-tabs" role="tablist" aria-label="{% if site.lang == 'jp' %}研究室の部屋{% else %}Research Rooms{% endif %}">
+  <div class="tabs-nav">
+    {% for room in site.data.rooms.rooms %}
+    <button class="tab-button {% if forloop.first %}active{% endif %}" 
+            id="tab-btn-{{ forloop.index0 }}" 
+            data-tab="{{ forloop.index0 }}"
+            role="tab"
+            aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"
+            aria-controls="panel-{{ forloop.index0 }}">
+      {{ room.title[site.lang] }}
     </button>
-    <button class="carousel-arrow next">
-      <i class="fa-solid fa-chevron-right"></i>
-    </button>
+    {% endfor %}
   </div>
   
-  <div class="room-slider">
+  <div class="tabs-content">
     {% for room in site.data.rooms.rooms %}
-    <div class="room-slide">
-      <div class="room-card" onclick="window.location.href='{{ site.baseurl_root }}/{{ site.lang }}/{{ room.link }}'">
+    <div class="tab-panel {% if forloop.first %}active{% endif %}" 
+         id="panel-{{ forloop.index0 }}" 
+         data-tab="{{ forloop.index0 }}"
+         role="tabpanel"
+         aria-labelledby="tab-btn-{{ forloop.index0 }}"
+         {% unless forloop.first %}hidden{% endunless %}>
+      <div class="room-card">
         <div class="room-image">
           <img src="{{ site.baseurl_root }}/images/{{ room.image }}" alt="{{ room.title[site.lang] }}">
         </div>
         <div class="room-content">
           <h3 class="room-title">{{ room.title[site.lang] }}</h3>
           <div class="room-location">
-            <i class="fas fa-map-marker-alt"></i>
+            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
             {{ room.location[site.lang] }}
           </div>
           <p class="room-description">
@@ -253,84 +62,272 @@ AIS Lab. は、研究の様々な側面に特化した4つの部屋で構成さ�
     </div>
     {% endfor %}
   </div>
-  
-  <div class="carousel-nav">
-    <div class="carousel-dot active" data-slide="0"></div>
-    <div class="carousel-dot" data-slide="1"></div>
-    <div class="carousel-dot" data-slide="2"></div>
-    <div class="carousel-dot" data-slide="3"></div>
-  </div>
 </div>
+
+<style>
+.rooms-tabs {
+  max-width: 800px;
+  margin: 25px auto;
+}
+
+.tabs-nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+  border-bottom: 2px solid var(--light-gray);
+  position: relative;
+  gap: 3px;
+}
+
+.tab-button {
+  padding: 8px 14px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  position: relative;
+  color: var(--text);
+  transition: all 0.3s ease;
+  border-radius: 4px 4px 0 0;
+}
+
+.tab-button:hover {
+  color: var(--primary);
+  background-color: rgba(0,0,0,0.03);
+}
+
+.tab-button:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: -2px;
+}
+
+.tab-button.active {
+  color: var(--primary);
+  font-weight: bold;
+  background-color: rgba(0,0,0,0.05);
+}
+
+.tab-button.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: var(--primary);
+}
+
+.tab-panel {
+  display: none;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+.room-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 600px;
+}
+
+.room-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.room-image {
+  width: 100%;
+  position: relative;
+  padding-top: 75%; /* 4:3の比率 */
+}
+
+.room-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.room-content {
+  padding: 16px;
+}
+
+.room-title {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: var(--primary);
+}
+
+.room-location {
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.room-location i {
+  color: var(--primary);
+}
+
+.room-description {
+  margin-bottom: 16px;
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.room-button {
+  display: inline-block;
+  padding: 6px 14px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.room-button:hover {
+  background: var(--text);
+  transform: translateY(-2px);
+}
+
+.room-button:active {
+  transform: translateY(0);
+}
+
+/* モバイル対応の強化 */
+@media (max-width: 768px) {
+  .tabs-nav {
+    justify-content: center;
+    gap: 2px;
+  }
+  
+  .tab-button {
+    padding: 7px 10px;
+    font-size: 0.85rem;
+    flex: 1 0 auto;
+    text-align: center;
+  }
+  
+  .room-content {
+    padding: 12px;
+  }
+  
+  .room-title {
+    font-size: 1.1rem;
+  }
+  
+  .room-description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tabs-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+  }
+  
+  .tab-button {
+    padding: 5px 8px;
+    font-size: 0.8rem;
+  }
+  
+  .room-button {
+    width: 100%;
+    text-align: center;
+    padding: 6px 10px;
+    font-size: 0.85rem;
+  }
+}
+</style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Force repaint on page load to ensure carousel is displayed correctly
-  setTimeout(function() {
-    document.querySelector('.room-slider').style.display = 'none';
-    // Force reflow
-    void document.querySelector('.room-slider').offsetHeight;
-    document.querySelector('.room-slider').style.display = 'flex';
-  }, 100);
-
-  const slider = document.querySelector('.room-slider');
-  const slides = document.querySelectorAll('.room-slide');
-  const dots = document.querySelectorAll('.carousel-dot');
-  const prevBtn = document.querySelector('.carousel-arrow.prev');
-  const nextBtn = document.querySelector('.carousel-arrow.next');
-  let currentSlide = 0;
-  const slideCount = slides.length;
+  const tabButtons = document.querySelectorAll('.tab-button');
+  const tabPanels = document.querySelectorAll('.tab-panel');
   
-  // Function to update slider
-  function goToSlide(n) {
-    currentSlide = (n + slideCount) % slideCount;
-    
-    // Always apply transform
-    slider.style.transform = `translateX(-${currentSlide * 25}%)`;
-    
-    // Update active dot
-    dots.forEach((dot, i) => {
-      dot.classList.toggle('active', i === currentSlide);
+  // タブ切り替え機能
+  function activateTab(tabIndex) {
+    // すべてのタブとパネルから active クラスを削除
+    tabButtons.forEach(btn => {
+      btn.classList.remove('active');
+      btn.setAttribute('aria-selected', 'false');
     });
+    
+    tabPanels.forEach(panel => {
+      panel.classList.remove('active');
+      panel.setAttribute('hidden', '');
+    });
+    
+    // 選択されたタブとパネルを active にする
+    const selectedButton = document.querySelector(`.tab-button[data-tab="${tabIndex}"]`);
+    const selectedPanel = document.querySelector(`.tab-panel[data-tab="${tabIndex}"]`);
+    
+    selectedButton.classList.add('active');
+    selectedButton.setAttribute('aria-selected', 'true');
+    
+    selectedPanel.classList.add('active');
+    selectedPanel.removeAttribute('hidden');
   }
   
-  // Initialize slider
-  goToSlide(0);
-  
-  // Event listeners
-  prevBtn.addEventListener('click', () => goToSlide(currentSlide - 1));
-  nextBtn.addEventListener('click', () => goToSlide(currentSlide + 1));
-  
-  dots.forEach((dot, i) => {
-    dot.addEventListener('click', () => goToSlide(i));
+  // タブクリックイベント
+  tabButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const tabIndex = button.getAttribute('data-tab');
+      activateTab(tabIndex);
+    });
   });
   
-  // Add touch swiping functionality for mobile
-  let touchStartX = 0;
-  let touchEndX = 0;
-  
-  slider.addEventListener('touchstart', (e) => {
-    touchStartX = e.changedTouches[0].screenX;
-  }, { passive: true });
-  
-  slider.addEventListener('touchend', (e) => {
-    touchEndX = e.changedTouches[0].screenX;
-    handleSwipe();
-  }, { passive: true });
-  
-  function handleSwipe() {
-    const swipeThreshold = 50; // Minimum swipe distance
-    if (touchEndX < touchStartX - swipeThreshold) {
-      // Swipe left - next slide
-      goToSlide(currentSlide + 1);
-    } else if (touchEndX > touchStartX + swipeThreshold) {
-      // Swipe right - previous slide
-      goToSlide(currentSlide - 1);
-    }
-  }
-  
-  // Always maintain slide position on resize
-  window.addEventListener('resize', () => {
-    goToSlide(currentSlide);
+  // キーボードナビゲーションの実装
+  tabButtons.forEach((button, index) => {
+    button.addEventListener('keydown', (e) => {
+      let newIndex;
+      
+      switch(e.key) {
+        case 'ArrowRight':
+          newIndex = (index + 1) % tabButtons.length;
+          break;
+        case 'ArrowLeft':
+          newIndex = (index - 1 + tabButtons.length) % tabButtons.length;
+          break;
+        case 'Home':
+          newIndex = 0;
+          break;
+        case 'End':
+          newIndex = tabButtons.length - 1;
+          break;
+        default:
+          return;
+      }
+      
+      // 新しいタブにフォーカスを移動し、アクティブ化
+      tabButtons[newIndex].focus();
+      activateTab(newIndex);
+      e.preventDefault();
+    });
   });
 });
 </script>

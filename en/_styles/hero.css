@@ -16,7 +16,7 @@
 }
 
 .video-bg {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -64,6 +64,7 @@
   }
   .lang-picker {
     height: 5em;
+    position: relative;
   }
   a {
     font-size: 1em;
@@ -80,7 +81,6 @@
   color: #ffffff;
   text-align: center;
   position: absolute;
-  overflow: hidden;
   background: url("/images/hero/bg_01.png") no-repeat center center/cover;
   padding: 10px !important;
 }
@@ -150,7 +150,7 @@
   font-size: 5.5rem;
   font-weight: 200;
   font-style: normal;
-  line-height: 0.9em;
+  line-height: 1.1em;
   margin-bottom: 1.5rem;
   animation: fadeInUp 1s ease-out;
   text-align: center;
@@ -174,7 +174,7 @@
   animation: fadeInUp 1s ease-out 0.4s forwards;
   opacity: 0;
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .hero .hero-content .cta-buttons {
     flex-direction: column;
     align-items: center;
@@ -209,6 +209,11 @@ body:lang(jp) .hero-content ul a:hover {
   }
 }
 
+@media (max-width: 768px) {
+  .hero-content ul a[is-recruit=true] {
+    margin-top: 0.5em;
+  }
+}
 @keyframes fadeInUp {
   from {
     opacity: 0;

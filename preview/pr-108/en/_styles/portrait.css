@@ -1,0 +1,122 @@
+.portrait-wrapper {
+  display: contents;
+  margin-top: 1em;
+}
+
+.be-prof .portrait {
+  width: 150px !important;
+}
+
+.portrait {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  width: 100px;
+  max-width: calc(100% - 20px - 20px);
+  text-decoration: none;
+  /* Styles that apply only to portraits with links */
+  /* Apply normal style to unlinked portraits */
+}
+.portrait[href] {
+  cursor: pointer;
+  /* Image transition effects*/
+}
+.portrait[href] .portrait-image {
+  transition: opacity 0.3s ease;
+}
+.portrait[href]:hover .portrait-image {
+  opacity: 0.7; /* Make image translucent on hover */
+}
+.portrait[href]:focus {
+  outline: 2px solid var(--focus-color, #4d90fe);
+  outline-offset: 2px;
+}
+.portrait:not([href]) {
+  cursor: default;
+  /* If there are no links, do not change opacity */
+}
+.portrait:not([href]):hover .portrait-image {
+  opacity: 1;
+}
+
+.portrait[data-style=small] {
+  width: 100px;
+}
+
+.portrait[data-style=tiny] {
+  flex-direction: row;
+  gap: 15px;
+  width: unset;
+  text-align: left;
+}
+
+.portrait .icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(20px + 10%);
+  aspect-ratio: 1/1;
+  border-radius: 999px;
+  background: var(--background);
+  box-shadow: var(--shadow);
+  transform: translate(14%, 14%);
+}
+
+.portrait[data-style=small] .icon {
+  left: -2px;
+  top: -2px;
+}
+
+.portrait[data-style=tiny] .icon {
+  display: none;
+}
+
+.portrait-image, .portrait-background {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  aspect-ratio: 1/1;
+  border-radius: 999px;
+  object-fit: contain;
+  box-shadow: var(--shadow);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.portrait-background {
+  content: "";
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  scale: 1.3;
+  filter: blur(10px);
+  background-color: #d0c9b7;
+}
+
+.portrait[data-style=tiny] .portrait-image {
+  width: 50px;
+  margin: 0;
+}
+
+.portrait-name {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+}
+
+.portrait[data-style=tiny] .portrait-description,
+.portrait[data-style=tiny] .portrait-affiliation {
+  display: none;
+}
+
+/*# sourceMappingURL=portrait.css.map */

@@ -1,0 +1,75 @@
+{% comment %}This file handles the display of interviews from lastyear-interview.yaml{% endcomment %}
+
+{% if site.data.lastyear-interview %}
+  {% assign interviews = site.data.lastyear-interview %}
+{% else %}
+  {% assign interviews = emptyarray %}
+{% endif %}
+
+<div class="question-container">
+  <div class="question-title">
+    {% if site.lang == "jp" %}
+      Q. AISLab. を選んだ理由は？
+    {% else %}
+      Q. Why did you choose this laboratory?
+    {% endif %}
+  </div>
+  
+  <div class="chat-container">
+    {% for student in interviews %}
+      <div class="chat-item {% cycle 'left', 'right' %}">
+        <div class="avatar">{{ student.name | slice: 0 }}</div>
+        <div class="bubble">
+          <div class="name">
+            {% if site.lang == "jp" %}
+              {{ student.name }}さん
+            {% else %}
+              {{ student.name }}
+            {% endif %}
+          </div>
+          <div class="message">
+            {% if site.lang == "jp" %}
+              {{ student.why_jp }}
+            {% else %}
+              {{ student.why }}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% if interviews.size == 0 %}
+  <div class="question-container">
+    <div class="question-title">
+      {% if site.lang == "jp" %}
+        インタビュー準備中
+      {% else %}
+        Interviews Coming Soon
+      {% endif %}
+    </div>
+    
+    <div class="chat-container">
+      <div class="chat-item left">
+        <div class="avatar">!</div>
+        <div class="bubble">
+          <div class="name">
+            {% if site.lang == "jp" %}
+              お知らせ
+            {% else %}
+              Notice
+            {% endif %}
+          </div>
+          <div class="message">
+            {% if site.lang == "jp" %}
+              先輩インタビューデータを準備中です。もうしばらくお待ちください。
+            {% else %}
+              We are preparing data for senior student interviews. Please wait a little longer.
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}

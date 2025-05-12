@@ -13,8 +13,9 @@
   image: /images/assignment/aislife.jpg
 
 - title: What Made Last Year's 3rd Year Students Choose the AIS Lab.
-  title_jp: 昨年度の3回生の李研究室を選んだ決め手
+  title_jp: 昨年度の3回生の AISLab. を選んだ決め手
   group: contents
+  link: contents/lastyear-interview
 
 - title: Research Facilities
   title_jp: 研究施設

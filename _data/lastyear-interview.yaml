@@ -1,0 +1,29 @@
+# 研究室の先輩インタビューデータ
+# データ構造:
+# - name: 学生の名前
+# - why_jp: 日本語での「なぜこの研究室を選んだか」の回答
+# - why: 英語での「なぜこの研究室を選んだか」の回答
+
+- name: "O"
+  why_jp: "元からロボットをやってみたいと思っていたのでこの研究室に興味がありました。 決め手は研究室公開の時に研究分野の幅広さを知り、 様々な分野を掛け合わせた研究が出来ると思ったからです。"
+  why: "I was interested in this laboratory because I had always wanted to try working with robots. The deciding factor was learning about the breadth of research fields during the laboratory open house, and I thought I could conduct research that combines various fields."
+
+- name: "M"
+  why_jp: "AISLab. では、ハードウェアとソフトウェアの両方を扱っています。そのため、自分の興味関心に応じて研究テーマを選ぶことができる柔軟性があり、それが大きな決め手となりました。また、研究室紹介の時に、丁寧に説明してくださり、雰囲気の良さを感じたことも決め手となりました。"
+  why: "AISLab. deals with both hardware and software. Therefore, the flexibility to choose research themes according to my interests was a major deciding factor. Also, during the laboratory introduction, they explained everything thoroughly, and feeling the good atmosphere was another deciding factor."
+
+- name: "L"
+  why_jp: "AISLab. は、先生や先輩方との距離が近く、気軽に相談や議論ができる雰囲気が魅力です。研究に集中できる環境が整っているだけでなく、留学生にとってもコミュニケーションが取りやすく、多様なバックグラウンドを尊重する文化があります。人とのつながりを大切にしながら、主体的に研究を進められるこの環境に魅力を感じて、AISLab. を選びました。"
+  why: "AISLab. has an atmosphere where professors and senior students are approachable, making it easy to consult and discuss with them. Not only is the environment well-equipped for focusing on research, but it's also communication-friendly for international students and has a culture that respects diverse backgrounds. I chose AISLab. because I was attracted to this environment where I can proactively conduct research while valuing connections with people."
+
+- name: "F"
+  why_jp: "幅広い研究と教授方の魅力に惹かれたらです。また、留学生が半数所属しており、共に研究をすることで英語や異なる考え方なども学べることがAISLab. を選んだ理由でもあります。"
+  why: "I was attracted to the wide range of research and the appeal of the professors. Also, half of the members are international students, and being able to learn English and different ways of thinking by doing research together is another reason why I chose AISLab."
+
+- name: "T"
+  why_jp: "私はハードウェアとソフトウェアの両方に興味があり、研究室に迷っていましたが、AISLab. ではその両方を学ぶことが出来るという点に加え、留学生が多く英語でのコミュニケーションを図る機会が多くあり、海外について知れる点も良いと思い決断しました。"
+  why: "I was interested in both hardware and software and was undecided about which laboratory to join. However, I made my decision because at AISLab., in addition to being able to learn both, there are many international students and many opportunities to communicate in English, and I thought it would be good to learn about other countries."
+
+- name: "M"
+  why_jp: "ロボットや知能化空間、機械学習などの研究内容に惹かれたのが決め手になりました。実際に所属してからは、研究のことも研究以外のことも気軽に相談できる雰囲気がいいなと感じています。"
+  why: "The deciding factor was that I was attracted to research topics such as robots, intelligent spaces, and machine learning. Since joining, I've felt that the atmosphere where you can easily consult about both research and non-research matters is really nice."

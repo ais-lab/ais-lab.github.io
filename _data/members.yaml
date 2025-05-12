@@ -15,7 +15,7 @@
 - name: Dinh Tuan TRAN
   name_jp: Tran Dinh Tuan
   role: vr
-  image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=8ZQLIZ4AAAAJ&citpid=6
+  image: /images/team/prof/tuan.jpg
   url: https://sites.google.com/view/tuantd
   badges: [ML, CV]
 
@@ -57,7 +57,7 @@
 - name: Ardiansyah Al FAROUQ
   name_jp: Ardiansyah Al Farouq
   role: phd
-  image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=spb82eUAAAAJ&citpid=8
+  image: /images/team/phd/farouq.jpg
   url:
   badges: [Robotics, RL]
   date: 2023-09-01

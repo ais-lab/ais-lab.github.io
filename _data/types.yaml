@@ -5,7 +5,7 @@
 pi:
   icon: fa-solid fa-microscope
   description: Principal Investigator
-  description_jp: 主任研究員
+  description_jp: 教授
 
 ap:
   icon: fa-solid fa-microscope

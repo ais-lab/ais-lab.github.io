@@ -9,28 +9,14 @@ nav:
 
 {% include section.html %}
 # Administration
-
 {% include list.html data="members" component="portrait" filter="role == 'pi' or role == 'ap' or role == 'vr'" %}
 
 {% include section.html %}
-# STAFFS
-
-{% include list.html data="members" component="portrait" filter="role == 's'" %}
-
-{% include section.html %}
-
-# International Student
-{% include list.html data="members" component="portrait" filter="role == 'is'" %}
-
-{% include section.html %}
-
-# Postdoctoral Researcher	
-{% include list.html data="members" component="portrait" filter="role == 'pd'" %}
+# STAFF・Postdoctoral Researcher・International Student
+{% include list.html data="members" component="portrait" filter="role == 's' or role == 'pd' or role == 'is'" %}
 
 {% include section.html %}
 # Graduate Student
-
-
 {% include list.html data="members" component="portrait" filter="role == 'phd'" year_asc="True" %}
 ---
 {% include list.html data="members" component="portrait" filter="role == 'm'" year_asc="True" %}
@@ -38,8 +24,6 @@ nav:
 
 {% include section.html %}
 # Undergraduate Student
-
-
 {% include list.html data="members" component="portrait" filter="role == 'b'" year_asc="True" %}
 
 {% include section.html background="images/background.jpg" dark=true %}

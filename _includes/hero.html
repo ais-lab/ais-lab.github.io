@@ -1,4 +1,12 @@
 <div id="particles-js"></div>
+<div class="lang-picker">
+    <img src="/images/ritsu_logo.png"/>
+    {% if site.lang == "en" %}
+    <a class="nav-link" href="{{site.baseurl_root}}/jp{{ page.url | url_escape | remove_first:'/en' }}">JP</a>
+    {% else %}
+    <a class="nav-link" href="{{site.baseurl_root}}/en{{ page.url | url_escape | remove_first:'/jp' }}">EN</a>
+    {% endif %} 
+</div>
 <section class="hero">
     <div></div>
     <div class="container">
@@ -28,17 +36,9 @@
         </div>
     </div>
 </section>
-<div class="trademark-text">© 2025 Advanced Intelligent Systems. All rights reserved.</div>
+<footer class="trademark-text">© 2025 Advanced Intelligent Systems. All rights reserved.</footer>
 <video autoplay muted loop playsinline class="video-bg">
     <source src="/images/hero/intro25.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 <div class="video-bg-overlay"></div>
-<div class="lang-picker">
-    <img src="/images/ritsu_logo.png"/>
-    {% if site.lang == "en" %}
-    <a class="nav-link" href="{{site.baseurl_root}}/jp{{ page.url | url_escape | remove_first:'/en' }}">JP</a>
-    {% else %}
-    <a class="nav-link" href="{{site.baseurl_root}}/en{{ page.url | url_escape | remove_first:'/jp' }}">EN</a>
-    {% endif %} 
-</div>

@@ -1,122 +1,144 @@
-# 研究室生活イベントデータ
+# 研究室生活イベントデータ (Lab Life Event Data)
 
 - date: 2025-07-10
-  title: 
+  title: Lab Assignment & Welcome Party
   title_jp: 研究室配属・歓迎会
-  description: 
-  description_jp: 研究室に配属され，新しい環境での生活がスタート．教授や先輩，同期たちと初めての顔合わせを行います．
+  description: You are assigned to the lab and begin life in a new environment. You'll meet professors, seniors, and peers for the first time.
+  description_jp: 研究室に配属され、新しい環境での生活がスタート。教授や先輩、同期たちと初めての顔合わせを行います。
   image: /images/lablife/assignment.jpg
   detail: |
+    Last year, we introduced ourselves, played games, and enjoyed pizza and appetizers. Through this gathering, we formed a clearer image of our upcoming lab life.
   detail_jp: |
-    昨年度はピザやオードブルを食べながら，自己紹介をしたり，ゲームで盛り上がったりしました．顔合わせを通じて，これからの研究室生活の具体的なイメージが浮かびました．
+    昨年度はピザやオードブルを食べながら、自己紹介をしたり、ゲームで盛り上がったりしました。顔合わせを通じて、これからの研究室生活の具体的なイメージが浮かびました。
 
 - date: 2025-10-01
-  title: 
+  title: Graduation Research 1 Start
   title_jp: 卒業研究1 スタート
-  description: 
-  description_jp: 秋学期からは，研究の準備段階として，必要な知識を身につけるための卒業研究1が始まります．
+  description: From the fall semester, Graduation Research 1 begins as a preparation stage to acquire necessary knowledge for research.
+  description_jp: 秋学期からは、研究の準備段階として、必要な知識を身につけるための卒業研究1が始まります。
   image: /images/lablife/sotsuken1.jpg
   detail: |
+    In Graduation Research 1, you'll learn about image processing and robotics knowledge needed in AIS Lab with help from graduate students and senior undergraduates. You'll also experience the research process by creating and presenting projects using what you've learned. Students who create excellent projects might receive special recognition...?
   detail_jp: |
-    卒業研究1では，大学院生や4回生の先輩の助けを借りながら，AISLabで必要になる画像処理やロボットに関する知識を学びます．また，学んだ知識を活かして実際に制作物を作り，発表することで研究の流れを体験できます．素晴らしい制作物を作った学生にはいいことがあるかも...？
+    卒業研究1では、大学院生や4回生の先輩の助けを借りながら、AIS Lab. で必要になる画像処理やロボットに関する知識を学びます。また、学んだ知識を活かして実際に制作物を作り、発表することで研究の流れを体験できます。素晴らしい制作物を作った学生にはいいことがあるかも...？
 
 - date: 2025-12-15
-  title: 
+  title: Year-End Party
   title_jp: 忘年会
-  description: 
-  description_jp: 忘年会を通じて1年間の振り返りと交流を行います．
+  description: We reflect on the year and socialize through the year-end party.
+  description_jp: 忘年会を通じて1年間の振り返りと交流を行います。
   image: /images/lablife/year_end.jpg
   detail: |
+    The AIS Lab year-end party includes not only current students but also alumni. Through cross-generational interactions, we share stories and memories that can only be heard here.
   detail_jp: |
-    AISLabの忘年会には，学生だけではなくOBの方々も参加します．世代を超えた交流で，ここでしか聞けない話や思い出話に花を咲かせます．
+    AIS Lab. の忘年会には、学生だけではなくOBの方々も参加します。世代を超えた交流で、ここでしか聞けない話や思い出話に花を咲かせます。
 
 - date: 2026-01-20
-  title: 
+  title: Graduation Research 1 Final Presentation
   title_jp: 卒業研究1 最終発表
-  description: 
-  description_jp: 卒業研究1の締めくくりとして，これまでの技術と知識を活かして自由に作品を制作し，発表します．
+  description: As the culmination of Graduation Research 1, you'll create projects freely using the techniques and knowledge you've acquired, then present them.
+  description_jp: 卒業研究1の締めくくりとして、これまでの技術と知識を活かして自由に作品を制作し、発表します。
   image: /images/lablife/sotsuken1_fin.jpg
   detail: |
+    As the culmination of six months, you'll form groups with your peers to complete one project together.
   detail_jp: |
-    半年間の集大成として，同期でグループになって一つの作品を完成させます．
+    半年間の集大成として、同期でグループになって一つの作品を完成させます。
 
 - date: 2026-03-01
-  title: 
+  title: Spring Workshop
   title_jp: 春の講習会
-  description: 
-  description_jp: 
-  image: /images/assignment/Lee.jpg
+  description: During the long spring break, we hold a workshop for fourth-year students planning to continue to graduate school. You'll acquire the necessary knowledge and skills for upcoming research.
+  description_jp: 春の長期休み中には、院進希望の4回生を対象に講習会を行います。これからの研究に備えて、必要な知識や技術を身につけます。
+  image: /images/lablife/spring.jpg
   detail: |
+    In the spring workshop, you'll learn programming and robotics fundamentals under the guidance of professors and seniors. At the end of the workshop, each student will create a line-tracing car using the knowledge and skills they've acquired, and we'll hold a competition.
   detail_jp: |
+    春の講習会では、教授や先輩の指導のもとで、プログラミングやロボティクスについて基礎から学びます。講習会の最後には、学んだ知識や技術を生かして各自でライントレースカーを制作し、大会を行います。
 
 - date: 2026-04-10
-  title: 
+  title: Fourth-Year Seminar Start
   title_jp: 4回生ゼミ スタート
-  description: 
-  description_jp: 
-  image: /images/assignment/Lee.jpg
+  description: In the fourth-year seminar, you'll give regular progress reports and advance your research.
+  description_jp: 4回生ゼミでは、定期的に進捗報告し、研究を進めていきます。
+  image: /images/lablife/b4_seminar.jpg
   detail: |
+    You'll receive questions and feedback from professors and peers on your progress reports. Based on these opinions, you'll adjust your research direction and move on to the next step. Also, by listening to your peers' presentations, you can broaden your knowledge of other research fields and learn about how to create materials and give presentations.
   detail_jp: |
+    進捗報告に対して、教授や同期から質問やフィードバックを受けます。これらの意見を踏まえて、研究の方向性を調整し、次のステップに進めていきます。また、同期の発表を聞くことで、他の研究分野にも知見を広げることができ、資料の作り方や発表の仕方についても学びます。
 
 - date: 2026-05-15
-  title: 
+  title: Research Start
   title_jp: 研究 スタート
-  description: 
-  description_jp: 
-  image: /images/assignment/Lee.jpg
+  description: Full-scale research activities finally begin.
+  description_jp: いよいよ本格的に研究活動が始まります。
+  image: /images/lablife/research.jpg
   detail: |
+    You'll decide on a research theme while consulting with professors and seniors, based on your interests and goals. After determining your research theme, you'll acquire the necessary knowledge and skills while advancing your research. If you have any questions, feel free to consult with professors and seniors as you progress step by step.
   detail_jp: |
+    研究テーマは、教授や先輩と相談しながら、自分の興味や目標に合わせて決めていきます。研究テーマが決まった後は、必要な知識・技術を身につけながら、研究に取り組んでいきます。何かわからないことがあれば、気軽に教授や先輩に相談しながら、一歩ずつ進めて行きましょう。
 
 - date: 2026-09-15
-  title: 
+  title: Summer Camp (Midterm Presentation)
   title_jp: 夏合宿（中間発表）
-  description: 
-  description_jp: 
-  image: /images/assignment/Lee.jpg
+  description: Every September, we hold a summer camp with all laboratory members participating.
+  description_jp: 毎年9月には、研究室メンバー全員が参加する夏合宿を行います。
+  image: /images/lablife/summer_camp.jpg
   detail: |
+    During the camp, midterm presentations for graduation and master's research are held, where you'll present your research content and progress so far. After the presentations, fun recreational activities are held to deepen friendships among laboratory members. This is a major event that values both research and refreshment.
   detail_jp: |
+    合宿では、卒業研究・修士研究の中間発表会が行われ、自分の研究内容とこれまでの進捗について発表します。発表後には、楽しいレクレーションが行われ、研究室メンバーとの親睦を深めます。研究とリフレッシュの両面を大切にした大きなイベントです。
 
 - date: 2026-10-15
-  title: 
+  title: International Student Welcome Party
   title_jp: 留学生歓迎会
-  description: 
-  description_jp: 
-  image: /images/assignment/Lee.jpg
+  description: We hold a welcome party for international students newly joining the laboratory.
+  description_jp: 新しく研究室に加わる留学生のために歓迎会を行います。
+  image: /images/lablife/international_welcome.jpg
   detail: |
+    At the international student welcome party, we introduce ourselves and deepen exchanges through discussions about research and hobbies. Through communication that transcends language and cultural barriers, you can encounter new perspectives and values.
   detail_jp: |
+    留学生歓迎会では、自己紹介をしたり、研究の話や趣味の話を通じて交流を深めたりします。言語や文化の壁を越えてコミュニケーションを取る中で、新しい視点や価値観に触れることができます。
 
 - date: 2026-12-15
-  title: 
+  title: Year-End Party
   title_jp: 忘年会
-  description: 
-  description_jp: 
-  image: /images/assignment/Lee.jpg
+  description: We reflect on the year and socialize through the year-end party.
+  description_jp: 忘年会を通じて1年間の振り返りと交流を行います。
+  image: /images/lablife/year_end.jpg
   detail: |
+    The AIS Lab year-end party includes not only current students but also alumni. Through cross-generational interactions, we share stories and memories that can only be heard here. By this time, you'll have spent quite a while in the lab and become accustomed to lab life. Also, with new third-year students being assigned and you becoming a senior, you might experience this year-end party with feelings a bit different from a year ago.
   detail_jp: |
+    AIS Lab. の忘年会には、学生だけではなくOBの方々も参加します。世代を超えた交流で、ここでしか聞けない話や思い出話に花を咲かせます。この頃には、研究室に入ってからだいぶ時間が経ち、研究室の生活にも慣れてきた頃です。また、新しく3回生が配属されて、自分が先輩の立場になったことで、一年前の忘年会とは少し違った気持ちで迎えるかもしれません。
 
 - date: 2027-01-01
-  title: 
+  title: New Year
   title_jp: お正月
-  description: 
-  description_jp: 
-  image: /images/assignment/Lee.jpg
+  description: Happy New Year! This is the final sprint toward graduation!
+  description_jp: Happy New Year！卒業に向けて、ラストスパートの時期です！
+  image: /images/lablife/newyear.jpg
   detail: |
+    The New Year period is a crucial time to finalize your research, with thesis submission and presentation approaching. It might be a bit different from the leisurely New Year's you've experienced before, but let's work hard to properly conclude the research you've built up over the year and finish on a good note!
   detail_jp: |
+    お正月の時期は、卒業論文の提出や卒論発表が近づき、研究を仕上げる大切な時期です。これまでのようにゆっくり過ごすお正月とは少し違うかもしれませんが、1年間積み重ねてきた研究をしっかりまとめて、良い締めくくりができるように頑張りましょう！
 
 - date: 2027-02-01
-  title: 
+  title: Thesis Presentation
   title_jp: 卒論発表
-  description: 
-  description_jp: 
-  image: /images/assignment/Lee.jpg
+  description: The thesis presentation will be held, where you'll present the research you've been working on for a year.
+  description_jp: 1年間取り組んできた研究について発表する、卒論発表会が行われます
+  image: /images/lablife/presentation.jpg
   detail: |
+    You'll present your research content and results in front of professors and other students. While it's a tense occasion, believe in the efforts you've accumulated and approach it with confidence!
   detail_jp: |
+    自分の研究内容と成果について、教授や他の学生の前で発表します。緊張する場面ではありますが、これまで積み重ねてきた努力を信じて、自信を持って臨みましょう！
 
 - date: 2027-03-20
-  title: 
+  title: Graduation Ceremony
   title_jp: 卒業式
-  description: 
-  description_jp: 
-  image: /images/assignment/Lee.jpg
+  description: The graduation ceremony is held as a milestone in your university life.
+  description_jp: 大学生活を一区切りとして、卒業式が行われます。
+  image: /images/lablife/graduation.jpg
   detail: |
+    At the graduation ceremony, each person takes their next step while reflecting on the past. Some might go on to graduate school, while others might venture into a new environment in society. Whatever path you choose, what you've learned in the laboratory and the connections with your peers will surely be useful in the future.
   detail_jp: |
+    卒業式では、これまでのことを振り返りながら、各々が次のステージへ歩みを進めます。大学院に進学する人も、社会に出て新しい環境に飛び込む人もいるでしょう。どのような道であっても、研究室で学んだことや仲間との繋がりは、今後もきっと役に立つはずです。

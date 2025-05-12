@@ -3,7 +3,7 @@
   role: pi
   image: https://en.ritsumei.ac.jp/image.jsp?id=294261&version=English
   url: https://scholar.google.com/citations?user=71HqkKkAAAAJ&hl=en&oi=ao
-  badges: [AI, Intelligent Space]
+  badges: [AI, iSpace]
 
 - name: Yuya HOSODA
   name_jp: 細田　侑也
@@ -15,35 +15,35 @@
 - name: Dinh Tuan TRAN
   name_jp: Tran Dinh Tuan
   role: vr
-  image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=8ZQLIZ4AAAAJ&citpid=6
+  image: /images/team/prof/tuan.jpg
   url: https://sites.google.com/view/tuantd
   badges: [ML, CV]
 
 - name: Hiroko KURODA
   name_jp: 黒田　博子
   role: s
-  image: /images/team/dummy.png
-
-- name: Charlene VERANT
-  name_jp: Charlene Verant
-  role: is
-  image: /images/team/dummy.png
-  url:
-  badges: [Robotics]
+  image: /images/team/others/kuroda.png
 
 - name: Ziyan GAO
   name_jp: 高　子焱
   role: pd
   image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=c_62MhUAAAAJ&citpid=3
   url: https://scholar.google.co.jp/citations?hl=ja&user=c_62MhUAAAAJ
-  badges: []
+  badges: [Robotics]
+
+- name: Charlene VERANT
+  name_jp: Charlene Verant
+  role: is
+  image: /images/team/others/Charlene.png
+  url:
+  badges: [Robotics]
 
 - name: Nguyen NGUYEN
   name_jp: Nguyen Nguyen
   role: phd
   image: /images/nguyen_ava.jpeg
   url: https://nguyenntt97.github.io/
-  badges: [Generative]
+  badges: [ML, Generative]
   date: 2023-09-01
 
 - name: Bach Thuan BUI
@@ -51,15 +51,15 @@
   role: phd
   image: /images/team/thuan.png
   url: https://thuanbb.github.io/
-  badges: [Vision]
+  badges: [CV, SLAM]
   date: 2022-09-01
 
 - name: Ardiansyah Al FAROUQ
   name_jp: Ardiansyah Al Farouq
   role: phd
-  image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=spb82eUAAAAJ&citpid=8
+  image: /images/team/phd/farouq.jpg
   url:
-  badges: [RL, Planning]
+  badges: [Robotics, RL]
   date: 2023-09-01
 
 - name: Angga RAHAGIYANTO
@@ -67,7 +67,7 @@
   role: phd
   image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=n94mmocAAAAJ&citpid=1
   url:
-  badges: [Medical]
+  badges: [ML, Medical]
   date: 2024-09-01
 
 - name: Yuki MATSUSHITA
@@ -75,7 +75,7 @@
   role: phd
   image: /images/team/phd/matsushita.jpg
   url:
-  badges: [Field]
+  badges: [Robotics, Field]
   date: 2025-04-01
 
 - name: Shu YOSHIDA
@@ -83,7 +83,7 @@
   role: phd
   image: /images/team/phd/yoshida.jpg
   url: https://sites.google.com/view/yosshu
-  badges: [Vision]
+  badges: [iSpace, iSpace Coding]
   date: 2025-04-01
 
 # Master students (m)
@@ -92,7 +92,7 @@
   role: m
   image: /images/team/vinh.png
   url:
-  badges: []
+  badges: [iSpace]
   date: 2023-09-01
 
 - name: Quang Tien DAM
@@ -100,7 +100,7 @@
   role: m
   image: /images/team/tien.png
   url:
-  badges: []
+  badges: [CV, Generative]
   date: 2023-09-01
 
 - name: Huy Hoang BUI
@@ -108,7 +108,7 @@
   role: m
   image: /images/team/hoang.png
   url:
-  badges: []
+  badges: [CV, SLAM]
   date: 2023-09-01
 
 - name: Yuki ENDO
@@ -116,15 +116,15 @@
   role: m
   image: /images/team/master/endo.jpg
   url:
-  badges: []
+  badges: [VR/AR, CaTARo]
   date: 2024-04-01
 
 - name: Yusuke SUZUKI
   name_jp: 鈴木　優介
   role: m
-  image: /images/team/2023/suzuki.png
+  image: /images/team/master/suzuki.png
   url:
-  badges: []
+  badges: [Robotics, Moving Mechanism]
   date: 2024-04-01
 
 - name: Yuhi NISHIKORI
@@ -132,7 +132,7 @@
   role: m
   image: /images/team/master/nishikori.jpg
   url:
-  badges: []
+  badges: [VR/AR, Metaverse]
   date: 2024-04-01
 
 - name: Kakeru MINESAKI
@@ -140,39 +140,39 @@
   role: m
   image: /images/team/master/minesaki.jpg
   url: https://sites.google.com/view/minesaki-aislab
-  badges: []
+  badges: [iSpace, Multi-view MOT]
   date: 2024-04-01
 
 - name: Hai Minh Hieu BUI
   name_jp: Hai Minh Hieu Bui
   role: m
-  image: /images/team/2023/hieu.png
+  image: /images/team/master/hieu.png
   url:
-  badges: []
+  badges: [ML, Generative]
   date: 2024-04-01
 
 - name: Jie LUO
   name_jp: 罗　杰
   role: m
-  image: /images/team/dummy.png
+  image: /images/team/master/Luo.png
   url:
-  badges: []
+  badges: [Robotics]
   date: 2024-09-01
 
 - name: Binh Trong DUONG
   name_jp: Binh Trong Duong
   role: m
-  image: /images/team/dummy.png
+  image: /images/team/master/Trong.jpg
   url:
-  badges: []
+  badges: [CV, 3D Pose Estimation]
   date: 2024-09-01
 
 - name: Qifeng SUI
   name_jp: 隋　齐峰
   role: m
-  image: /images/team/dummy.png
+  image: /images/team/master/Sui.png
   url:
-  badges: []
+  badges: [Robotics]
   date: 2024-09-01
 
 - name: Junwoo PARK
@@ -180,47 +180,47 @@
   role: m
   image: /images/team/master/park.jpeg
   url:
-  badges: []
+  badges: [CV, Robotics Art]
   date: 2025-04-01
 
 - name: Kaito KAWAI
   name_jp: 河合　海翔
   role: m
-  image: /images/team/2023/kawai.jpg
+  image: /images/team/master/kawai.jpg
   url:
-  badges: []
+  badges: [iSpace, Location Estimation]
   date: 2025-04-01
 
 - name: Itsuki KAWAHARA
   name_jp: 河原　壱樹
   role: m
   image: /images/team/master/kawahara.jpg
-  url:
-  badges: []
+  url: https://kiiiit00.github.io/
+  badges: [CV, SLAM]
   date: 2025-04-01
 
 - name: Fumihiro SHIMIZU
   name_jp: 清水　郁博
   role: m
-  image: /images/team/2023/shimizu.jpg
+  image: /images/team/master/shimizu.jpg
   url:
-  badges: []
+  badges: [Robotics, R+iSpace]
   date: 2025-04-01
 
 - name: Jiashuai CHEN
   name_jp: 陳　家帥
   role: m
-  image: /images/team/2023/chen.jpg
+  image: /images/team/master/chen.jpg
   url:
-  badges: []
+  badges: [iSpace]
   date: 2025-04-01
 
 - name: Muen LIU
   name_jp: 劉　沐恩
   role: m
-  image: /images/team/2023/liu.jpg
+  image: /images/team/master/liu.jpg
   url:
-  badges: []
+  badges: [iSpace, Robotics]
   date: 2025-04-01
 
 - name: Hangxiu CHEN
@@ -228,30 +228,30 @@
   role: m
   image: /images/team/master/chenh.jpg
   url:
-  badges: []
+  badges: [CV]
   date: 2025-04-01
 
 - name: Huiling JIN
   name_jp: 金　慧伶
   role: m
-  image: /images/team/dummy.png
+  image: /images/team/master/Jin.png
   url:
-  badges: []
+  badges: [CV]
   date: 2025-04-01
 
 - name: Jun ZHANG
   name_jp: 張　俊
   role: m
-  image: /images/team/dummy.png
+  image: /images/team/master/Zhang.png
   url:
-  badges: []
+  badges: [CV]
   date: 2025-04-01
 
 # Bachelor students (b)
 - name: Sogo ARAKI
   name_jp: 荒木　颯吾
   role: b
-  image: /images/team/2024/araki.jpg
+  image: /images/team/bachelor/araki.jpg
   url:
   badges: []
   date: 2022-04-01
@@ -259,7 +259,7 @@
 - name: Izuru IPPITSU
   name_jp: 一筆　一留
   role: b
-  image: /images/team/2024/ippitsu.jpg
+  image: /images/team/bachelor/ippitsu.jpg
   url:
   badges: []
   date: 2022-04-01
@@ -267,15 +267,15 @@
 - name: Takashi OKADA
   name_jp: 岡田　隆志
   role: b
-  image: /images/team/2024/okada.jpg
+  image: /images/team/bachelor/okada.jpg
   url:
-  badges: []
+  badges: [Robotics, Field]
   date: 2022-04-01
 
 - name: Yoichi KATO
   name_jp: 加藤　耀壱
   role: b
-  image: /images/team/2024/katou.jpg
+  image: /images/team/bachelor/katou.jpg
   url:
   badges: []
   date: 2022-04-01
@@ -283,7 +283,7 @@
 - name: Hibiki TAKAI
   name_jp: 高井　日美暉
   role: b
-  image: /images/team/2024/takai.jpg
+  image: /images/team/bachelor/takai.jpg
   url:
   badges: []
   date: 2022-04-01
@@ -291,15 +291,15 @@
 - name: Haruki TSUKA
   name_jp: 塚　春輝
   role: b
-  image: /images/team/2024/tsuka.jpg
+  image: /images/team/bachelor/tsuka.jpg
   url:
-  badges: []
+  badges: [iSpace]
   date: 2022-04-01
 
 - name: Koji HIROSAWA
   name_jp: 廣澤　考冶
   role: b
-  image: /images/team/2024/hirosawa.jpg
+  image: /images/team/bachelor/hirosawa.jpg
   url:
   badges: []
   date: 2022-04-01
@@ -307,7 +307,7 @@
 - name: Aina FUJII
   name_jp: 藤井　愛奈
   role: b
-  image: /images/team/2024/fujii.jpg
+  image: /images/team/bachelor/fujii.jpg
   url:
   badges: []
   date: 2022-04-01
@@ -315,7 +315,7 @@
 - name: Asahi FUMIMOTO
   name_jp: 文元　朝陽
   role: b
-  image: /images/team/2024/fumimoto.jpg
+  image: /images/team/bachelor/fumimoto.jpg
   url:
   badges: []
   date: 2022-04-01
@@ -325,15 +325,15 @@
   role: b
   image: /images/team/bachelor/mitsushima.jpg
   url:
-  badges: []
+  badges: [ML, Robotics]
   date: 2022-04-01
 
 - name: Katsuyuki MORITA
   name_jp: 森田　勝之
   role: b
-  image: /images/team/2024/morita.png
+  image: /images/team/bachelor/morita.png
   url:
-  badges: []
+  badges: [iSpace]
   date: 2022-04-01
 
 - name: Syusuke HOSOKAWA
@@ -347,7 +347,7 @@
 - name: Boheng LIU
   name_jp: 劉　博恒
   role: b
-  image: /images/team/2024/ryuu.png
+  image: /images/team/bachelor/ryuu.png
   url:
   badges: []
   date: 2022-09-01

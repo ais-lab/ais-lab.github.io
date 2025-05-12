@@ -1,0 +1,52 @@
+rooms:
+  - id: main-lab
+    title:
+      jp: メインラボ
+      en: Main Laboratory
+    description:
+      jp: メインラボは研究室の中心的な場所で、日々の研究活動や学生のワークスペースとして機能しています。
+      en: The Main Lab serves as the central hub for our research activities and provides workspace for students.
+    location:
+      jp: H棟 5階 525号室
+      en: H Building 5F, Room 525
+    image: assignment/rooms/main-lab.jpg
+    link: assignment/contents/rooms/main-lab
+
+  - id: laboratory
+    title:
+      jp: 実験室
+      en: Laboratory
+    description:
+      jp: 実験室では、様々なタイプのロボットの開発と実験を行っています。
+      en: The Laboratory is dedicated to the development and testing of various types of robots.
+    location:
+      jp: H棟 5階 505号室
+      en: H Building 5F, Room505
+    image: assignment/rooms/laboratory.jpg
+    link: assignment/contents/rooms/laboratory
+
+  - id: workshop  
+    title:
+      jp: 工作室
+      en: Workshop
+    description:
+      jp: 工作室では、3Dプリンタでモデルを印刷したり、加工したりしています。
+      en: The Workshop is dedicated to the development and testing of various types of robots.
+    location:
+      jp: H棟 5階 504号室
+      en: H Building 5F, Room504
+    image: assignment/rooms/workshop.jpg
+    link: assignment/contents/rooms/workshop
+
+  - id: ispace-lab
+    title:
+      jp: SP LAB 8
+      en: SP LAB 8
+    description:
+      jp: SP LAB 8では、知能化空間（iSpace）の研究を行っています。
+      en: SP LAB 8 is dedicated to research on intelligent space (iSpace).
+    location:
+      jp: H棟 1階 SP LAB 8
+      en: H Building 1F, SP LAB 8
+    image: assignment/rooms/iSpace_content.JPG
+    link: assignment/contents/rooms/iSpace

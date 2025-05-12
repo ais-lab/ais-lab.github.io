@@ -10,25 +10,17 @@
   title_jp: 研究室配属後の生活
   link: contents/lablife
   group: contents
+  image: /images/assignment/aislife.jpg
 
 - title: What Made Last Year's 3rd Year Students Choose the AIS Lab.
   title_jp: 昨年度の3回生の李研究室を選んだ決め手
   group: contents
 
-- title: Research Structure
-  title_jp: 研究体制
+- title: Research Facilities
+  title_jp: 研究施設
   group: contents
-- title: Laboratory
-  title_jp: 実験室
-  group: contents
-
-- title: Research Introduction Booklet
-  title_jp: 研究紹介冊子
-  group: contents
-
-- title: Survey contents the AIS Lab.
-  title_jp: 李研究室のアンケート
-  group: contents
+  link: contents/rooms
+  image: /images/assignment/aislab.png
 
 - title: FAQ
   title_jp: FAQ

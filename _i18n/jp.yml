@@ -36,3 +36,7 @@ assignment:
   openlab_title: 研究室公開（オープンラボ）
   assignment_contents: コンテンツ
   about_assignment: 研究室配属に関して
+
+subtext:
+  goal: "研究目標：深層学習とロボティクスにおける核心概念としての「インタラクション」を探求する。"
+  tools: "使用技術：ロボティクス、コンピュータビジョン、機械学習、複合現実。"

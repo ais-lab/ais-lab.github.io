@@ -36,3 +36,7 @@ assignment:
   openlab_title: Laboratory Open(Open Lab.)
   assignment_contents: Contents
   about_assignment: About Laboratory Assignment
+
+subtext:
+  goal: "Goal: To explore interaction as a core concept across deep learning and robotics."
+  tools: "Tools: robotics, computer vision, machine learning, mixed reality."

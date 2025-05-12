@@ -9,10 +9,12 @@ nav:
 
 {% include section.html %}
 # Administration
-{% include list.html data="members" component="portrait" filter="role == 'pi' or role == 'ap' or role == 'vr'" %}
+<div class="be-prof">
+  {% include list.html data="members" component="portrait" filter="role == 'pi' or role == 'ap' or role == 'vr'" %}
+</div>
 
 {% include section.html %}
-# Staff・Postdoctoral Researcher・International Student
+# Staff・Postdoctoral・Exchange Student
 {% include list.html data="members" component="portrait" filter="role == 's' or role == 'pd' or role == 'is'" %}
 
 {% include section.html %}

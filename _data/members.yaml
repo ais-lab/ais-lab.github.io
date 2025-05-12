@@ -75,7 +75,7 @@
   role: phd
   image: /images/team/phd/matsushita.jpg
   url:
-  badges: [Robotics, Field]
+  badges: [Field Robotics]
   date: 2025-04-01
 
 - name: Shu YOSHIDA
@@ -124,7 +124,7 @@
   role: m
   image: /images/team/master/suzuki.png
   url:
-  badges: [Robotics, Moving Mechanism]
+  badges: [Robotics, Mobility]
   date: 2024-04-01
 
 - name: Yuhi NISHIKORI
@@ -164,7 +164,7 @@
   role: m
   image: /images/team/master/Trong.jpg
   url:
-  badges: [CV, 3D Pose Estimation]
+  badges: [CV]
   date: 2024-09-01
 
 - name: Qifeng SUI

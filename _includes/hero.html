@@ -35,7 +35,7 @@
 <div class="lang-picker">
     <img src="/images/ritsu_logo.png"/>
     {% if site.lang == "en" %}
-    <a class="nav-link" href="{{site.baseurl_root}}/jp{{ page.url | url_escape | remove_first:'/en' }}">日本</a>
+    <a class="nav-link" href="{{site.baseurl_root}}/jp{{ page.url | url_escape | remove_first:'/en' }}">JP</a>
     {% else %}
     <a class="nav-link" href="{{site.baseurl_root}}/en{{ page.url | url_escape | remove_first:'/jp' }}">EN</a>
     {% endif %} 

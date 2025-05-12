@@ -4,9 +4,9 @@
     <div class="container">
         <div class="hero-content">
             <span>CONQUERING DARKNESS BY SCIENCE</span>
-            <h1>advanced<br>intelligent system</h1>
-            <p>Goal: To explore interaction as a core concept across deep learning and robotics.</p>
-            <p class="focus">Tools: robotics, computer vision, machine learning, mixed reality</p>
+            <h1>advanced<br>intelligent system laboratory</h1>
+            <p>{% t subtext.goal %}</p>
+            <p class="focus">{% t subtext.tools %}</p>
             <ul>
                 {% assign pages = site.pages
                     | where_exp: "page", "page.nav"
@@ -18,6 +18,7 @@
                     style="text-transform: uppercase;"
                     href="{{site.baseurl_root}}/{{site.lang}}{{ page.dir | uri_escape }}"
                     data-tooltip="{% t page.nav.tooltip %}"
+                    is-recruit="{% if page.title == 'titles.assignment' %}true{% else %}false{% endif %}"
                     >
                     {% t page.title %}
                     </a>

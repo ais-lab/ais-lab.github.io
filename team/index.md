@@ -12,7 +12,7 @@ nav:
 {% include list.html data="members" component="portrait" filter="role == 'pi' or role == 'ap' or role == 'vr'" %}
 
 {% include section.html %}
-# STAFF・Postdoctoral Researcher・International Student
+# Staff・Postdoctoral Researcher・International Student
 {% include list.html data="members" component="portrait" filter="role == 's' or role == 'pd' or role == 'is'" %}
 
 {% include section.html %}

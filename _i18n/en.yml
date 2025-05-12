@@ -15,7 +15,7 @@ tooltips:
   assignment: About Laboratory Assignment
 
 roles:
-  PI: Principle Investigator
+  PI: Professor
   AP: Assistant Professor
   VR: Visiting Researcher
   S: Secretary
@@ -24,7 +24,7 @@ roles:
   Visit: Visiting Scholar
   B: B
   PD: Postdoctoral Researcher	
-  IS: International Student
+  IS: Exchange Student
 
 contact:
   address_title: Address & Contact Information

@@ -21,6 +21,16 @@ $black: #000000;
   transition: $property $duration $ease;
 }
 
+body {
+  justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  body {
+    justify-content: space-between;
+  }
+}
+
 // body {
 // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 // color: $text-color;
@@ -69,6 +79,9 @@ $black: #000000;
 
 
 .lang-picker {
+  position: absolute;
+  top: 0;
+  width: 100%;
   display: flex;
   z-index: 50;
   margin: 25px 0;
@@ -105,6 +118,8 @@ $black: #000000;
   .lang-picker {
     height: 5em;
     position: relative;
+    margin: 0;
+    padding: 5px
   }
 
   a {
@@ -113,14 +128,13 @@ $black: #000000;
 }
 
 .hero {
-  height: 100vh;
   width: 100%;
   @include flex-center();
   flex-direction: row;
   flex-wrap: nowrap;
   color: $white;
   text-align: center;
-  position: absolute;
+  position: relative;
   background: url("/images/hero/bg_01.png") no-repeat center center/cover;
   overflow: hidden;
   padding: 10px !important;
@@ -154,7 +168,7 @@ $black: #000000;
       font-size: 1.2rem;
       font-weight: 700;
       color: $light-color;
-      margin: 1rem;
+      margin: 30px;
       animation: fadeInUp 1s ease-out 0.4s forwards;
       opacity: 0;
     }
@@ -191,28 +205,34 @@ $black: #000000;
       @media (max-width: 768px) {
         flex-direction: column;
         align-items: center;
+        margin-top: 10px;
       }
     }
 
     @media (max-width: 768px) {
       p {
-        margin-bottom: 5px;
-        font-size: 0.95rem;
+        margin: 5px 0;
+      }
+
+      .motto {
+        margin: 25px 0;
+        font-weight: 150;
       }
     }
 
     h1 {
       font-family: "Roboto", sans-serif;
-      font-size: 3.5rem;
+      font-size: 3.0rem;
       font-weight: 200;
       font-style: normal;
       line-height: 1.1em;
-      margin-bottom: 1.5rem;
+      margin: 0.5em;
       animation: fadeInUp 1s ease-out;
       text-align: center;
 
       @media (max-width: 768px) {
         font-size: 2rem;
+        margin: 15px !important;
       }
     }
 
@@ -288,7 +308,7 @@ body:lang(jp) {
 }
 
 .trademark-text {
-  position: absolute;
+  position: relative;
   display: block;
   bottom: 0;
   z-index: 50;
@@ -297,6 +317,7 @@ body:lang(jp) {
   width: 100%;
   font-size: 0.7em;
   margin-bottom: 5px;
+  padding: 0px!important;
 }
 
 // Animations

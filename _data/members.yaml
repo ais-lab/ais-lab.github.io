@@ -37,6 +37,7 @@
   image: /images/team/others/Charlene.png
   url:
   badges: [Robotics]
+  status: alumnus
 
 - name: Nguyen NGUYEN
   name_jp: Nguyen Nguyen
@@ -53,6 +54,8 @@
   url: https://thuanbb.github.io/
   badges: [CV, SLAM]
   date: 2022-09-01
+  status: alumnus
+  alumnus_date: 2025-03-20
 
 - name: Ardiansyah Al FAROUQ
   name_jp: Ardiansyah Al Farouq
@@ -94,6 +97,8 @@
   url:
   badges: [iSpace]
   date: 2023-09-01
+  status: alumnus
+  alumnus_date: 2025-03-20
 
 - name: Quang Tien DAM
   name_jp: Quang Tien Dam
@@ -102,6 +107,8 @@
   url:
   badges: [CV, Generative]
   date: 2023-09-01
+  status: alumnus
+  alumnus_date: 2025-03-20
 
 - name: Huy Hoang BUI
   name_jp: Huy Hoang Bui
@@ -110,6 +117,8 @@
   url:
   badges: [CV, SLAM]
   date: 2023-09-01
+  status: alumnus
+  alumnus_date: 2025-03-20
 
 - name: Yuki ENDO
   name_jp: 遠藤　優貴
@@ -247,13 +256,29 @@
   badges: [CV]
   date: 2025-04-01
 
+- name: HAI DUONG TRAN
+  name_jp: HAI DUONG TRAN
+  role: m
+  image: /images/team/master/Duong.jpg
+  url:
+  badges: [Robotics, RL]
+  date: 2025-09-01
+
+- name: Ansh Pandey
+  name_jp: Ansh Pandey
+  role: m
+  image: /images/team/dummy.png
+  url:
+  badges: 
+  date: 2025-09-01
+
 # Bachelor students (b)
 - name: Sogo ARAKI
   name_jp: 荒木　颯吾
   role: b
   image: /images/team/bachelor/araki.jpg
   url:
-  badges: []
+  badges: [Robotics]
   date: 2022-04-01
 
 - name: Izuru IPPITSU
@@ -277,7 +302,7 @@
   role: b
   image: /images/team/bachelor/katou.jpg
   url:
-  badges: []
+  badges: [CaTARo]
   date: 2022-04-01
 
 - name: Hibiki TAKAI
@@ -285,7 +310,7 @@
   role: b
   image: /images/team/bachelor/takai.jpg
   url:
-  badges: []
+  badges: [Speech]
   date: 2022-04-01
 
 - name: Haruki TSUKA
@@ -301,7 +326,7 @@
   role: b
   image: /images/team/bachelor/hirosawa.jpg
   url:
-  badges: []
+  badges: [MAPF]
   date: 2022-04-01
 
 - name: Aina FUJII
@@ -309,7 +334,7 @@
   role: b
   image: /images/team/bachelor/fujii.jpg
   url:
-  badges: []
+  badges: [Robotics, R+iSpace]
   date: 2022-04-01
 
 - name: Asahi FUMIMOTO
@@ -317,7 +342,7 @@
   role: b
   image: /images/team/bachelor/fumimoto.jpg
   url:
-  badges: []
+  badges: [CV, SLAM]
   date: 2022-04-01
 
 - name: Ai MITSUSHIMA
@@ -349,5 +374,5 @@
   role: b
   image: /images/team/bachelor/ryuu.png
   url:
-  badges: []
+  badges: [Robotics]
   date: 2022-09-01

@@ -32,6 +32,8 @@ nav:
 
 # Alumni
 
+{% include alumni_list.html %}
+
 {% include section.html %}
 
 {% capture content %}

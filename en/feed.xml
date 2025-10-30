@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ais-lab.github.io/jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ais-lab.github.io/jp/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-09T03:29:56+00:00</updated><id>https://ais-lab.github.io/jp/feed.xml</id><title type="html">Advanced Intelligent Systems</title><subtitle>An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.</subtitle><entry xml:lang="en"><title type="html">2024 Bachelor’s &amp;amp; Master’s Thesis Presentations Completed</title><link href="https://ais-lab.github.io/jp/2025/02/24/2024.html" rel="alternate" type="text/html" title="2024 Bachelor’s &amp;amp; Master’s Thesis Presentations Completed" /><published>2025-02-24T00:00:00+00:00</published><updated>2025-10-09T03:26:33+00:00</updated><id>https://ais-lab.github.io/jp/2025/02/24/2024</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/02/24/2024.html"><![CDATA[<p>On 3 Feb 2024, ten fourth‑year undergraduates presented their bachelor theses; on 6 Feb 2024, three second‑year master’s students presented their master theses.<br />
-Afterward мы held a small celebration. Great work, everyone!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ais-lab.github.io/jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ais-lab.github.io/jp/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-10-30T18:27:33+00:00</updated><id>https://ais-lab.github.io/jp/feed.xml</id><title type="html">Advanced Intelligent Systems</title><subtitle>An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.</subtitle><entry xml:lang="en"><title type="html">ROBOTIS CEO Visits for Student Demos</title><link href="https://ais-lab.github.io/jp/2025/10/27/ROBOTIS.html" rel="alternate" type="text/html" title="ROBOTIS CEO Visits for Student Demos" /><published>2025-10-27T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/10/27/ROBOTIS</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/10/27/ROBOTIS.html"><![CDATA[<p>On October 27, 2025, Mr. Byoung Soo Kim, the CEO of ROBOTIS, visited Our Lab.
+It was a valuable opportunity for our students to present demonstrations of their ongoing research directly to the CEO.
+Having the chance to show our research outcomes and discuss them with the head of a world-leading company was a very stimulating and valuable experience for the students.
+Thank you very much, Mr. Byoung Soo Kim, for your valuable time!</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -7,7 +9,7 @@ Afterward мы held a small celebration. Great work, everyone!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2025/02/IMG_7059-225x300.jpg" style="
+    <img src="/images/uploads/2025/10/ROBOTIS.jpg" style="
         width: 800px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -21,17 +23,7 @@ Afterward мы held a small celebration. Great work, everyone!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2025/02/20250206_054922399_iOS-300x225.jpg" style="
-        width: 500px;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-  </a>
-  
-</figure>
-
-<figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2025/02/20250206_111832144_iOS-300x225.jpg" style="
+    <img src="/images/uploads/2025/10/ROBOTIS-iSpace.jpg" style="
         width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -41,7 +33,7 @@ Afterward мы held a small celebration. Great work, everyone!</p>
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[On 3 Feb 2024, ten fourth‑year undergraduates presented their bachelor theses; on 6 Feb 2024, three second‑year master’s students presented their master theses. Afterward мы held a small celebration. Great work, everyone!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/02/IMG_7059-225x300.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/02/IMG_7059-225x300.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Presented at SI 2024</title><link href="https://ais-lab.github.io/jp/2024/12/25/si2024.html" rel="alternate" type="text/html" title="Presented at SI 2024" /><published>2024-12-25T00:00:00+00:00</published><updated>2025-10-09T03:26:33+00:00</updated><id>https://ais-lab.github.io/jp/2024/12/25/si2024</id><content type="html" xml:base="https://ais-lab.github.io/jp/2024/12/25/si2024.html"><![CDATA[<p>Our lab delivered eight presentations at SI 2024 (25th SICE System Integration Division Conference) held 18–20 Dec 2024. Thanks for attending!</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[On October 27, 2025, Mr. Byoung Soo Kim, the CEO of ROBOTIS, visited Our Lab. It was a valuable opportunity for our students to present demonstrations of their ongoing research directly to the CEO. Having the chance to show our research outcomes and discuss them with the head of a world-leading company was a very stimulating and valuable experience for the students. Thank you very much, Mr. Byoung Soo Kim, for your valuable time!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/10/ROBOTIS.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/10/ROBOTIS.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Attendance at IROS 2025 and Best Paper Award</title><link href="https://ais-lab.github.io/jp/2025/10/20/IROS2025.html" rel="alternate" type="text/html" title="Attendance at IROS 2025 and Best Paper Award" /><published>2025-10-20T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/10/20/IROS2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/10/20/IROS2025.html"><![CDATA[<p>We participated in The 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025), held from October 20-25, 2025, and presented one paper from our laboratory. We also won the Best Paper Award! Congratulations!</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -49,7 +41,17 @@ Afterward мы held a small celebration. Great work, everyone!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/12/20241218_025419445_iOS-300x225.jpg" style="
+    <img src="/images/uploads/2025/10/IROS-Award.jpg" style="
+        width: 800px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2025/10/IROS-Award1.jpg" style="
         width: 800px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -63,7 +65,7 @@ Afterward мы held a small celebration. Great work, everyone!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/12/20241220_013451784_iOS-300x225.jpg" style="
+    <img src="/images/uploads/2025/10/IROS-all.jpg" style="
         width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -73,7 +75,17 @@ Afterward мы held a small celebration. Great work, everyone!</p>
 
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/12/S__137003017-300x225.jpg" style="
+    <img src="/images/uploads/2025/10/IROS-Tien.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2025/10/IROS-all1.jpg" style="
         width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -83,8 +95,7 @@ Afterward мы held a small celebration. Great work, everyone!</p>
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[Our lab delivered eight presentations at SI 2024 (25th SICE System Integration Division Conference) held 18–20 Dec 2024. Thanks for attending!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2024/12/20241218_025419445_iOS-300x225.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2024/12/20241218_025419445_iOS-300x225.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">20th Anniversary of the Lee Lab!</title><link href="https://ais-lab.github.io/jp/2024/12/24/20.html" rel="alternate" type="text/html" title="20th Anniversary of the Lee Lab!" /><published>2024-12-24T00:00:00+00:00</published><updated>2025-10-09T03:26:33+00:00</updated><id>https://ais-lab.github.io/jp/2024/12/24/20</id><content type="html" xml:base="https://ais-lab.github.io/jp/2024/12/24/20.html"><![CDATA[<p>On 14 Dec 2024 we combined our year‑end party with a special lecture celebrating the lab’s 20th anniversary, featuring Prof. Lee and alumni speakers.<br />
-Thanks to all alumni who joined—see you next year!</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><category term="award" /><summary type="html"><![CDATA[We participated in The 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025), held from October 20-25, 2025, and presented one paper from our laboratory. We also won the Best Paper Award! Congratulations!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/10/IROS-Award.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/10/IROS-Award.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Ph.D. Conferred Upon Bach Thuan BUI</title><link href="https://ais-lab.github.io/jp/2025/09/27/Thuan-Doctor.html" rel="alternate" type="text/html" title="Ph.D. Conferred Upon Bach Thuan BUI" /><published>2025-09-27T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/09/27/Thuan-Doctor</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/09/27/Thuan-Doctor.html"><![CDATA[<p>A Ph.D. was conferred upon Bach Thuan BUI in September 2025. Congratulations!</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -92,8 +103,18 @@ Thanks to all alumni who joined—see you next year!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/12/20241214_055559719_iOS-300x225.jpg" style="
-        width: 800px;
+    <img src="/images/uploads/2025/09/PhD-Thuan-Lee-wide.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2025/09/PhD-Thuan-Nguyen.jpg" style="
+        width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
@@ -106,7 +127,7 @@ Thanks to all alumni who joined—see you next year!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/12/133720-300x225.jpg" style="
+    <img src="/images/uploads/2025/09/PhD-Thuan-other.jpg" style="
         width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -116,7 +137,7 @@ Thanks to all alumni who joined—see you next year!</p>
 
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/12/20241214_115848991_iOS-300x225.jpg" style="
+    <img src="/images/uploads/2025/09/PhD-Thuan-Lee.jpg" style="
         width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -126,8 +147,7 @@ Thanks to all alumni who joined—see you next year!</p>
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[On 14 Dec 2024 we combined our year‑end party with a special lecture celebrating the lab’s 20th anniversary, featuring Prof. Lee and alumni speakers. Thanks to all alumni who joined—see you next year!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2024/12/20241214_055559719_iOS-300x225.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2024/12/20241214_055559719_iOS-300x225.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Special Lecture by Prof. Dennis Hong</title><link href="https://ais-lab.github.io/jp/2024/12/24/dennis-hong.html" rel="alternate" type="text/html" title="Special Lecture by Prof. Dennis Hong" /><published>2024-12-24T00:00:00+00:00</published><updated>2025-10-09T03:26:33+00:00</updated><id>https://ais-lab.github.io/jp/2024/12/24/dennis-hong</id><content type="html" xml:base="https://ais-lab.github.io/jp/2024/12/24/dennis-hong.html"><![CDATA[<p>On 5 Dec 2024, Prof. Dennis Hong (UCLA) visited our lab to give a special lecture and discuss student research.<br />
-Thank you for coming all the way from the USA!</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[A Ph.D. was conferred upon Bach Thuan BUI in September 2025. Congratulations!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/09/PhD-Thuan-Lee.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/09/PhD-Thuan-Lee.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Presented at VRSJ 2025</title><link href="https://ais-lab.github.io/jp/2025/09/17/VR2025.html" rel="alternate" type="text/html" title="Presented at VRSJ 2025" /><published>2025-09-17T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/09/17/VR2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/09/17/VR2025.html"><![CDATA[<p>Our lab gave two presentations at the 30th Virtual Reality Society of Japan (17–19 Sep 2025, Ritsumeikan Univ. , Ibaraki). Thanks for attending!</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -135,8 +155,28 @@ Thank you for coming all the way from the USA!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/12/133381-1-300x225.jpg" style="
-        width: 800px;
+    <img src="/images/uploads/2025/09/VR-all.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2025/09/VR-Endou-Pre.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2025/09/VR-Nishikori-Pre.jpg" style="
+        width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
@@ -149,7 +189,7 @@ Thank you for coming all the way from the USA!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/12/20241205_092559610_iOS-300x169.jpg" style="
+    <img src="/images/uploads/2025/09/VR-Endou.jpg" style="
         width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -159,7 +199,7 @@ Thank you for coming all the way from the USA!</p>
 
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/12/20241205_094852566_iOS-300x225.jpg" style="
+    <img src="/images/uploads/2025/09/VR-Nishikori.jpg" style="
         width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -169,7 +209,7 @@ Thank you for coming all the way from the USA!</p>
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[On 5 Dec 2024, Prof. Dennis Hong (UCLA) visited our lab to give a special lecture and discuss student research. Thank you for coming all the way from the USA!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2024/12/133381-1-300x225.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2024/12/133381-1-300x225.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Attended IROS 2024</title><link href="https://ais-lab.github.io/jp/2024/10/31/iros2024.html" rel="alternate" type="text/html" title="Attended IROS 2024" /><published>2024-10-31T00:00:00+00:00</published><updated>2025-10-09T03:26:33+00:00</updated><id>https://ais-lab.github.io/jp/2024/10/31/iros2024</id><content type="html" xml:base="https://ais-lab.github.io/jp/2024/10/31/iros2024.html"><![CDATA[<p>We presented at the 2024 IEEE/RSJ International Conference on Intelligent Robots &amp; Systems (14–18 Oct 2024) and enjoyed exploring Abu Dhabi. Thanks for coming to our sessions!</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><summary type="html"><![CDATA[Our lab gave two presentations at the 30th Virtual Reality Society of Japan (17–19 Sep 2025, Ritsumeikan Univ. , Ibaraki). Thanks for attending!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/09/VR-all.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/09/VR-all.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Presented at JWISE 2025</title><link href="https://ais-lab.github.io/jp/2025/09/05/jwise2025.html" rel="alternate" type="text/html" title="Presented at JWISE 2025" /><published>2025-09-05T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/09/05/jwise2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/09/05/jwise2025.html"><![CDATA[<p>Six students from the Our Lab presented their research findings at the DUT-RU Joint Workshop on Information Science and Engineering 2025 (JWISE2025), held in Dalian, China, on September 5th and 6th, 2025!</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -177,8 +217,28 @@ Thank you for coming all the way from the USA!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/10/1000021000-300x225.jpg" style="
-        width: 800px;
+    <img src="/images/uploads/2025/09/JWISE-all.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2025/09/JWISE-Farouq.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2025/09/JWISE-Hoang.jpg" style="
+        width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
@@ -191,7 +251,7 @@ Thank you for coming all the way from the USA!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/10/1000021008-300x225.jpg" style="
+    <img src="/images/uploads/2025/09/JWISE-Matsushita.jpg" style="
         width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -201,7 +261,17 @@ Thank you for coming all the way from the USA!</p>
 
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/10/IMG_9503-300x225.jpg" style="
+    <img src="/images/uploads/2025/09/JWISE-Yoshida.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2025/09/JWISE-party.jpg" style="
         width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -211,7 +281,7 @@ Thank you for coming all the way from the USA!</p>
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[We presented at the 2024 IEEE/RSJ International Conference on Intelligent Robots &amp; Systems (14–18 Oct 2024) and enjoyed exploring Abu Dhabi. Thanks for coming to our sessions!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2024/10/1000021000-300x225.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2024/10/1000021000-300x225.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Presented at RSJ 2024</title><link href="https://ais-lab.github.io/jp/2024/09/13/rsj2024.html" rel="alternate" type="text/html" title="Presented at RSJ 2024" /><published>2024-09-13T00:00:00+00:00</published><updated>2025-10-09T03:26:33+00:00</updated><id>https://ais-lab.github.io/jp/2024/09/13/rsj2024</id><content type="html" xml:base="https://ais-lab.github.io/jp/2024/09/13/rsj2024.html"><![CDATA[<p>Our lab gave ten presentations at the 42nd Annual Conference of the Robotics Society of Japan (3–6 Sep 2024, Osaka Institute of Technology, Umeda). Thanks for attending!</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><summary type="html"><![CDATA[Six students from the Our Lab presented their research findings at the DUT-RU Joint Workshop on Information Science and Engineering 2025 (JWISE2025), held in Dalian, China, on September 5th and 6th, 2025!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/09/JWISE-all.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/09/JWISE-all.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Presented at RSJ 2025</title><link href="https://ais-lab.github.io/jp/2025/09/02/rsj2025.html" rel="alternate" type="text/html" title="Presented at RSJ 2025" /><published>2025-09-02T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/09/02/rsj2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/09/02/rsj2025.html"><![CDATA[<p>Our lab gave three presentations at the 43rd Annual Conference of the Robotics Society of Japan (2–5 Sep 2025, Institute of Science Tokyo, Ookayama). Thanks for attending!</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -219,8 +289,18 @@ Thank you for coming all the way from the USA!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/09/20240904_1218410-300x225.jpg" style="
-        width: 800px;
+    <img src="/images/uploads/2025/09/rsj.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2025/09/rsj-angga.jpg" style="
+        width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
@@ -233,7 +313,7 @@ Thank you for coming all the way from the USA!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/09/06c0805230bf97e1ceae5-300x225.jpg" style="
+    <img src="/images/uploads/2025/09/rsj-liu.jpg" style="
         width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -243,7 +323,7 @@ Thank you for coming all the way from the USA!</p>
 
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/09/20240904_164520-300x139.jpg" style="
+    <img src="/images/uploads/2025/09/rsj-shimizu.jpg" style="
         width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -253,9 +333,7 @@ Thank you for coming all the way from the USA!</p>
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[Our lab gave ten presentations at the 42nd Annual Conference of the Robotics Society of Japan (3–6 Sep 2024, Osaka Institute of Technology, Umeda). Thanks for attending!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2024/09/20240904_1218410-300x225.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2024/09/20240904_1218410-300x225.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Welcome Party for New 3rd‑Year Students</title><link href="https://ais-lab.github.io/jp/2024/07/19/3.html" rel="alternate" type="text/html" title="Welcome Party for New 3rd‑Year Students" /><published>2024-07-19T00:00:00+00:00</published><updated>2025-10-09T03:26:33+00:00</updated><id>https://ais-lab.github.io/jp/2024/07/19/3</id><content type="html" xml:base="https://ais-lab.github.io/jp/2024/07/19/3.html"><![CDATA[<p>We welcomed 11 new third‑year undergraduates who join the lab from fall 2024.<br />
-Nine of them plus ~30 current members enjoyed pizza, snacks, and games.<br />
-Let’s enjoy lab life together!</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><summary type="html"><![CDATA[Our lab gave three presentations at the 43rd Annual Conference of the Robotics Society of Japan (2–5 Sep 2025, Institute of Science Tokyo, Ookayama). Thanks for attending!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/09/rsj.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/09/rsj.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Welcome Party for New 3rd‑Year Students</title><link href="https://ais-lab.github.io/jp/2025/07/09/B3.html" rel="alternate" type="text/html" title="Welcome Party for New 3rd‑Year Students" /><published>2025-07-09T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/07/09/B3</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/07/09/B3.html"><![CDATA[<p>We held a welcome party for the third-year students who were newly assigned to our lab. We deepened our friendship in a friendly atmosphere while enjoying delicious food. Let’s work hard on our research together!</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -263,8 +341,18 @@ Let’s enjoy lab life together!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/07/20240710_191723-300x225.jpg" style="
-        width: 800px;
+    <img src="/images/uploads/2025/07/lab_all_withB3.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2025/07/b3_1.jpg" style="
+        width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
@@ -277,7 +365,7 @@ Let’s enjoy lab life together!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/07/20240710_091554613_iOS-300x225.jpg" style="
+    <img src="/images/uploads/2025/07/food.jpg" style="
         width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -287,7 +375,7 @@ Let’s enjoy lab life together!</p>
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[We welcomed 11 new third‑year undergraduates who join the lab from fall 2024. Nine of them plus ~30 current members enjoyed pizza, snacks, and games. Let’s enjoy lab life together!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2024/07/20240710_191723-300x225.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2024/07/20240710_191723-300x225.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Presented at ROBOMECH 2024</title><link href="https://ais-lab.github.io/jp/2024/06/05/robomech2024.html" rel="alternate" type="text/html" title="Presented at ROBOMECH 2024" /><published>2024-06-05T00:00:00+00:00</published><updated>2025-10-09T03:26:33+00:00</updated><id>https://ais-lab.github.io/jp/2024/06/05/robomech2024</id><content type="html" xml:base="https://ais-lab.github.io/jp/2024/06/05/robomech2024.html"><![CDATA[<p>Our lab delivered seven presentations at ROBOMECH 2024 (Robotics &amp; Mechatronics Conference 2024 in Utsunomiya) on 30 May 2024. Thank you for coming!</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[We held a welcome party for the third-year students who were newly assigned to our lab. We deepened our friendship in a friendly atmosphere while enjoying delicious food. Let’s work hard on our research together!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/07/lab_all_withB3.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/07/lab_all_withB3.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Presented at ROBOMECH 2025</title><link href="https://ais-lab.github.io/jp/2025/06/06/robomech2025.html" rel="alternate" type="text/html" title="Presented at ROBOMECH 2025" /><published>2025-06-06T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/06/06/robomech2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/06/06/robomech2025.html"><![CDATA[<p>Our lab delivered seven presentations at ROBOMECH 2025 (Robotics &amp; Mechatronics Conference 2025 in Yamagata) on 06 June 2025. Thank you for coming!</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -295,8 +383,18 @@ Let’s enjoy lab life together!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/06/1000019373-300x225.jpg" style="
-        width: 800px;
+    <img src="/images/uploads/2025/06/robomech2025.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2025/06/robomech_poster1.jpg" style="
+        width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
@@ -309,7 +407,7 @@ Let’s enjoy lab life together!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/06/F479B272-2C20-4F4B-A8FE-AAA1C3FB018C-300x225.jpeg" style="
+    <img src="/images/uploads/2025/06/robomech_poster2.jpg" style="
         width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -319,17 +417,7 @@ Let’s enjoy lab life together!</p>
 
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/06/C3A6B5C9-EEE6-423E-BC7B-8C5F1EC23B79-300x225.jpeg" style="
-        width: 500px;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-  </a>
-  
-</figure>
-
-<figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/06/4B5E5615-6B50-4963-884E-ED78DD33351C-300x225.jpeg" style="
+    <img src="/images/uploads/2025/06/robomech_poster3.jpg" style="
         width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -339,8 +427,7 @@ Let’s enjoy lab life together!</p>
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[Our lab delivered seven presentations at ROBOMECH 2024 (Robotics &amp; Mechatronics Conference 2024 in Utsunomiya) on 30 May 2024. Thank you for coming!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2024/06/1000019373-300x225.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2024/06/1000019373-300x225.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">SI 2023 Best Presentation &amp;amp; 2023 Faculty Research Awards</title><link href="https://ais-lab.github.io/jp/2024/04/01/si2023-2023.html" rel="alternate" type="text/html" title="SI 2023 Best Presentation &amp;amp; 2023 Faculty Research Awards" /><published>2024-04-01T00:00:00+00:00</published><updated>2025-10-09T03:26:33+00:00</updated><id>https://ais-lab.github.io/jp/2024/04/01/si2023-2023</id><content type="html" xml:base="https://ais-lab.github.io/jp/2024/04/01/si2023-2023.html"><![CDATA[<p>Master’s student Ryuga Sakagami and Assistant Prof. Yasuyuki Fujii won the Best Presentation Award at SI 2023.<br />
-Details: https://sice-si.org/si2023/excellent_speaker.php</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><summary type="html"><![CDATA[Our lab delivered seven presentations at ROBOMECH 2025 (Robotics &amp; Mechatronics Conference 2025 in Yamagata) on 06 June 2025. Thank you for coming!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/06/robomech2025.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/06/robomech2025.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Attended ICRA 2025</title><link href="https://ais-lab.github.io/jp/2025/05/19/ICRA2025.html" rel="alternate" type="text/html" title="Attended ICRA 2025" /><published>2025-05-19T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/05/19/ICRA2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/05/19/ICRA2025.html"><![CDATA[<p>We presented at the 2024 IEEE/RSJ International Conference on Robotics and Automation (19–23 May 2024) and enjoyed exploring Atlanta. Thanks for coming to our sessions!</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -348,8 +435,8 @@ Details: https://sice-si.org/si2023/excellent_speaker.php</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/04/14483-225x300.jpg" style="
-        width: 800px;
+    <img src="/images/uploads/2025/05/ICRA1.jpeg" style="
+        width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
@@ -362,7 +449,7 @@ Details: https://sice-si.org/si2023/excellent_speaker.php</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2024/04/121067-225x300.jpg" style="
+    <img src="/images/uploads/2025/05/ICRA2.jpeg" style="
         width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -372,8 +459,7 @@ Details: https://sice-si.org/si2023/excellent_speaker.php</p>
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[Master’s student Ryuga Sakagami and Assistant Prof. Yasuyuki Fujii won the Best Presentation Award at SI 2023. Details: https://sice-si.org/si2023/excellent_speaker.php]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2024/04/14483-225x300.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2024/04/14483-225x300.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">2023 Bachelor’s &amp;amp; Master’s Thesis Presentations Completed</title><link href="https://ais-lab.github.io/jp/2024/02/03/2023.html" rel="alternate" type="text/html" title="2023 Bachelor’s &amp;amp; Master’s Thesis Presentations Completed" /><published>2024-02-03T00:00:00+00:00</published><updated>2025-10-09T03:26:33+00:00</updated><id>https://ais-lab.github.io/jp/2024/02/03/2023</id><content type="html" xml:base="https://ais-lab.github.io/jp/2024/02/03/2023.html"><![CDATA[<p>On 1 Feb 2024, eight fourth‑year undergraduates presented their bachelor theses; on 3 Feb 2024, seven second‑year master’s students presented their master theses.<br />
-Great job, everyone—best of luck in your next steps!</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><summary type="html"><![CDATA[We presented at the 2024 IEEE/RSJ International Conference on Robotics and Automation (19–23 May 2024) and enjoyed exploring Atlanta. Thanks for coming to our sessions!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/05/ICRA1.jpeg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/05/ICRA1.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Exhibited at Ibaritsu 2025</title><link href="https://ais-lab.github.io/jp/2025/05/18/ibaritsu.html" rel="alternate" type="text/html" title="Exhibited at Ibaritsu 2025" /><published>2025-05-18T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/05/18/ibaritsu</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/05/18/ibaritsu.html"><![CDATA[<p>At “Ibaraki x Ritsumeikan DAY 2025,” we exhibited our research and robots at SP LAB 8. We had visitors of a wide range of ages, and the children’s reactions were particularly refreshing and memorable. It was a valuable opportunity for people to feel closer to the AIS Laboratory. Thank you very much to everyone who came.</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -381,8 +467,18 @@ Great job, everyone—best of luck in your next steps!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="http://www.aislab.org/wp-content/uploads/2024/02/119150-300x225.jpg" style="
-        width: 800px;
+    <img src="/images/uploads/2025/05/IMG_1784.jpeg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2025/05/IMG_1778.jpeg" style="
+        width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
@@ -395,7 +491,7 @@ Great job, everyone—best of luck in your next steps!</p>
     <div>
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="http://www.aislab.org/wp-content/uploads/2024/02/119227-300x225.jpg" style="
+    <img src="/images/uploads/2025/05/IMG_5830.jpeg" style="
         width: 500px;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
@@ -405,4 +501,4 @@ Great job, everyone—best of luck in your next steps!</p>
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[On 1 Feb 2024, eight fourth‑year undergraduates presented their bachelor theses; on 3 Feb 2024, seven second‑year master’s students presented their master theses. Great job, everyone—best of luck in your next steps!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://www.aislab.org/wp-content/uploads/2024/02/119150-300x225.jpg" /><media:content medium="image" url="http://www.aislab.org/wp-content/uploads/2024/02/119150-300x225.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[At “Ibaraki x Ritsumeikan DAY 2025,” we exhibited our research and robots at SP LAB 8. We had visitors of a wide range of ages, and the children’s reactions were particularly refreshing and memorable. It was a valuable opportunity for people to feel closer to the AIS Laboratory. Thank you very much to everyone who came.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/05/IMG_1784.jpeg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/05/IMG_1784.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

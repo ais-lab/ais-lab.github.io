@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="jp"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ais-lab.github.io/jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ais-lab.github.io/jp/" rel="alternate" type="text/html" hreflang="jp" /><updated>2025-10-30T18:27:29+00:00</updated><id>https://ais-lab.github.io/jp/feed.xml</id><title type="html">Advanced Intelligent Systems</title><subtitle>An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.</subtitle><entry xml:lang="ja"><title type="html">ROBOTISのCEOが訪問し、学生がデモを行いました</title><link href="https://ais-lab.github.io/jp/2025/10/27/ROBOTIS.html" rel="alternate" type="text/html" title="ROBOTISのCEOが訪問し、学生がデモを行いました" /><published>2025-10-27T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/10/27/ROBOTIS</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/10/27/ROBOTIS.html"><![CDATA[<p>2025年10月27日にROBOTISのCEOであるByoung Soo Kim様が李研を訪問されました。
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="jp"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ais-lab.github.io/jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ais-lab.github.io/jp/" rel="alternate" type="text/html" hreflang="jp" /><updated>2025-11-02T16:09:12+00:00</updated><id>https://ais-lab.github.io/jp/feed.xml</id><title type="html">Advanced Intelligent Systems</title><subtitle>An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.</subtitle><entry xml:lang="ja"><title type="html">EAI ICRESM 2025 Keynote Speechを行いました</title><link href="https://ais-lab.github.io/jp/2025/11/02/EAI-ICRESM.html" rel="alternate" type="text/html" title="EAI ICRESM 2025 Keynote Speechを行いました" /><published>2025-11-02T00:00:00+00:00</published><updated>2025-11-02T16:06:04+00:00</updated><id>https://ais-lab.github.io/jp/2025/11/02/EAI-ICRESM</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/11/02/EAI-ICRESM.html"><![CDATA[<p>EAI ICRESM 2025にて、教授 李周浩先生がキーノート講演を行いました。
+講演では、計算能力が限られたロボットやモバイルデバイスを対象とした、ビジョンベースの自己位置推定に関する最新の研究成果を紹介しました。</p>
+
+<div class="cols" style="--cols: 2">
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2025/11/EAI-Keynote.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2025/11/EAI-Lee.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+</div>
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2025/11/EAI-detail.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2025/11/EAI-detail1.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+</div>
+  
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[EAI ICRESM 2025にて、教授 李周浩先生がキーノート講演を行いました。 講演では、計算能力が限られたロボットやモバイルデバイスを対象とした、ビジョンベースの自己位置推定に関する最新の研究成果を紹介しました。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/11/EAI-Keynote.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/11/EAI-Keynote.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">ROBOTISのCEOが訪問し、学生がデモを行いました</title><link href="https://ais-lab.github.io/jp/2025/10/27/ROBOTIS.html" rel="alternate" type="text/html" title="ROBOTISのCEOが訪問し、学生がデモを行いました" /><published>2025-10-27T00:00:00+00:00</published><updated>2025-11-02T16:06:04+00:00</updated><id>https://ais-lab.github.io/jp/2025/10/27/ROBOTIS</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/10/27/ROBOTIS.html"><![CDATA[<p>2025年10月27日にROBOTISのCEOであるByoung Soo Kim様が李研を訪問されました。
 日頃の研究成果をCEOに直接見ていただくという貴重な機会に、学生たちはデモを披露しました。
 世界をリードする企業のトップの方に研究成果を直接ご覧いただき、議論できたことは、学生たちにとって大変刺激的で貴重な経験となりました。
 Byoung Soo Kim様、貴重なお時間をいただき、本当にありがとうございました！</p>
@@ -33,7 +86,7 @@ Byoung Soo Kim様、貴重なお時間をいただき、本当にありがとう
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[2025年10月27日にROBOTISのCEOであるByoung Soo Kim様が李研を訪問されました。 日頃の研究成果をCEOに直接見ていただくという貴重な機会に、学生たちはデモを披露しました。 世界をリードする企業のトップの方に研究成果を直接ご覧いただき、議論できたことは、学生たちにとって大変刺激的で貴重な経験となりました。 Byoung Soo Kim様、貴重なお時間をいただき、本当にありがとうございました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/10/ROBOTIS.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/10/ROBOTIS.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">IROS2025の参加及び、Best Paper Awardの受賞</title><link href="https://ais-lab.github.io/jp/2025/10/20/IROS2025.html" rel="alternate" type="text/html" title="IROS2025の参加及び、Best Paper Awardの受賞" /><published>2025-10-20T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/10/20/IROS2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/10/20/IROS2025.html"><![CDATA[<p>2025年10月20日～10月25日に開催された、The 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025) に参加し、本研究室から1件の研究について発表しました。また、Best Paper Awardに受賞しました！おめでとうございます！</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[2025年10月27日にROBOTISのCEOであるByoung Soo Kim様が李研を訪問されました。 日頃の研究成果をCEOに直接見ていただくという貴重な機会に、学生たちはデモを披露しました。 世界をリードする企業のトップの方に研究成果を直接ご覧いただき、議論できたことは、学生たちにとって大変刺激的で貴重な経験となりました。 Byoung Soo Kim様、貴重なお時間をいただき、本当にありがとうございました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/10/ROBOTIS.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/10/ROBOTIS.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">IROS2025の参加及び、Best Paper Awardの受賞</title><link href="https://ais-lab.github.io/jp/2025/10/20/IROS2025.html" rel="alternate" type="text/html" title="IROS2025の参加及び、Best Paper Awardの受賞" /><published>2025-10-20T00:00:00+00:00</published><updated>2025-11-02T16:06:04+00:00</updated><id>https://ais-lab.github.io/jp/2025/10/20/IROS2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/10/20/IROS2025.html"><![CDATA[<p>2025年10月20日～10月25日に開催された、The 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025) に参加し、本研究室から1件の研究について発表しました。また、Best Paper Awardに受賞しました！おめでとうございます！</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -95,7 +148,7 @@ Byoung Soo Kim様、貴重なお時間をいただき、本当にありがとう
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><category term="award" /><summary type="html"><![CDATA[2025年10月20日～10月25日に開催された、The 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025) に参加し、本研究室から1件の研究について発表しました。また、Best Paper Awardに受賞しました！おめでとうございます！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/10/IROS-Award.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/10/IROS-Award.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">Thuanさんが博士学位取得</title><link href="https://ais-lab.github.io/jp/2025/09/27/Thuan-Doctor.html" rel="alternate" type="text/html" title="Thuanさんが博士学位取得" /><published>2025-09-27T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/09/27/Thuan-Doctor</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/09/27/Thuan-Doctor.html"><![CDATA[<p>2025年9月にBach Thuan BUIさんが博士号を取得しました。おめでとうございます！</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><category term="award" /><summary type="html"><![CDATA[2025年10月20日～10月25日に開催された、The 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025) に参加し、本研究室から1件の研究について発表しました。また、Best Paper Awardに受賞しました！おめでとうございます！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/10/IROS-Award.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/10/IROS-Award.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">Thuanさんが博士学位取得</title><link href="https://ais-lab.github.io/jp/2025/09/27/Thuan-Doctor.html" rel="alternate" type="text/html" title="Thuanさんが博士学位取得" /><published>2025-09-27T00:00:00+00:00</published><updated>2025-11-02T16:06:04+00:00</updated><id>https://ais-lab.github.io/jp/2025/09/27/Thuan-Doctor</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/09/27/Thuan-Doctor.html"><![CDATA[<p>2025年9月にBach Thuan BUIさんが博士号を取得しました。おめでとうございます！</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -147,7 +200,7 @@ Byoung Soo Kim様、貴重なお時間をいただき、本当にありがとう
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[2025年9月にBach Thuan BUIさんが博士号を取得しました。おめでとうございます！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/09/PhD-Thuan-Lee.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/09/PhD-Thuan-Lee.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">VRSJ2025で研究発表しました</title><link href="https://ais-lab.github.io/jp/2025/09/17/VR2025.html" rel="alternate" type="text/html" title="VRSJ2025で研究発表しました" /><published>2025-09-17T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/09/17/VR2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/09/17/VR2025.html"><![CDATA[<p>2025年9月17日～9月19日に開催されたVRSJ2025(第30回日本バーチャルリアリティ学会大会@立命館大学大阪いばらきキャンパス)にて、李研究室から2件の講演をしました。本研究室の発表にたくさんお集まりいただきありがとうございました！</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[2025年9月にBach Thuan BUIさんが博士号を取得しました。おめでとうございます！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/09/PhD-Thuan-Lee.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/09/PhD-Thuan-Lee.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">VRSJ2025で研究発表しました</title><link href="https://ais-lab.github.io/jp/2025/09/17/VR2025.html" rel="alternate" type="text/html" title="VRSJ2025で研究発表しました" /><published>2025-09-17T00:00:00+00:00</published><updated>2025-11-02T16:06:04+00:00</updated><id>https://ais-lab.github.io/jp/2025/09/17/VR2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/09/17/VR2025.html"><![CDATA[<p>2025年9月17日～9月19日に開催されたVRSJ2025(第30回日本バーチャルリアリティ学会大会@立命館大学大阪いばらきキャンパス)にて、李研究室から2件の講演をしました。本研究室の発表にたくさんお集まりいただきありがとうございました！</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -209,7 +262,7 @@ Byoung Soo Kim様、貴重なお時間をいただき、本当にありがとう
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><summary type="html"><![CDATA[2025年9月17日～9月19日に開催されたVRSJ2025(第30回日本バーチャルリアリティ学会大会@立命館大学大阪いばらきキャンパス)にて、李研究室から2件の講演をしました。本研究室の発表にたくさんお集まりいただきありがとうございました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/09/VR-all.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/09/VR-all.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">JWISE2025で研究発表しました</title><link href="https://ais-lab.github.io/jp/2025/09/05/jwise2025.html" rel="alternate" type="text/html" title="JWISE2025で研究発表しました" /><published>2025-09-05T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/09/05/jwise2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/09/05/jwise2025.html"><![CDATA[<p>2025年9月5日、9月6日に中国の大連で開催された、DUT-RU Joint Workshop on Information Sciennce and Engineering 2025(JWISE2025)に参加し、李研からは6名の学生が研究成果を発表しました！</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><summary type="html"><![CDATA[2025年9月17日～9月19日に開催されたVRSJ2025(第30回日本バーチャルリアリティ学会大会@立命館大学大阪いばらきキャンパス)にて、李研究室から2件の講演をしました。本研究室の発表にたくさんお集まりいただきありがとうございました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/09/VR-all.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/09/VR-all.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">JWISE2025で研究発表しました</title><link href="https://ais-lab.github.io/jp/2025/09/05/jwise2025.html" rel="alternate" type="text/html" title="JWISE2025で研究発表しました" /><published>2025-09-05T00:00:00+00:00</published><updated>2025-11-02T16:06:04+00:00</updated><id>https://ais-lab.github.io/jp/2025/09/05/jwise2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/09/05/jwise2025.html"><![CDATA[<p>2025年9月5日、9月6日に中国の大連で開催された、DUT-RU Joint Workshop on Information Sciennce and Engineering 2025(JWISE2025)に参加し、李研からは6名の学生が研究成果を発表しました！</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -281,7 +334,7 @@ Byoung Soo Kim様、貴重なお時間をいただき、本当にありがとう
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><summary type="html"><![CDATA[2025年9月5日、9月6日に中国の大連で開催された、DUT-RU Joint Workshop on Information Sciennce and Engineering 2025(JWISE2025)に参加し、李研からは6名の学生が研究成果を発表しました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/09/JWISE-all.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/09/JWISE-all.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">RSJ2025で研究発表しました</title><link href="https://ais-lab.github.io/jp/2025/09/02/rsj2025.html" rel="alternate" type="text/html" title="RSJ2025で研究発表しました" /><published>2025-09-02T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/09/02/rsj2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/09/02/rsj2025.html"><![CDATA[<p>2025年9月2日～9月5日に開催されたRSJ2025(第43回日本ロボット学会学術講演会@東京科学大学大岡山キャンパス)にて、李研究室から3名の学生が研究成果を発表しました！本研究室の発表にたくさんお集まりいただきありがとうございました！</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><summary type="html"><![CDATA[2025年9月5日、9月6日に中国の大連で開催された、DUT-RU Joint Workshop on Information Sciennce and Engineering 2025(JWISE2025)に参加し、李研からは6名の学生が研究成果を発表しました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/09/JWISE-all.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/09/JWISE-all.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">RSJ2025で研究発表しました</title><link href="https://ais-lab.github.io/jp/2025/09/02/rsj2025.html" rel="alternate" type="text/html" title="RSJ2025で研究発表しました" /><published>2025-09-02T00:00:00+00:00</published><updated>2025-11-02T16:06:04+00:00</updated><id>https://ais-lab.github.io/jp/2025/09/02/rsj2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/09/02/rsj2025.html"><![CDATA[<p>2025年9月2日～9月5日に開催されたRSJ2025(第43回日本ロボット学会学術講演会@東京科学大学大岡山キャンパス)にて、李研究室から3名の学生が研究成果を発表しました！本研究室の発表にたくさんお集まりいただきありがとうございました！</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -333,7 +386,7 @@ Byoung Soo Kim様、貴重なお時間をいただき、本当にありがとう
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><summary type="html"><![CDATA[2025年9月2日～9月5日に開催されたRSJ2025(第43回日本ロボット学会学術講演会@東京科学大学大岡山キャンパス)にて、李研究室から3名の学生が研究成果を発表しました！本研究室の発表にたくさんお集まりいただきありがとうございました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/09/rsj.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/09/rsj.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">新3回生歓迎会を行いました</title><link href="https://ais-lab.github.io/jp/2025/07/09/B3.html" rel="alternate" type="text/html" title="新3回生歓迎会を行いました" /><published>2025-07-09T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/07/09/B3</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/07/09/B3.html"><![CDATA[<p>新しく研究室に配属された3回生の歓迎会を実施しました。
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><summary type="html"><![CDATA[2025年9月2日～9月5日に開催されたRSJ2025(第43回日本ロボット学会学術講演会@東京科学大学大岡山キャンパス)にて、李研究室から3名の学生が研究成果を発表しました！本研究室の発表にたくさんお集まりいただきありがとうございました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/09/rsj.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/09/rsj.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">新3回生歓迎会を行いました</title><link href="https://ais-lab.github.io/jp/2025/07/09/B3.html" rel="alternate" type="text/html" title="新3回生歓迎会を行いました" /><published>2025-07-09T00:00:00+00:00</published><updated>2025-11-02T16:06:04+00:00</updated><id>https://ais-lab.github.io/jp/2025/07/09/B3</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/07/09/B3.html"><![CDATA[<p>新しく研究室に配属された3回生の歓迎会を実施しました。
 おいしいご飯を囲みながら、和やかな雰囲気で親睦を深めました。
 これから一緒に研究をがんばっていきましょう！</p>
 
@@ -377,7 +430,7 @@ Byoung Soo Kim様、貴重なお時間をいただき、本当にありがとう
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[新しく研究室に配属された3回生の歓迎会を実施しました。 おいしいご飯を囲みながら、和やかな雰囲気で親睦を深めました。 これから一緒に研究をがんばっていきましょう！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/07/lab_all_withB3.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/07/lab_all_withB3.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">ROBOMECH2025で研究発表しました</title><link href="https://ais-lab.github.io/jp/2025/06/06/robomech2025.html" rel="alternate" type="text/html" title="ROBOMECH2025で研究発表しました" /><published>2025-06-06T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/06/06/robomech2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/06/06/robomech2025.html"><![CDATA[<p>2025年6月4日～6月7日に開催されたROBOMECH2025(ロボティクス・メカトロニクス 講演会 2025 in Yamagata)にて，李研究室から9件の講演をしました。本研究室の講演にたくさんお集まりいただきありがとうございました。</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[新しく研究室に配属された3回生の歓迎会を実施しました。 おいしいご飯を囲みながら、和やかな雰囲気で親睦を深めました。 これから一緒に研究をがんばっていきましょう！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/07/lab_all_withB3.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/07/lab_all_withB3.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">ROBOMECH2025で研究発表しました</title><link href="https://ais-lab.github.io/jp/2025/06/06/robomech2025.html" rel="alternate" type="text/html" title="ROBOMECH2025で研究発表しました" /><published>2025-06-06T00:00:00+00:00</published><updated>2025-11-02T16:06:04+00:00</updated><id>https://ais-lab.github.io/jp/2025/06/06/robomech2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/06/06/robomech2025.html"><![CDATA[<p>2025年6月4日～6月7日に開催されたROBOMECH2025(ロボティクス・メカトロニクス 講演会 2025 in Yamagata)にて，李研究室から9件の講演をしました。本研究室の講演にたくさんお集まりいただきありがとうございました。</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -429,7 +482,7 @@ Byoung Soo Kim様、貴重なお時間をいただき、本当にありがとう
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><summary type="html"><![CDATA[2025年6月4日～6月7日に開催されたROBOMECH2025(ロボティクス・メカトロニクス 講演会 2025 in Yamagata)にて，李研究室から9件の講演をしました。本研究室の講演にたくさんお集まりいただきありがとうございました。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/06/robomech2025.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/06/robomech2025.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">ICRA2025に参加しました</title><link href="https://ais-lab.github.io/jp/2025/05/19/ICRA2025.html" rel="alternate" type="text/html" title="ICRA2025に参加しました" /><published>2025-05-19T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/05/19/ICRA2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/05/19/ICRA2025.html"><![CDATA[<p>2025年5月19日～5月23日に開催された，The 2025 IEEE International Conference on Robotics and Automation (ICRA 2025) に参加し，発表しました。本研究室の発表にお集まりいただきまして，ありがとうございました！！</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><summary type="html"><![CDATA[2025年6月4日～6月7日に開催されたROBOMECH2025(ロボティクス・メカトロニクス 講演会 2025 in Yamagata)にて，李研究室から9件の講演をしました。本研究室の講演にたくさんお集まりいただきありがとうございました。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/06/robomech2025.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/06/robomech2025.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">ICRA2025に参加しました</title><link href="https://ais-lab.github.io/jp/2025/05/19/ICRA2025.html" rel="alternate" type="text/html" title="ICRA2025に参加しました" /><published>2025-05-19T00:00:00+00:00</published><updated>2025-11-02T16:06:04+00:00</updated><id>https://ais-lab.github.io/jp/2025/05/19/ICRA2025</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/05/19/ICRA2025.html"><![CDATA[<p>2025年5月19日～5月23日に開催された，The 2025 IEEE International Conference on Robotics and Automation (ICRA 2025) に参加し，発表しました。本研究室の発表にお集まりいただきまして，ありがとうございました！！</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -461,48 +514,4 @@ Byoung Soo Kim様、貴重なお時間をいただき、本当にありがとう
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><summary type="html"><![CDATA[2025年5月19日～5月23日に開催された，The 2025 IEEE International Conference on Robotics and Automation (ICRA 2025) に参加し，発表しました。本研究室の発表にお集まりいただきまして，ありがとうございました！！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/05/ICRA1.jpeg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/05/ICRA1.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">いばりつ 2025に出展しました</title><link href="https://ais-lab.github.io/jp/2025/05/18/ibaritsu.html" rel="alternate" type="text/html" title="いばりつ 2025に出展しました" /><published>2025-05-18T00:00:00+00:00</published><updated>2025-10-30T18:21:02+00:00</updated><id>https://ais-lab.github.io/jp/2025/05/18/ibaritsu</id><content type="html" xml:base="https://ais-lab.github.io/jp/2025/05/18/ibaritsu.html"><![CDATA[<p>「いばらき×立命館DAY 2025」にて、SP LAB 8で研究でもとロボットの展示を行いました。
-幅広い年代の方々にご来場いただき、特に子供たちの反応がとても新鮮で印象的でした。
-李研の身近に感じてもらえる貴重な機会となりました。足を運んでくださった皆様、ありがとうございました。</p>
-
-<div class="cols" style="--cols: 2">
-  
-    
-    <div>
-<figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2025/05/IMG_1784.jpeg" style="
-        width: 500px;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-  </a>
-  
-</figure>
-
-<figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2025/05/IMG_1778.jpeg" style="
-        width: 500px;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-  </a>
-  
-</figure>
-
-</div>
-  
-    
-    <div>
-<figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2025/05/IMG_5830.jpeg" style="
-        width: 500px;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-  </a>
-  
-</figure>
-
-</div>
-  
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[「いばらき×立命館DAY 2025」にて、SP LAB 8で研究でもとロボットの展示を行いました。 幅広い年代の方々にご来場いただき、特に子供たちの反応がとても新鮮で印象的でした。 李研の身近に感じてもらえる貴重な機会となりました。足を運んでくださった皆様、ありがとうございました。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/05/IMG_1784.jpeg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/05/IMG_1784.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="conference" /><summary type="html"><![CDATA[2025年5月19日～5月23日に開催された，The 2025 IEEE International Conference on Robotics and Automation (ICRA 2025) に参加し，発表しました。本研究室の発表にお集まりいただきまして，ありがとうございました！！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2025/05/ICRA1.jpeg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2025/05/ICRA1.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

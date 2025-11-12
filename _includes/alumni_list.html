@@ -1,41 +1,62 @@
 {%- assign alumni = site.data.members | where: "status", "alumnus" -%}
-{%- assign alumni_by_year = alumni | group_by_exp: "item", "item.alumnus_date | date: '%Y'" | sort: "name" | reverse -%}
 
-{%- for year_group in alumni_by_year -%}
+{% comment %} 
+  1. 全卒業生から「年度」のリストを重複なく作成します。
+     (3月卒業は Y-1 年度、9月卒業は Y 年度として計算)
+{% endcomment %}
+{%- assign fiscal_years = "" | split: "" -%}
+{%- for member in alumni -%}
+  {%- assign month = member.alumnus_date | date: '%m' | plus: 0 -%}
+  {%- assign year = member.alumnus_date | date: '%Y' | plus: 0 -%}
+  
+  {%- if month <= 3 -%}
+    {%- assign fiscal_year = year | minus: 1 -%}
+  {%- else -%}
+    {%- assign fiscal_year = year -%}
+  {%- endif -%}
+  
+  {%- assign fiscal_years = fiscal_years | push: fiscal_year -%}
+{%- endfor -%}
 
-  <h2>{{ year_group.name }}</h2>
-  {%- assign year_members = year_group.items -%}
+{%- assign unique_fiscal_years = fiscal_years | uniq | sort | reverse -%}
 
-  <div class="alumni-role-group">
-    {%- assign phds = year_members | where: "role", "phd" | sort: "name" -%}
-    {%- if phds.size > 0 -%}
-      <p>
-        <strong>D: </strong>
-        {%- for member in phds -%}
-          {{ member.name }}{%- unless forloop.last -%},  {%- endunless -%}
-        {%- endfor -%}
-      </p>
+
+{%- for year_to_display in unique_fiscal_years -%}
+
+  {%- assign spring_members = "" | split: "" -%}
+  {%- assign fall_members = "" | split: "" -%}
+
+  {%- for member in alumni -%}
+    {%- assign month = member.alumnus_date | date: '%m' | plus: 0 -%}
+    {%- assign year = member.alumnus_date | date: '%Y' | plus: 0 -%}
+
+    {%- if month <= 3 -%}
+      {%- assign member_fiscal_year = year | minus: 1 -%}
+    {%- else -%}
+      {%- assign member_fiscal_year = year -%}
     {%- endif -%}
+    
+    {%- if member_fiscal_year == year_to_display -%}
+      
+      {%- if month == 3 -%}
+        {%- assign spring_members = spring_members | push: member -%}
+      {%- elsif month == 9 -%}
+        {%- assign fall_members = fall_members | push: member -%}
+      {%- endif -%}
 
-    {%- assign masters = year_members | where: "role", "m" | sort: "name" -%}
-    {%- if masters.size > 0 -%}
-      <p>
-        <strong>M: </strong>
-        {%- for member in masters -%}
-          {{ member.name }}{%- unless forloop.last -%},  {%- endunless -%}
-        {%- endfor -%}
-      </p>
     {%- endif -%}
+  {%- endfor -%}
 
-    {%- assign bachelors = year_members | where: "role", "b" | sort: "name" -%}
-    {%- if bachelors.size > 0 -%}
-      <p>
-        <strong>B: </strong>
-        {%- for member in bachelors -%}
-          {{ member.name }}{%- unless forloop.last -%},  {%- endunless -%}
-        {%- endfor -%}
-      </p>
-    {%- endif -%}
-  </div>
+  {% comment %} --- 前期卒業 (3月) --- {% endcomment %}
+  {%- if spring_members.size > 0 -%}
+    <h2>{{ year_to_display }}年度 前期卒業</h2>
+    {%- include alumni_role_list.html members_list=spring_members -%}
+  {%- endif -%}
+
+  {% comment %} --- 後期卒業 (9月) --- {% endcomment %}
+  {%- if fall_members.size > 0 -%}
+    <h2>{{ year_to_display }}年度 後期卒業</h2>
+    {%- include alumni_role_list.html members_list=fall_members -%}
+  {%- endif -%}
 
 {%- endfor -%}

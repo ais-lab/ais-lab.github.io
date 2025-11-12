@@ -1,0 +1,31 @@
+<div class="alumni-role-group">
+  {%- assign phds = include.members_list | where: "role", "phd" | sort: "name" -%}
+  {%- if phds.size > 0 -%}
+    <p>
+      <strong>D: </strong>
+      {%- for member in phds -%}
+        {{ member.name }}{%- unless forloop.last -%},  {%- endunless -%}
+      {%- endfor -%}
+    </p>
+  {%- endif -%}
+
+  {%- assign masters = include.members_list | where: "role", "m" | sort: "name" -%}
+  {%- if masters.size > 0 -%}
+    <p>
+      <strong>M: </strong>
+      {%- for member in masters -%}
+        {{ member.name }}{%- unless forloop.last -%},  {%- endunless -%}
+      {%- endfor -%}
+    </p>
+  {%- endif -%}
+
+  {%- assign bachelors = include.members_list | where: "role", "b" | sort: "name" -%}
+  {%- if bachelors.size > 0 -%}
+    <p>
+      <strong>B: </strong>
+      {%- for member in bachelors -%}
+        {{ member.name }}{%- unless forloop.last -%},  {%- endunless -%}
+      {%- endfor -%}
+    </p>
+  {%- endif -%}
+</div>

@@ -1,0 +1,70 @@
+- name: Yasuyuki FUJII
+  name_jp: 藤井　康之
+  role: "faculty"
+  job_title: "Project Assistant Professor"
+  job_title_jp: "特任助教"
+  term: "2023-2024"
+  term_end_year: 2024
+  affiliation: "Ritsumeikan University, Project Assistant Professor"
+  affiliation_jp: "立命館大学情報理工学部 特任助教"
+
+- name: Dinh Tuan TRAN
+  name_jp: Tran Dinh Tuan
+  role: "faculty"
+  job_title: "Assistant Professor"
+  job_title_jp: "助教"
+  term: "2020-2024"
+  term_end_year: 2024
+  affiliation: "Shiga University, Associate Professor"
+  affiliation_jp: "滋賀大学データサイエンス学部 准教授"
+
+- name: Hirotake YAMAZOE
+  name_jp: 山添 大丈
+  role: "faculty"
+  job_title: "Lecturer"
+  job_title_jp: "講師"
+  term: "2015-2019"
+  term_end_year: 2019
+  affiliation: "University of Hyogo, Associate Professor"
+  affiliation_jp: "兵庫県立大学大学院工学研究科 准教授"
+
+- name: Ryuhei SAKURAI
+  name_jp: 櫻井 隆平
+  job_title: "Research Assistant"
+  job_title_jp: "助手"
+  role: "faculty"
+  term: "2012-2017"
+  term_end_year: 2017
+
+# 短期留学生
+- name: Seongoh Lee
+  name_jp: Seongoh Lee
+  role: is
+
+- name: Jeongeom Lee
+  name_jp: Jeongeom Lee
+  role: is
+
+- name: Yongjung Lee
+  name_jp: Yongjung Lee
+  role: is
+
+- name: Yakushin Dmitry
+  name_jp: Yakushin Dmitry
+  role: is
+
+- name: Minkee Park
+  name_jp: Minkee Park
+  role: is
+
+- name: Sunghee Kim
+  name_jp: Sunghee Kim
+  role: is
+
+- name: Kishan Kesan Gupta
+  name_jp: Kishan Kesan Gupta
+  role: is
+
+- name: Charlene Verant
+  name_jp: Charlene Verant
+  role: is

@@ -1,62 +1,53 @@
-{%- assign alumni = site.data.members | where: "status", "alumnus" -%}
+{%- assign past_staff_all = site.data.past_staff -%}
 
-{% comment %} 
-  1. 全卒業生から「年度」のリストを重複なく作成します。
-     (3月卒業は Y-1 年度、9月卒業は Y 年度として計算)
-{% endcomment %}
-{%- assign fiscal_years = "" | split: "" -%}
-{%- for member in alumni -%}
-  {%- assign month = member.alumnus_date | date: '%m' | plus: 0 -%}
-  {%- assign year = member.alumnus_date | date: '%Y' | plus: 0 -%}
+{% comment %} --- 1a. 教職員のみ抽出 --- {% endcomment %}
+{%- assign past_faculty = past_staff_all | where: "role", "faculty" | sort: "name" -%}
+
+{%- if past_faculty.size > 0 -%}
   
-  {%- if month <= 3 -%}
-    {%- assign fiscal_year = year | minus: 1 -%}
+  {%- if site.lang == "jp" -%}
+    <h2>教職員</h2>
   {%- else -%}
-    {%- assign fiscal_year = year -%}
+    <h2>Faculty</h2>
   {%- endif -%}
   
-  {%- assign fiscal_years = fiscal_years | push: fiscal_year -%}
-{%- endfor -%}
+  {%- include alumni_role_list.html members_list=past_faculty -%}
 
-{%- assign unique_fiscal_years = fiscal_years | uniq | sort | reverse -%}
+{%- endif -%}
 
 
-{%- for year_to_display in unique_fiscal_years -%}
+{% comment %} --- 1b. 短期留学生のみ抽出 --- {% endcomment %}
+{%- assign past_short_terms = past_staff_all | where: "role", "is" | sort: "name" -%}
 
-  {%- assign spring_members = "" | split: "" -%}
-  {%- assign fall_members = "" | split: "" -%}
+{%- if past_short_terms.size > 0 -%}
 
-  {%- for member in alumni -%}
-    {%- assign month = member.alumnus_date | date: '%m' | plus: 0 -%}
-    {%- assign year = member.alumnus_date | date: '%Y' | plus: 0 -%}
+  {%- if site.lang == "jp" -%}
+    <h2>短期留学生</h2>
+  {%- else -%}
+    <h2>Visiting Students</h2>
+  {%- endif -%}
+  
+  {%- include alumni_role_list.html members_list=past_short_terms -%}
 
-    {%- if month <= 3 -%}
-      {%- assign member_fiscal_year = year | minus: 1 -%}
+{%- endif -%}
+
+{%- assign alumni_years = site.data.alumni | keys -%}
+
+{%- assign sorted_fiscal_years = alumni_years | sort | reverse -%}
+
+{%- for year_to_display in sorted_fiscal_years -%}
+
+  {%- assign members_list = site.data.alumni[year_to_display].members -%}
+  
+  {%- if members_list.size > 0 -%}
+    {%- if site.lang == "jp" -%}
+      <h2>{{ year_to_display }}年度 卒業</h2>
     {%- else -%}
-      {%- assign member_fiscal_year = year -%}
+      <h2>Alumni of Fiscal Year {{ year_to_display }}</h2>
     {%- endif -%}
     
-    {%- if member_fiscal_year == year_to_display -%}
-      
-      {%- if month == 3 -%}
-        {%- assign spring_members = spring_members | push: member -%}
-      {%- elsif month == 9 -%}
-        {%- assign fall_members = fall_members | push: member -%}
-      {%- endif -%}
-
-    {%- endif -%}
-  {%- endfor -%}
-
-  {% comment %} --- 前期卒業 (3月) --- {% endcomment %}
-  {%- if spring_members.size > 0 -%}
-    <h2>{{ year_to_display }}年度 前期卒業</h2>
-    {%- include alumni_role_list.html members_list=spring_members -%}
-  {%- endif -%}
-
-  {% comment %} --- 後期卒業 (9月) --- {% endcomment %}
-  {%- if fall_members.size > 0 -%}
-    <h2>{{ year_to_display }}年度 後期卒業</h2>
-    {%- include alumni_role_list.html members_list=fall_members -%}
+    {%- include alumni_role_list.html members_list=members_list -%}
+    
   {%- endif -%}
 
 {%- endfor -%}

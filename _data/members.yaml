@@ -337,43 +337,4 @@
   badges: [Robotics]
   date: 2022-09-01
 
-# -------------- alumnis --------------
-- name: Bach Thuan BUI
-  name_jp: Bach Thuan Bui
-  role: phd
-  image: /images/team/thuan.png
-  url: https://thuanbb.github.io/
-  badges: [CV, SLAM]
-  date: 2022-09-01
-  status: alumnus
-  alumnus_date: 2025-09-20
 
-- name: Quang Vinh TRAN
-  name_jp: Quang Vinh Tran
-  role: m
-  image: /images/team/vinh.png
-  url:
-  badges: [iSpace]
-  date: 2023-09-01
-  status: alumnus
-  alumnus_date: 2025-09-20
-
-- name: Quang Tien DAM
-  name_jp: Quang Tien Dam
-  role: m
-  image: /images/team/tien.png
-  url:
-  badges: [CV, Generative]
-  date: 2023-09-01
-  status: alumnus
-  alumnus_date: 2025-09-20
-
-- name: Huy Hoang BUI
-  name_jp: Huy Hoang Bui
-  role: m
-  image: /images/team/hoang.png
-  url:
-  badges: [CV, SLAM]
-  date: 2023-09-01
-  status: alumnus
-  alumnus_date: 2025-09-20

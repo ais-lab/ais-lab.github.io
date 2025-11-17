@@ -1,10 +1,77 @@
 <div class="alumni-role-group">
+  {%- comment -%} --- 教職員 (Faculty) --- {%- endcomment -%}
+  {%- assign faculties = include.members_list | where: "role", "faculty" | sort: "term_end_year" | reverse -%}
+  {%- if faculties.size > 0 -%}
+    <ul class="faculty-list" style="list-style: none; padding-left: 0;">
+      {%- for member in faculties -%}
+        <li style="margin-bottom: 5px;">
+          {% comment %} --- 1. 名前の表示 --- {% endcomment %}
+          {%- if site.lang == "jp" -%}
+            {{ member.name_jp }}
+          {%- else -%}
+            {{ member.name }}
+          {%- endif -%}
+
+          {% comment %} --- 2. 役職の表示 --- {% endcomment %}
+          {%- if member.job_title or member.job_title_jp -%}
+            {{ " " }} {%- comment -%}半角スペース{%- endcomment -%}
+            {%- if site.lang == "jp" -%}
+              {{ member.job_title_jp }}
+            {%- else -%}
+              {{ member.job_title }}
+            {%- endif -%}
+          {%- endif -%}
+
+          {% comment %} --- 3. 括弧内の情報 (任期・所属) --- {% endcomment %}
+          {%- if member.term or member.affiliation -%}
+            {{ " " }} {%- comment -%}半角スペース{%- endcomment -%}
+            {%- if site.lang == "jp" -%}
+              (
+            {%- if member.term -%}{{ member.term }}{%- endif -%}
+            {%- if member.term and member.affiliation_jp -%}, {%- endif -%}
+            {%- if member.affiliation_jp -%}{{ member.affiliation_jp }}{%- endif -%}
+            )
+            {%- else -%}
+              (
+              {%- if member.term -%}{{ member.term }}{%- endif -%}
+              {%- if member.term and member.affiliation -%}, {%- endif -%}
+              {%- if member.affiliation -%}{{ member.affiliation }}{%- endif -%}
+              )
+            {%- endif -%}
+          {%- endif -%}
+
+          {% comment %} 区切り文字 (&#12288;) と unless は不要 {% endcomment %}
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+
+  {%- comment -%} --- 短期留学生 (Short-term Student) --- {%- endcomment -%}
+  {%- assign short_terms = include.members_list | where: "role", "is" | sort: "name" -%}
+  {%- if short_terms.size > 0 -%}
+    <p>
+      {%- for member in short_terms -%}
+        {%- if site.lang == "jp" -%}
+          {{ member.name_jp }}
+        {%- else -%}
+          {{ member.name }}
+        {%- endif -%}
+        {%- unless forloop.last -%}&#12288;{%- endunless -%}
+      {%- endfor -%}
+    </p>
+  {%- endif -%}
+
   {%- assign phds = include.members_list | where: "role", "phd" | sort: "name" -%}
   {%- if phds.size > 0 -%}
     <p>
       <strong>D: </strong>
       {%- for member in phds -%}
-        {{ member.name }}{%- unless forloop.last -%},  {%- endunless -%}
+        {%- if site.lang == "jp" -%}
+          {{ member.name_jp }}
+        {%- else -%}
+          {{ member.name }}
+        {%- endif -%}
+        {%- unless forloop.last -%}&#12288;{%- endunless -%}
       {%- endfor -%}
     </p>
   {%- endif -%}
@@ -14,7 +81,12 @@
     <p>
       <strong>M: </strong>
       {%- for member in masters -%}
-        {{ member.name }}{%- unless forloop.last -%},  {%- endunless -%}
+        {%- if site.lang == "jp" -%}
+          {{ member.name_jp }}
+        {%- else -%}
+          {{ member.name }}
+        {%- endif -%}
+        {%- unless forloop.last -%}&#12288;{%- endunless -%}
       {%- endfor -%}
     </p>
   {%- endif -%}
@@ -24,7 +96,12 @@
     <p>
       <strong>B: </strong>
       {%- for member in bachelors -%}
-        {{ member.name }}{%- unless forloop.last -%},  {%- endunless -%}
+        {%- if site.lang == "jp" -%}
+          {{ member.name_jp }}
+        {%- else -%}
+          {{ member.name }}
+        {%- endif -%}
+        {%- unless forloop.last -%}&#12288;{%- endunless -%}
       {%- endfor -%}
     </p>
   {%- endif -%}

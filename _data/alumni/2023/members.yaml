@@ -1,0 +1,87 @@
+# phd
+- name: 藤井 康之
+  name_jp: 藤井 康之
+  role: phd 
+
+- name: 施 真琴
+  name_jp: 施 真琴
+  role: phd
+
+- name: 小島 景行
+  name_jp: 小島 景行
+  role: phd
+
+# Master students (m)
+- name: LI AOQING
+  name_jp: LI AOQING
+  role: m
+
+- name: 垣内　亮佑
+  name_jp: 垣内　亮佑
+  role: m
+
+- name: 畠山　智之
+  name_jp: 畠山　智之
+  role: m
+
+- name: 高橋　邦光
+  name_jp: 高橋　邦光
+  role: m
+
+- name: YANG Junyan
+  name_jp: YANG Junyan
+  role: m
+
+- name: 福田　有記
+  name_jp: 福田　有記
+  role: m
+
+- name: Bui Bach Thuan
+  name_jp: Bui Bach Thuan
+  role: m
+
+# Bachelor students (b)
+- name: 櫻井 聖
+  name_jp: 櫻井 聖
+  role: b
+
+- name: 酒巻 晴人
+  name_jp: 酒巻 晴人
+  role: b
+
+- name: 永井 慶
+  name_jp: 永井 慶
+  role: b
+
+- name: 吉田 集
+  name_jp: 吉田 集
+  role: b
+
+- name: 松下 優希
+  name_jp: 松下 優希
+  role: b
+
+- name: 船越 悠世
+  name_jp: 船越 悠世
+  role: b
+
+- name: 加藤 美玲
+  name_jp: 加藤 美玲
+  role: b
+
+- name: 西川 弘騎
+  name_jp: 西川 弘騎
+  role: b
+
+- name: 矢野 恵莉佳​
+  name_jp: 矢野 恵莉佳​
+  role: b
+
+- name: Xie Punkang
+  name_jp: Xie Punkang
+  role: b
+
+- name: 鈴木 大樹
+  name_jp: 鈴木 大樹
+  role: b
+

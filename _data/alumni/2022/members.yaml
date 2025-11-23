@@ -1,64 +1,87 @@
-- name: 平向 英知
-  name_jp: 平向 英知
+# phd
+- name: Yasuyuki FUJII
+  name_jp: 藤井 康之
+  role: phd 
+
+- name: Makoto SEI
+  name_jp: 施 真琴
+  role: phd
+
+- name: Akemichi KOJIMA
+  name_jp: 小島 景行
+  role: phd
+
+# Master students (m)
+- name: LI AOQING
+  name_jp: LI AOQING
   role: m
 
-- name: 阪上 竜雅
-  name_jp: 阪上 竜雅
+- name: Ryousuke KAKIUCHI
+  name_jp: 垣内　亮佑
   role: m
 
-- name: 児玉 遼太郎
-  name_jp: 児玉 遼太郎
+- name: Tomoyuki HATAYAMA
+  name_jp: 畠山　智之
   role: m
 
-- name: 矢野　優貴
-  name_jp: 矢野　優貴
+- name: Kunimitsu TAKAHASHI
+  name_jp: 高橋　邦光
   role: m
 
-- name: PAN Shiyun
-  name_jp: PAN Shiyun
+- name: YANG Junyan
+  name_jp: YANG Junyan
   role: m
 
-- name: Sun junyao
-  name_jp: Sun junyao
+- name: Yuki FUKUDA
+  name_jp: 福田　有記
   role: m
 
-- name: 尾崎　玄拓
-  name_jp: 尾崎　玄拓
-  role: m
-
-- name: Nguyen NGUYEN
-  name_jp: Nguyen Nguyen
+- name: Bui Bach Thuan
+  name_jp: Bui Bach Thuan
   role: m
 
 # Bachelor students (b)
-- name: 本田 幸輝
-  name_jp: 本田 幸輝
+- name: Sho SAKURAI
+  name_jp: 櫻井 聖
   role: b
 
-- name: 鈴木 優介
-  name_jp: 鈴木 優介
+- name: Haruto SAKAMAKI
+  name_jp: 酒巻 晴人
   role: b
 
-- name: 高田 智弘
-  name_jp: 高田 智弘
+- name: Kei Nagai
+  name_jp: 永井 慶
   role: b
 
-- name: 錦織 勇飛
-  name_jp: 錦織 勇飛
+- name: Shu YOSHIDA
+  name_jp: 吉田 集
   role: b
 
-- name: 宮地 佑斗
-  name_jp: 宮地 佑斗
+- name: Yuki MATSUSHITA
+  name_jp: 松下 優希
   role: b
 
-- name: 峯崎 翔琉
-  name_jp: 峯崎 翔琉
+- name: Yusei FUNAKOSHI
+  name_jp: 船越 悠世
   role: b
 
-- name: 遠藤 優貴
-  name_jp: 遠藤 優貴
+- name: Mirei KATO
+  name_jp: 加藤 美玲
   role: b
 
-- name: 光田 真紘 
-  name_jp: 光田 真紘 
+- name: Hiroki NISHIKAWA
+  name_jp: 西川 弘騎
   role: b
+
+- name: Erika YANO
+  name_jp: 矢野 恵莉佳​
+  role: b
+
+- name: Xie Punkang
+  name_jp: Xie Punkang
+  role: b
+
+- name: Taiki SUZUKI
+  name_jp: 鈴木 大樹
+  role: b
+

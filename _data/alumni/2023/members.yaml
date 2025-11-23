@@ -1,87 +1,64 @@
-# phd
-- name: 藤井 康之
-  name_jp: 藤井 康之
-  role: phd 
-
-- name: 施 真琴
-  name_jp: 施 真琴
-  role: phd
-
-- name: 小島 景行
-  name_jp: 小島 景行
-  role: phd
-
-# Master students (m)
-- name: LI AOQING
-  name_jp: LI AOQING
+- name: Eichi HIRAMUKI
+  name_jp: 平向 英知
   role: m
 
-- name: 垣内　亮佑
-  name_jp: 垣内　亮佑
+- name: Ryuga SAKAGAMI
+  name_jp: 阪上 竜雅
   role: m
 
-- name: 畠山　智之
-  name_jp: 畠山　智之
+- name: Ryotarou KODAMA
+  name_jp: 児玉 遼太郎
   role: m
 
-- name: 高橋　邦光
-  name_jp: 高橋　邦光
+- name: Yuki YANO
+  name_jp: 矢野　優貴
   role: m
 
-- name: YANG Junyan
-  name_jp: YANG Junyan
+- name: PAN Shiyun
+  name_jp: PAN Shiyun
   role: m
 
-- name: 福田　有記
-  name_jp: 福田　有記
+- name: Sun junyao
+  name_jp: Sun junyao
   role: m
 
-- name: Bui Bach Thuan
-  name_jp: Bui Bach Thuan
+- name: Haruhiro OZAKI
+  name_jp: 尾崎　玄拓
+  role: m
+
+- name: Nguyen NGUYEN
+  name_jp: Nguyen Nguyen
   role: m
 
 # Bachelor students (b)
-- name: 櫻井 聖
-  name_jp: 櫻井 聖
+- name: Koki HONDA
+  name_jp: 本田 幸輝
   role: b
 
-- name: 酒巻 晴人
-  name_jp: 酒巻 晴人
+- name: Yusuke SUZUKI
+  name_jp: 鈴木 優介
   role: b
 
-- name: 永井 慶
-  name_jp: 永井 慶
+- name: Tomohiro TAKADA
+  name_jp: 高田 智弘
   role: b
 
-- name: 吉田 集
-  name_jp: 吉田 集
+- name: Yuki NISHIKORI
+  name_jp: 錦織 勇飛
   role: b
 
-- name: 松下 優希
-  name_jp: 松下 優希
+- name: Yuto MIYACHI
+  name_jp: 宮地 佑斗
   role: b
 
-- name: 船越 悠世
-  name_jp: 船越 悠世
+- name: Kakeru MINESAKI
+  name_jp: 峯崎 翔琉
   role: b
 
-- name: 加藤 美玲
-  name_jp: 加藤 美玲
+- name: Yuki ENDO
+  name_jp: 遠藤 優貴
   role: b
 
-- name: 西川 弘騎
-  name_jp: 西川 弘騎
+- name: Mahiro MITSUDA 
+  name_jp: 光田 真紘 
   role: b
-
-- name: 矢野 恵莉佳​
-  name_jp: 矢野 恵莉佳​
-  role: b
-
-- name: Xie Punkang
-  name_jp: Xie Punkang
-  role: b
-
-- name: 鈴木 大樹
-  name_jp: 鈴木 大樹
-  role: b
-

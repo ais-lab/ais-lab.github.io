@@ -1,0 +1,12 @@
+current directory: /usr/src/app/vendor/bundle/ruby/3.1.0/gems/sass-embedded-1.83.4/ext/sass
+/usr/local/bin/ruby -I/usr/local/lib/ruby/3.1.0 -rrubygems /usr/src/app/vendor/bundle/ruby/3.1.0/gems/rake-13.2.1/exe/rake RUBYARCHDIR\=/usr/src/app/vendor/bundle/ruby/3.1.0/extensions/x86_64-linux/3.1.0/sass-embedded-1.83.4 RUBYLIBDIR\=/usr/src/app/vendor/bundle/ruby/3.1.0/extensions/x86_64-linux/3.1.0/sass-embedded-1.83.4
+gem install --force --install-dir /usr/src/app/vendor/bundle/ruby/3.1.0/gems/sass-embedded-1.83.4/ext/sass/ruby --no-document --ignore-dependencies --platform x86_64-linux-gnu --version 1.83.4 sass-embedded
+fetch https://github.com/sass/dart-sass/releases/download/1.83.4/dart-sass-1.83.4-linux-x64.tar.gz
+tar -vxC . -f dart-sass-1.83.4-linux-x64.tar.gz --no-same-owner --no-same-permissions
+rm -rf /usr/src/app/vendor/bundle/ruby/3.1.0/gems/sass-embedded-1.83.4/ext/sass/ruby
+mkdir -p .
+dart-sass/src/LICENSE
+dart-sass/src/dart
+dart-sass/src/sass.snapshot
+dart-sass/sass
+rm dart-sass-1.83.4-linux-x64.tar.gz

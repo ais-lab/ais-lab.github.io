@@ -1,0 +1,38 @@
+current directory: /usr/src/app/vendor/bundle/ruby/3.1.0/gems/io-event-1.7.5/ext
+/usr/local/bin/ruby -I /usr/local/lib/ruby/3.1.0 -r ./siteconf20251008-8-17l9nf.rb extconf.rb
+checking for rb_ext_ractor_safe()... yes
+checking for &rb_fiber_transfer()... yes
+checking for -luring... no
+checking for sys/epoll.h... yes
+checking for sys/event.h... no
+checking for sys/wait.h... yes
+checking for sys/eventfd.h... yes
+checking for rb_io_descriptor()... yes
+checking for &rb_process_status_wait()... no
+checking for rb_fiber_current()... yes
+checking for &rb_fiber_raise()... yes
+checking for epoll_pwait2()... no
+checking for ruby/io/buffer.h... yes
+creating extconf.h
+creating Makefile
+
+current directory: /usr/src/app/vendor/bundle/ruby/3.1.0/gems/io-event-1.7.5/ext
+make DESTDIR\= clean
+
+current directory: /usr/src/app/vendor/bundle/ruby/3.1.0/gems/io-event-1.7.5/ext
+make DESTDIR\=
+compiling ./io/event/event.c
+compiling ./io/event/selector/selector.c
+compiling ./io/event/selector/epoll.c
+./io/event/selector/epoll.c:852:5: warning: ‘enosys_error’ defined but not used [-Wunused-function]
+  852 | int enosys_error(int result) {
+      |     ^~~~~~~~~~~~
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling ./io/event/interrupt.c
+linking shared-object IO_Event.so
+
+current directory: /usr/src/app/vendor/bundle/ruby/3.1.0/gems/io-event-1.7.5/ext
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 IO_Event.so ./.gem.20251008-8-m0hwe5

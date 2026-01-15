@@ -2,7 +2,7 @@
 title: Graduation Research 1 Final Presentation
 author: aislab_webstaff
 lang: en
-image: /images/uploads/2026/1/B3_GR1_Presentation1.jpg
+image: /images/uploads/2026/01/B3_GR1_Presentation1.jpg
 tags:
   - event
 ---
@@ -13,6 +13,7 @@ Each group presented their work in front of the members of Li Laboratory, showca
 
 The winning team of this year’s presentation was 'Hanai and Hou'.  
 Congratulations on their excellent achievement!
+
 {% capture col1 %}
 
 {% include figure.html image="/images/uploads/2026/01/B3_GR1_Presentation1.jpg" width="500px" %}

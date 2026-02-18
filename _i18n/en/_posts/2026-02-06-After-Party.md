@@ -1,7 +1,7 @@
 ---
 title: Thesis Defense After-Party!
 author: aislab_webstaff
-lang: ja
+lang: en
 image: /images/uploads/2026/02/AP1.jpg
 tags: event
 ---

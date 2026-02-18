@@ -24,12 +24,6 @@
   role: s
   image: /images/team/others/kuroda.png
 
-- name: Ziyan GAO
-  name_jp: 高　子焱
-  role: pd
-  image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=c_62MhUAAAAJ&citpid=3
-  url: https://scholar.google.co.jp/citations?hl=ja&user=c_62MhUAAAAJ
-  badges: [Robotics]
 
 - name: Charlene VERANT
   name_jp: Charlene Verant

@@ -79,6 +79,10 @@ def create_post():
         # 本文からタイトル行を除去
         main_content = "\n".join(content.splitlines()[1:]) if lang == 'jp' else content
         
+        # 【修正ポイント】f-stringの外で文字列を結合しておく（Python 3.10制約回避）
+        col1_text = "\n".join(col1_imgs)
+        col2_text = "\n".join(col2_imgs)
+        
         template = f"""---
 title: "{title_line}"
 author: aislab_webstaff
@@ -89,11 +93,11 @@ tags: event
 {main_content}
 
 {{% capture col1 %}}
-{"\n".join(col1_imgs)}
+{col1_text}
 {{% endcapture %}}
 
 {{% capture col2 %}}
-{"\n".join(col2_imgs)}
+{col2_text}
 {{% endcapture %}}
 
 {{% include cols.html col1=col1 col2=col2 %}}

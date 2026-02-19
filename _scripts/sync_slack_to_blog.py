@@ -14,13 +14,14 @@ client = WebClient(token=SLACK_TOKEN)
 
 def convert_ts(ts_str):
     """人間が読みやすい形式または数値をSlack API用のTSに変換する"""
-    try:
-        # スプレッドシートの書式が "Feb 19, 2026, 1:24:13 PM" の場合
-        dt_obj = datetime.strptime(ts_str, "%b %d, %Y, %I:%M:%S %p")
-        return str(dt_obj.timestamp())
-    except Exception:
-        # すでに数値形式（17400...）の場合はそのまま返す
-        return ts_str
+    # try:
+    #     # スプレッドシートの書式が "Feb 19, 2026, 1:24:13 PM" の場合
+    #     dt_obj = datetime.strptime(ts_str, "%b %d, %Y, %I:%M:%S %p")
+    #     return str(dt_obj.timestamp())
+    # except Exception:
+    #     # すでに数値形式（17400...）の場合はそのまま返す
+    #     return ts_str
+    return str(ts_str).strip()
 
 def create_post():
     # タイムスタンプを変換してスレッド取得

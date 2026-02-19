@@ -24,8 +24,8 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          token: ${{ secrets.GH_PAT }}
-          commit-message: "blog: add post ${{ github.event.client_payload.event_name }}"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Add new blog post: ${{ github.event.client_payload.event_name }}"
+          title: "New Post: ${{ github.event.client_payload.event_name }}"
+          body: "This PR was automatically generated from Slack."
           branch: "blog/${{ github.event.client_payload.event_name }}"
-          title: "【広報】ブログ記事追加: ${{ github.event.client_payload.event_name }}"
-          body: "Slackスレッドから自動生成。画像も images/uploads/ に格納済みです。"

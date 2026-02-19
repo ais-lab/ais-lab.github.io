@@ -1,0 +1,31 @@
+name: Slack to Blog PR
+
+on:
+  repository_dispatch:
+    types: [slack_blog_trigger]
+
+jobs:
+  generate-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: pip install slack_sdk requests
+      - name: Run Sync Script
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          CHANNEL_ID: ${{ github.event.client_payload.channel_id }}
+          THREAD_TS: ${{ github.event.client_payload.thread_ts }}
+          EVENT_NAME: ${{ github.event.client_payload.event_name }}
+        run: python _scripts/sync_slack_to_blog.py
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GH_PAT }}
+          commit-message: "blog: add post ${{ github.event.client_payload.event_name }}"
+          branch: "blog/${{ github.event.client_payload.event_name }}"
+          title: "【広報】ブログ記事追加: ${{ github.event.client_payload.event_name }}"
+          body: "Slackスレッドから自動生成。画像も images/uploads/ に格納済みです。"

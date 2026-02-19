@@ -7,7 +7,6 @@ on:
 jobs:
   generate-blog:
     runs-on: ubuntu-latest
-    # GITHUB_TOKENを使用する場合の権限設定
     permissions:
       contents: write
       pull-requests: write
@@ -28,25 +27,22 @@ jobs:
       - name: Run Sync Script
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-          # GASからのPayloadを環境変数に紐付け
           CHANNEL_ID: ${{ github.event.client_payload.channel_id }}
-          THREAD_TS: ${{ github.event.client_payload.thread_ts }}
+          MESSAGE_URL: ${{ github.event.client_payload.message_url }}
           EVENT_NAME: ${{ github.event.client_payload.event_name }}
-        # スクリプトのパスがリポジトリ内の '_scripts/' であることを確認してください
         run: python _scripts/sync_slack_to_blog.py
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          # すでにGH_PATを設定されている場合はそのままでOKです。
-          # 設定が面倒な場合は ${{ secrets.GITHUB_TOKEN }} でも動作します（権限設定済みのため）。
           token: ${{ secrets.GH_PAT }}
           commit-message: "Add new blog post: ${{ github.event.client_payload.event_name }}"
           title: "New Post: ${{ github.event.client_payload.event_name }}"
+          # PRの本文からthread_tsを削除し、Message URLを表示するように変更
           body: |
             This PR was automatically generated from Slack.
             - **Event Name**: ${{ github.event.client_payload.event_name }}
-            - **Thread TS**: ${{ github.event.client_payload.thread_ts }}
+            - **Source Message**: ${{ github.event.client_payload.message_url }}
           branch: "blog/${{ github.event.client_payload.event_name }}"
-          base: main # マージ先のブランチ名に合わせてください
-          delete-branch: true # PRマージ後に作業ブランチを自動削除
+          base: main
+          delete-branch: true

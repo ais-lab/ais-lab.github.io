@@ -24,7 +24,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
           commit-message: "Add new blog post: ${{ github.event.client_payload.event_name }}"
           title: "New Post: ${{ github.event.client_payload.event_name }}"
           body: "This PR was automatically generated from Slack."

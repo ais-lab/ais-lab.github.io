@@ -7,25 +7,21 @@ from slack_sdk.errors import SlackApiError
 # 1. 環境変数の取得
 SLACK_TOKEN = os.environ["SLACK_BOT_TOKEN"]
 CHANNEL_ID = os.environ["CHANNEL_ID"]
-THREAD_TS_RAW = os.environ["THREAD_TS"]
+MESSAGE_URL = os.environ.get("MESSAGE_URL", "")
 EVENT_NAME = os.environ.get("EVENT_NAME", "new-event").replace(" ", "-")
 
 client = WebClient(token=SLACK_TOKEN)
 
-def convert_ts(ts_str):
-    """人間が読みやすい形式または数値をSlack API用のTSに変換する"""
-    # try:
-    #     # スプレッドシートの書式が "Feb 19, 2026, 1:24:13 PM" の場合
-    #     dt_obj = datetime.strptime(ts_str, "%b %d, %Y, %I:%M:%S %p")
-    #     return str(dt_obj.timestamp())
-    # except Exception:
-    #     # すでに数値形式（17400...）の場合はそのまま返す
-    #     return ts_str
-    return str(ts_str).strip()
+def extract_ts_from_url(url):
+    # Slack URL末尾の p1771512751000123 から 1771512751.000123 を抽出
+    match = re.search(r'p(\d{10})(\d{6})', url)
+    if match:
+        return f"{match.group(1)}.{match.group(2)}"
+    return url
 
 def create_post():
     # タイムスタンプを変換してスレッド取得
-    thread_ts = convert_ts(THREAD_TS_RAW)
+    thread_ts = extract_ts_from_url(MESSAGE_URL)
     
     try:
         res = client.conversations_replies(channel=CHANNEL_ID, ts=thread_ts)

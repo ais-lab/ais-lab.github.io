@@ -1,4 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="jp"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ais-lab.github.io/jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ais-lab.github.io/jp/" rel="alternate" type="text/html" hreflang="jp" /><updated>2026-08-13T14:20:50+00:00</updated><id>https://ais-lab.github.io/jp/feed.xml</id><title type="html">Advanced Intelligent Systems</title><subtitle>An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.</subtitle><entry xml:lang="jp"><title type="html">UR2026にてBest Conference Paperを受賞しました！</title><link href="https://ais-lab.github.io/jp/2026/08/13/ur2026-best-paper.html" rel="alternate" type="text/html" title="UR2026にてBest Conference Paperを受賞しました！" /><published>2026-08-13T00:00:00+00:00</published><updated>2026-08-13T14:18:23+00:00</updated><id>https://ais-lab.github.io/jp/2026/08/13/ur2026-best-paper</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/08/13/ur2026-best-paper.html"><![CDATA[<p>M2のChenさんとD3のNguyenさんの論文が、国際会議UR2026にてBest Conference Paperを受賞しました！</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="jp"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://ais-lab.github.io/jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://ais-lab.github.io/jp/" rel="alternate" type="text/html" hreflang="jp" /><updated>2026-08-13T14:55:42+00:00</updated><id>https://ais-lab.github.io/jp/feed.xml</id><title type="html">Advanced Intelligent Systems</title><subtitle>An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.</subtitle><entry xml:lang="jp"><title type="html">MIRU2026にて7件の研究発表を行いました！</title><link href="https://ais-lab.github.io/jp/2026/08/13/miru2026.html" rel="alternate" type="text/html" title="MIRU2026にて7件の研究発表を行いました！" /><published>2026-08-13T00:00:00+00:00</published><updated>2026-08-13T14:53:02+00:00</updated><id>https://ais-lab.github.io/jp/2026/08/13/miru2026</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/08/13/miru2026.html"><![CDATA[<p>2026年8月3日～8月6日に開催された第29回 画像の認識・理解シンポジウム MIRU2026にて，李研究室から7件の研究成果を発表しました！本研究室の講演にたくさんお集まりいただきありがとうございました！</p>
+
+<div class="cols" style="--cols: 2">
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2026/08/miru2026_1.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2026/08/miru2026_3.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2026/08/miru2026_5.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2026/08/miru2026_7.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2026/08/miru2026_9.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+</div>
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2026/08/miru2026_2.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2026/08/miru2026_4.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2026/08/miru2026_6.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2026/08/miru2026_8.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/uploads/2026/08/miru2026_10.jpg" style="
+        width: 500px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+</div>
+  
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[2026年8月3日～8月6日に開催された第29回 画像の認識・理解シンポジウム MIRU2026にて，李研究室から7件の研究成果を発表しました！本研究室の講演にたくさんお集まりいただきありがとうございました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/08/miru2026_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/08/miru2026_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">UR2026にてBest Conference Paperを受賞しました！</title><link href="https://ais-lab.github.io/jp/2026/08/13/ur2026-best-paper.html" rel="alternate" type="text/html" title="UR2026にてBest Conference Paperを受賞しました！" /><published>2026-08-13T00:00:00+00:00</published><updated>2026-08-13T14:53:02+00:00</updated><id>https://ais-lab.github.io/jp/2026/08/13/ur2026-best-paper</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/08/13/ur2026-best-paper.html"><![CDATA[<p>M2のChenさんとD3のNguyenさんの論文が、国際会議UR2026にてBest Conference Paperを受賞しました！</p>
 
 <div class="cols" style="--cols: 2">
   
@@ -30,7 +142,7 @@
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="award" /><summary type="html"><![CDATA[M2のChenさんとD3のNguyenさんの論文が、国際会議UR2026にてBest Conference Paperを受賞しました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/08/ur2026-best-paper_1.png" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/08/ur2026-best-paper_1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">UR2026 Technical Tourにて研究室見学・研究デモを実施しました！</title><link href="https://ais-lab.github.io/jp/2026/08/13/ur2026-technicaltour.html" rel="alternate" type="text/html" title="UR2026 Technical Tourにて研究室見学・研究デモを実施しました！" /><published>2026-08-13T00:00:00+00:00</published><updated>2026-08-13T14:18:23+00:00</updated><id>https://ais-lab.github.io/jp/2026/08/13/ur2026-technicaltour</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/08/13/ur2026-technicaltour.html"><![CDATA[<p>UR2026の公式Technical Tourの一環として、本研究室の見学および研究デモを実施しました！</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="award" /><summary type="html"><![CDATA[M2のChenさんとD3のNguyenさんの論文が、国際会議UR2026にてBest Conference Paperを受賞しました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/08/ur2026-best-paper_1.png" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/08/ur2026-best-paper_1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">UR2026 Technical Tourにて研究室見学・研究デモを実施しました！</title><link href="https://ais-lab.github.io/jp/2026/08/13/ur2026-technicaltour.html" rel="alternate" type="text/html" title="UR2026 Technical Tourにて研究室見学・研究デモを実施しました！" /><published>2026-08-13T00:00:00+00:00</published><updated>2026-08-13T14:53:02+00:00</updated><id>https://ais-lab.github.io/jp/2026/08/13/ur2026-technicaltour</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/08/13/ur2026-technicaltour.html"><![CDATA[<p>UR2026の公式Technical Tourの一環として、本研究室の見学および研究デモを実施しました！</p>
 
 <p>当日は、UR2026参加者の皆さまに研究室の設備や研究内容をご紹介し、実際のシステムを用いたデモをご覧いただきました！</p>
 
@@ -98,7 +210,7 @@
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[UR2026の公式Technical Tourの一環として、本研究室の見学および研究デモを実施しました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/08/ur2026-technicaltour_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/08/ur2026-technicaltour_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">UR2026 ＠ Osaka</title><link href="https://ais-lab.github.io/jp/2026/08/03/ur-2026.html" rel="alternate" type="text/html" title="UR2026 ＠ Osaka" /><published>2026-08-03T00:00:00+00:00</published><updated>2026-08-13T14:18:23+00:00</updated><id>https://ais-lab.github.io/jp/2026/08/03/ur-2026</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/08/03/ur-2026.html"><![CDATA[<p>The 23rd International Conference on Ubiquitous Robots（UR 2026）に参加しました！</p>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[UR2026の公式Technical Tourの一環として、本研究室の見学および研究デモを実施しました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/08/ur2026-technicaltour_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/08/ur2026-technicaltour_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">UR2026 ＠ Osaka</title><link href="https://ais-lab.github.io/jp/2026/08/03/ur-2026.html" rel="alternate" type="text/html" title="UR2026 ＠ Osaka" /><published>2026-08-03T00:00:00+00:00</published><updated>2026-08-13T14:53:02+00:00</updated><id>https://ais-lab.github.io/jp/2026/08/03/ur-2026</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/08/03/ur-2026.html"><![CDATA[<p>The 23rd International Conference on Ubiquitous Robots（UR 2026）に参加しました！</p>
 
 <p>李研究室からは17名のメンバーが参加し、学会運営や研究発表を通して開催を支えました。</p>
 
@@ -216,7 +328,7 @@
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[The 23rd International Conference on Ubiquitous Robots（UR 2026）に参加しました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/08/ur-2026_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/08/ur-2026_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">新3回生歓迎会</title><link href="https://ais-lab.github.io/jp/2026/07/30/welcome-party-b3-2026.html" rel="alternate" type="text/html" title="新3回生歓迎会" /><published>2026-07-30T00:00:00+00:00</published><updated>2026-08-13T14:18:23+00:00</updated><id>https://ais-lab.github.io/jp/2026/07/30/welcome-party-b3-2026</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/07/30/welcome-party-b3-2026.html"><![CDATA[<p>先日、2026年度後期から李研究室に配属される3回生の歓迎会を行いました！
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[The 23rd International Conference on Ubiquitous Robots（UR 2026）に参加しました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/08/ur-2026_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/08/ur-2026_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">新3回生歓迎会</title><link href="https://ais-lab.github.io/jp/2026/07/30/welcome-party-b3-2026.html" rel="alternate" type="text/html" title="新3回生歓迎会" /><published>2026-07-30T00:00:00+00:00</published><updated>2026-08-13T14:53:02+00:00</updated><id>https://ais-lab.github.io/jp/2026/07/30/welcome-party-b3-2026</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/07/30/welcome-party-b3-2026.html"><![CDATA[<p>先日、2026年度後期から李研究室に配属される3回生の歓迎会を行いました！
 ピザやお寿司を囲みながら、新しく加わるメンバー同士や先輩たちとの交流を楽しむことができました。3回生の皆さん、これから一緒に研究に励みながら、充実した研究室生活を送っていきましょう！</p>
 
 <div class="cols" style="--cols: 2">
@@ -259,7 +371,7 @@
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[先日、2026年度後期から李研究室に配属される3回生の歓迎会を行いました！ ピザやお寿司を囲みながら、新しく加わるメンバー同士や先輩たちとの交流を楽しむことができました。3回生の皆さん、これから一緒に研究に励みながら、充実した研究室生活を送っていきましょう！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/07/welcome-party-b3-2026_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/07/welcome-party-b3-2026_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">ROBOMECH2026@福岡</title><link href="https://ais-lab.github.io/jp/2026/07/17/ROBOMECH-2026.html" rel="alternate" type="text/html" title="ROBOMECH2026@福岡" /><published>2026-07-17T00:00:00+00:00</published><updated>2026-08-13T14:18:23+00:00</updated><id>https://ais-lab.github.io/jp/2026/07/17/ROBOMECH-2026</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/07/17/ROBOMECH-2026.html"><![CDATA[<p>第38回日本機械学会 ロボティクス・メカトロニクス部門講演会（ROBOMECH2026）に参加しました！
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[先日、2026年度後期から李研究室に配属される3回生の歓迎会を行いました！ ピザやお寿司を囲みながら、新しく加わるメンバー同士や先輩たちとの交流を楽しむことができました。3回生の皆さん、これから一緒に研究に励みながら、充実した研究室生活を送っていきましょう！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/07/welcome-party-b3-2026_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/07/welcome-party-b3-2026_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">ROBOMECH2026@福岡</title><link href="https://ais-lab.github.io/jp/2026/07/17/ROBOMECH-2026.html" rel="alternate" type="text/html" title="ROBOMECH2026@福岡" /><published>2026-07-17T00:00:00+00:00</published><updated>2026-08-13T14:53:02+00:00</updated><id>https://ais-lab.github.io/jp/2026/07/17/ROBOMECH-2026</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/07/17/ROBOMECH-2026.html"><![CDATA[<p>第38回日本機械学会 ロボティクス・メカトロニクス部門講演会（ROBOMECH2026）に参加しました！
 5人の李研メンバーが、それぞれの研究成果を発表しました．
 発表や他大学の研究者との交流を通して、多くの刺激と学びを得る貴重な機会となりました！</p>
 
@@ -358,7 +470,7 @@
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[第38回日本機械学会 ロボティクス・メカトロニクス部門講演会（ROBOMECH2026）に参加しました！ 5人の李研メンバーが、それぞれの研究成果を発表しました． 発表や他大学の研究者との交流を通して、多くの刺激と学びを得る貴重な機会となりました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/07/ROBOMECH-2026_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/07/ROBOMECH-2026_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">Philip Müller氏による講演会</title><link href="https://ais-lab.github.io/jp/2026/06/25/lecture-dr-muller-2026.html" rel="alternate" type="text/html" title="Philip Müller氏による講演会" /><published>2026-06-25T00:00:00+00:00</published><updated>2026-08-13T14:18:23+00:00</updated><id>https://ais-lab.github.io/jp/2026/06/25/lecture-dr-muller-2026</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/06/25/lecture-dr-muller-2026.html"><![CDATA[<p>先日、Max Planck Institute for Intelligent Systems（MPI-IS）のPhilip Müller氏による講演会が行われました！
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[第38回日本機械学会 ロボティクス・メカトロニクス部門講演会（ROBOMECH2026）に参加しました！ 5人の李研メンバーが、それぞれの研究成果を発表しました． 発表や他大学の研究者との交流を通して、多くの刺激と学びを得る貴重な機会となりました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/07/ROBOMECH-2026_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/07/ROBOMECH-2026_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">Philip Müller氏による講演会</title><link href="https://ais-lab.github.io/jp/2026/06/25/lecture-dr-muller-2026.html" rel="alternate" type="text/html" title="Philip Müller氏による講演会" /><published>2026-06-25T00:00:00+00:00</published><updated>2026-08-13T14:53:02+00:00</updated><id>https://ais-lab.github.io/jp/2026/06/25/lecture-dr-muller-2026</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/06/25/lecture-dr-muller-2026.html"><![CDATA[<p>先日、Max Planck Institute for Intelligent Systems（MPI-IS）のPhilip Müller氏による講演会が行われました！
 心理学とAIの両面から、人間行動解析に関する最先端の研究を分かりやすくご紹介いただき、参加者にとって大変興味深い講演会となりました！
 貴重なお話、ありがとうございました！</p>
 
@@ -392,7 +504,7 @@
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[先日、Max Planck Institute for Intelligent Systems（MPI-IS）のPhilip Müller氏による講演会が行われました！ 心理学とAIの両面から、人間行動解析に関する最先端の研究を分かりやすくご紹介いただき、参加者にとって大変興味深い講演会となりました！ 貴重なお話、ありがとうございました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/06/lecture-dr-muller-2026_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/06/lecture-dr-muller-2026_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">3回生向け研究室見学</title><link href="https://ais-lab.github.io/jp/2026/05/20/Lab-Tour-for-Third-Year-Students-2026.html" rel="alternate" type="text/html" title="3回生向け研究室見学" /><published>2026-05-20T00:00:00+00:00</published><updated>2026-08-13T14:18:23+00:00</updated><id>https://ais-lab.github.io/jp/2026/05/20/Lab-Tour-for-Third-Year-Students-2026</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/05/20/Lab-Tour-for-Third-Year-Students-2026.html"><![CDATA[<p>先日、3回生向けに李研究室の見学会を実施し、ロボットや知能化空間に関するデモを紹介しました！
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[先日、Max Planck Institute for Intelligent Systems（MPI-IS）のPhilip Müller氏による講演会が行われました！ 心理学とAIの両面から、人間行動解析に関する最先端の研究を分かりやすくご紹介いただき、参加者にとって大変興味深い講演会となりました！ 貴重なお話、ありがとうございました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/06/lecture-dr-muller-2026_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/06/lecture-dr-muller-2026_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">3回生向け研究室見学</title><link href="https://ais-lab.github.io/jp/2026/05/20/Lab-Tour-for-Third-Year-Students-2026.html" rel="alternate" type="text/html" title="3回生向け研究室見学" /><published>2026-05-20T00:00:00+00:00</published><updated>2026-08-13T14:53:02+00:00</updated><id>https://ais-lab.github.io/jp/2026/05/20/Lab-Tour-for-Third-Year-Students-2026</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/05/20/Lab-Tour-for-Third-Year-Students-2026.html"><![CDATA[<p>先日、3回生向けに李研究室の見学会を実施し、ロボットや知能化空間に関するデモを紹介しました！
 実際に動くロボットや、人に合わせてものが動作する様子を楽しんでもらうことが出来ました！
 今後の研究室公開は以下の日程で実施します。</p>
 
@@ -491,7 +603,7 @@
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[先日、3回生向けに李研究室の見学会を実施し、ロボットや知能化空間に関するデモを紹介しました！ 実際に動くロボットや、人に合わせてものが動作する様子を楽しんでもらうことが出来ました！ 今後の研究室公開は以下の日程で実施します。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/05/Lab-Tour-for-Third-Year-Students-2026_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/05/Lab-Tour-for-Third-Year-Students-2026_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">留学生歓迎会</title><link href="https://ais-lab.github.io/jp/2026/04/22/party-international-students-spring2026.html" rel="alternate" type="text/html" title="留学生歓迎会" /><published>2026-04-22T00:00:00+00:00</published><updated>2026-08-13T14:18:23+00:00</updated><id>https://ais-lab.github.io/jp/2026/04/22/party-international-students-spring2026</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/04/22/party-international-students-spring2026.html"><![CDATA[<p>今日は李研究室で留学生歓迎会を開催しました！
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[先日、3回生向けに李研究室の見学会を実施し、ロボットや知能化空間に関するデモを紹介しました！ 実際に動くロボットや、人に合わせてものが動作する様子を楽しんでもらうことが出来ました！ 今後の研究室公開は以下の日程で実施します。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/05/Lab-Tour-for-Third-Year-Students-2026_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/05/Lab-Tour-for-Third-Year-Students-2026_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">留学生歓迎会</title><link href="https://ais-lab.github.io/jp/2026/04/22/party-international-students-spring2026.html" rel="alternate" type="text/html" title="留学生歓迎会" /><published>2026-04-22T00:00:00+00:00</published><updated>2026-08-13T14:53:02+00:00</updated><id>https://ais-lab.github.io/jp/2026/04/22/party-international-students-spring2026</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/04/22/party-international-students-spring2026.html"><![CDATA[<p>今日は李研究室で留学生歓迎会を開催しました！
 世界中から新しい仲間が加わり、ますます多様な研究室になっていきます
 美味しい料理や楽しい交流で盛り上がり、打ち解けられた様子でした！
 これから一緒に新しい発見をしていきましょう！</p>
@@ -546,7 +658,7 @@
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[今日は李研究室で留学生歓迎会を開催しました！ 世界中から新しい仲間が加わり、ますます多様な研究室になっていきます 美味しい料理や楽しい交流で盛り上がり、打ち解けられた様子でした！ これから一緒に新しい発見をしていきましょう！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/04/party-international-students-spring2026_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/04/party-international-students-spring2026_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">ライントレース大会および春の講習会修了証授与式</title><link href="https://ais-lab.github.io/jp/2026/04/03/LineTraceCompetition-2026.html" rel="alternate" type="text/html" title="ライントレース大会および春の講習会修了証授与式" /><published>2026-04-03T00:00:00+00:00</published><updated>2026-08-13T14:18:23+00:00</updated><id>https://ais-lab.github.io/jp/2026/04/03/LineTraceCompetition-2026</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/04/03/LineTraceCompetition-2026.html"><![CDATA[<p>先日、ライントレース大会および春の講習会修了証授与式を開催しました！
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[今日は李研究室で留学生歓迎会を開催しました！ 世界中から新しい仲間が加わり、ますます多様な研究室になっていきます 美味しい料理や楽しい交流で盛り上がり、打ち解けられた様子でした！ これから一緒に新しい発見をしていきましょう！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/04/party-international-students-spring2026_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/04/party-international-students-spring2026_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">ライントレース大会および春の講習会修了証授与式</title><link href="https://ais-lab.github.io/jp/2026/04/03/LineTraceCompetition-2026.html" rel="alternate" type="text/html" title="ライントレース大会および春の講習会修了証授与式" /><published>2026-04-03T00:00:00+00:00</published><updated>2026-08-13T14:53:02+00:00</updated><id>https://ais-lab.github.io/jp/2026/04/03/LineTraceCompetition-2026</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/04/03/LineTraceCompetition-2026.html"><![CDATA[<p>先日、ライントレース大会および春の講習会修了証授与式を開催しました！
 春の講習会では、院進志望の新4回生たちがそれぞれライントレースカーの製作に取り組みました。
 当日は先生作成の特設コースで、白熱したタイム勝負が繰り広げられました。</p>
 
@@ -623,26 +735,4 @@
 
 </div>
   
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[先日、ライントレース大会および春の講習会修了証授与式を開催しました！ 春の講習会では、院進志望の新4回生たちがそれぞれライントレースカーの製作に取り組みました。 当日は先生作成の特設コースで、白熱したタイム勝負が繰り広げられました。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/04/LineTraceCompetition-2026_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/04/LineTraceCompetition-2026_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="jp"><title type="html">SI2025優秀講演賞</title><link href="https://ais-lab.github.io/jp/2026/04/02/si2025-best-presentation.html" rel="alternate" type="text/html" title="SI2025優秀講演賞" /><published>2026-04-02T00:00:00+00:00</published><updated>2026-08-13T14:18:23+00:00</updated><id>https://ais-lab.github.io/jp/2026/04/02/si2025-best-presentation</id><content type="html" xml:base="https://ais-lab.github.io/jp/2026/04/02/si2025-best-presentation.html"><![CDATA[<p>第26回計測自動制御学会システムインテグレーション部門講演会（SI2025)にて、助教の細田先生、D2の吉田さんが優秀講演賞を受賞しました！</p>
-
-<div class="cols" style="--cols: 2">
-  
-    
-    <div>
-<figure class="figure">
-  <a class="figure-image" aria-label="figure link">
-    <img src="/images/uploads/2026/04/si2025-best-presentation_1.jpg" style="
-        width: 500px;
-        max-height: unset;
-      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
-  </a>
-  
-</figure>
-
-</div>
-  
-    
-    <div>
-</div>
-  
-</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><category term="award" /><summary type="html"><![CDATA[第26回計測自動制御学会システムインテグレーション部門講演会（SI2025)にて、助教の細田先生、D2の吉田さんが優秀講演賞を受賞しました！]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/04/si2025-best-presentation_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/04/si2025-best-presentation_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</div>]]></content><author><name>aislab_webstaff</name></author><category term="event" /><summary type="html"><![CDATA[先日、ライントレース大会および春の講習会修了証授与式を開催しました！ 春の講習会では、院進志望の新4回生たちがそれぞれライントレースカーの製作に取り組みました。 当日は先生作成の特設コースで、白熱したタイム勝負が繰り広げられました。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ais-lab.github.io/jp/images/uploads/2026/04/LineTraceCompetition-2026_1.jpg" /><media:content medium="image" url="https://ais-lab.github.io/jp/images/uploads/2026/04/LineTraceCompetition-2026_1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

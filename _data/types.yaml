@@ -17,6 +17,11 @@ s:
   description: Secretary
   description_jp: 秘書
 
+vap:
+  icon: fa-solid fa-glasses
+  description: Visiting Associate Professor
+  description_jp: 客員准教授
+
 vr:
   icon: fa-solid fa-glasses
   description: Visiting Researcher

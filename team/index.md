@@ -10,7 +10,7 @@ nav:
 {% include section.html %}
 # Administration
 <div class="be-prof">
-  {% include list.html data="members" component="portrait" filter="role == 'pi' or role == 'ap' or role == 'vr'" %}
+  {% include list.html data="members" component="portrait" filter="role == 'pi' or role == 'ap' or role == 'vap' or role == 'vr'" %}
 </div>
 
 {% include section.html %}

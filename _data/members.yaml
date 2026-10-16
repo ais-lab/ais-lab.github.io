@@ -24,6 +24,12 @@
   role: s
   image: /images/team/others/kuroda.png
 
+- name: Rie OHIRA
+  name_jp: 大平　理絵
+  role: s
+  image: /images/team/dummy.png
+
+
 
 - name: Charlene VERANT
   name_jp: Charlene Verant

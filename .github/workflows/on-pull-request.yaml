@@ -15,6 +15,9 @@ permissions:
 
 jobs:
   update-citations:
+    # skip fork PRs: checking out fork code under pull_request_target is unsafe
+    # (citations are updated by on-push after merge instead)
+    if: github.event.pull_request.head.repo.full_name == github.repository
     uses: ./.github/workflows/update-citations.yaml
 
   # build-preview:

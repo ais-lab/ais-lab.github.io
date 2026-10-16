@@ -14,7 +14,7 @@
 
 - name: Dinh Tuan TRAN
   name_jp: Tran Dinh Tuan
-  role: vr
+  role: vap
   image: /images/team/prof/tuan.jpg
   url: https://sites.google.com/view/tuantd
   badges: [ML, CV]
@@ -27,8 +27,7 @@
 - name: Rie OHIRA
   name_jp: 大平　理絵
   role: s
-  image: /images/team/dummy.png
-
+  image: /images/team/others/kuroda.png
 
 
 - name: Charlene VERANT
@@ -41,7 +40,7 @@
 
 - name: Nguyen NGUYEN
   name_jp: Nguyen Nguyen
-  role: phd
+  role: pd
   image: /images/nguyen_ava.jpeg
   url: https://nguyenntt97.github.io/
   badges: [ML, Generative]
@@ -49,7 +48,7 @@
 
 - name: Ardiansyah Al FAROUQ
   name_jp: Ardiansyah Al Farouq
-  role: phd
+  role: pd
   image: /images/team/phd/farouq.jpg
   url:
   badges: [Robotics, RL]
@@ -79,6 +78,14 @@
   badges: [iSpace, iSpace Coding]
   date: 2025-04-01
 
+- name: Qifeng SUI
+  name_jp: 隋　齐峰
+  role: phd
+  image: /images/team/master/Sui.png
+  url:
+  badges: [Robotics]
+  date: 2026-09-01
+
 # Master students (m)
 - name: Jie LUO
   name_jp: 罗　杰
@@ -86,7 +93,7 @@
   image: /images/team/master/Luo.png
   url:
   badges: [Robotics]
-  date: 2024-09-01
+  date: 2025-04-01
 
 - name: Binh Trong DUONG
   name_jp: Binh Trong Duong
@@ -94,15 +101,7 @@
   image: /images/team/master/Trong.jpg
   url:
   badges: [CV]
-  date: 2024-09-01
-
-- name: Qifeng SUI
-  name_jp: 隋　齐峰
-  role: m
-  image: /images/team/master/Sui.png
-  url:
-  badges: [Robotics]
-  date: 2024-09-01
+  date: 2025-04-01
 
 - name: Junwoo PARK
   name_jp: 朴　峻佑
@@ -273,21 +272,21 @@
   badges: [iSpace]
   date: 2026-04-01
 
+- name: Boheng LIU
+  name_jp: 劉　博恒
+  role: m
+  image: /images/team/bachelor/ryuu.png
+  url:
+  badges: [Robotics]
+  date: 2026-09-01
+
 - name: Syusuke HOSOKAWA
   name_jp: 細川　隼輔
   role: b
   image: /images/team/dummy.png
   url:
   badges: []
-  date: 2022-09-01
-
-- name: Boheng LIU
-  name_jp: 劉　博恒
-  role: b
-  image: /images/team/bachelor/ryuu.png
-  url:
-  badges: [Robotics]
-  date: 2022-09-01
+  date: 2023-04-01
 
 - name: Rikuto SHIGERU
   name_jp: 茂　陸人

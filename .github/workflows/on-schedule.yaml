@@ -3,8 +3,8 @@ run-name: on schedule
 
 on:
   schedule:
-    # weekly
-    - cron: "0 0 * * 1"
+    # daily
+    - cron: "0 0 * * *"
 
   # run if user manually requests it
   workflow_dispatch:
@@ -20,3 +20,9 @@ jobs:
     uses: ./.github/workflows/update-citations.yaml
     with:
       open-pr: true
+
+  build-site:
+    # only run on user instance of template, not template itself
+    if: github.repository != 'greenelab/lab-website-template'
+    # rebuild/redeploy daily so build-time values (e.g. member seniority) stay current
+    uses: ./.github/workflows/build-site.yaml

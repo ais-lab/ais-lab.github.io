@@ -194,7 +194,7 @@
 - name: HASAN Md.Mahin
   name_jp: HASAN Md.Mahin
   role: m
-  image: /images/team/dummy.png
+  image: /images/team/master/Mahin.jpg
   url:
   badges:
   date: 2026-04-01
@@ -202,10 +202,19 @@
 - name: YANG Xirui
   name_jp: YANG Xirui
   role: m
-  image: /images/team/dummy.png
+  image: /images/team/master/Yang.jpg
   url:
   badges:
   date: 2026-04-01
+
+- name: LIN Jun-Qian
+  name_jp: 林駿謙
+  role: m
+  image: /images/team/master/LIN.jpg
+  url:
+  badges: []
+  date: 2026-09-01
+
 
 # Bachelor students (b)
 - name: Izuru IPPITSU
